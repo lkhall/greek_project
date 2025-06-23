@@ -32,36 +32,27 @@ class NounForm(forms.Form):
 
 
 def get_random_noun():
-	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greekdata.json') as f:
+	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
 		response = json.load(f)
-		data = response['first_declension']['nouns']
+		data = response['unit_1']['nouns']
+		num_nouns = len(data)
+
+		random_int = random.randint(0, num_nouns-1)
+		data = data[random_int]
+
 		# use random number to get random noun
 		first_key = next(iter(data))
 		first_value = data[first_key]
-
+		forms = first_value["forms"]
 		# get random thing in noun by generating random int between 0 and 9
 		# retrieve its data 
-		random_int = random.randint(0, 9)
-		if 0 <= random_int <= 4:
-			n_number = "singular"
-			verb_n = first_value["singular"]
-			#final_case = "blah"
-			#final_verb = "x"
-			i = 0
-			for key, value in verb_n.items():
-				if i == random_int:
-					return value, first_value["gender"], key, n_number
-				i = i+1
-		else:
-			n_number = "plural"
-			verb_n = first_value["plural"]
-			final_case = "nom"
-			final_verb = "tex"
-			i = 0
-			for key, value in verb_n.items():
-				if i == (random_int % 5):
-					return value, first_value["gender"], key, n_number
-				i = i+1
+		random_int = random.randint(0, len(forms)-1)
+		selected_form = forms[random_int]
+		verb_form = next(iter(selected_form))
+		verb_data = selected_form[verb_form]
+		print(verb_data)
+		return verb_form, first_value["gender"], verb_data["case"], verb_data["number"]
+		
 
 
 def nouns(request):

@@ -4,20 +4,40 @@
 			"τεχνης":{
 				"unit": 1,
 				"gender": "fem",
-				"singular": {
-					"nom": "τεχνη",
-					"gen": "τεχνης",
-					"dat": "τεχνη",
-					"acc": "τεχνην",
-					"voc": "τεχνη"
-				},
-				"plural": {
-					"nom": "τεχναι",
-					"gen": "τεχνων",
-					"dat": "τεχναις",
-					"acc": "τεχνας",
-					"voc": "τεχναι"
-				}
+				"forms": [
+					{"τεχνη": {
+						"number": ["singular"],
+						"case": ["nom","voc"]
+					}},
+					{"τεχνης": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"τεχνη": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"τεχνην": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"τεχναι": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"τεχνων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"τεχναις": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"τεχνας": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}
+				]
 			}
 
 		}

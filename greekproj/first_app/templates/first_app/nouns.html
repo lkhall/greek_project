@@ -13,10 +13,27 @@
 					const numberr = myform.elements.id_noun_number.value;
 					const casee = myform.elements.id_noun_case.value;
 					///alert(`Gender: ${genderr}, number: ${numberr}, case: ${casee}`);
-					if ((genderr === "{{ gender }}" ) && (numberr === "{{ number }}") && (casee === "{{ case }}")) {
+					let number_correct = false;
+					let case_correct = false;
+					{% for thing in number %}
+						if ("{{ thing }}" === numberr) {
+							number_correct = true;
+						}
+					{% endfor %}
+
+					{% for thing in case %}
+						if ("{{ thing }}" === casee) {
+							case_correct = true;
+						}
+						
+					{% endfor %}
+
+					if ((genderr === "{{ gender }}") && number_correct && case_correct) {
+						console.log("HI");
 						alert(`Correct!`);
 					}
 					else {
+						console.log("p");
 						alert(`Not Correct, try again`);
 						return false;
 					}

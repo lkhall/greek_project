@@ -1,0 +1,118 @@
+{
+	"unit_1": {
+		"nouns": [{
+			"τεχνης":{
+				"type": "first_declension",
+				"gender": "fem",
+				"forms": [
+					{"τεχνη": {
+						"number": ["singular"],
+						"case": ["nom","voc"]
+					}},
+					{"τεχνης": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"τεχνη": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"τεχνην": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"τεχναι": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"τεχνων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"τεχναις": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"τεχνας": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+				}
+
+			},
+			{"λογος": {
+				"type": "second_declension_masc",
+				"gender": "masc",
+				"forms": [
+					{"λογος": {
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"λογου": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"λογω": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"λογον": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"λογε": {
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"λογοι": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"λογων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"λογοις": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"λογους": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+			}},
+			{"εργον": {
+				"type": "second_declension_neut",
+				"gender": "masc",
+				"forms": [
+					{"εργον": {
+						"number": ["singular"],
+						"case": ["nom","voc","acc"]
+					}},
+					{"εργου": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"εργω": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"εργα": {
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}},
+					{"ερων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"εργοις": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}}]
+			}}
+
+		]
+
+	}
+
+}
