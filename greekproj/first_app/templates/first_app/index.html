@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Hello!</title>
+	</head>
+	<body>
+		<!--
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+					fetch('http://localhost:3000/first_declension')
+						.then(response => {
+							if (!response.ok) {
+								throw new Error(`HTTP error! Status: ${response.status}`);
+							}
+							return response.json();
+						})
+						.then(data => {
+							const gender = data.nouns.texnh.gender;
+							const verb = Object.keys(data.nouns)[0];
+							const verbinfo = data.nouns[verb];
+							document.querySelector('body').innerHTML = `Verb: ${verb}, gender: ${verbinfo.gender}, unit: ${verbinfo.unit}`;
+							console.log(data);
+							console.log(verbinfo);
+						})
+						.catch(error => console.error('failed to fetch data: ', error));
+					
+			});
+		</script>
+		-->
+		<h1> Hello,world!</h1>
+		<a href="{% url 'first_app:nouns' %}"> Go here</a>
+	</body>
+</html>

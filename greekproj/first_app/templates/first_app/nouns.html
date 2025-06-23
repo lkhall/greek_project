@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Hello!</title>
+	</head>
+	<body>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				document.querySelector('form').onsubmit = function() {
+					console.log("hello");
+					const myform = document.getElementById("my_django_form");
+					const genderr = myform.elements.id_noun_gender.value;
+					const numberr = myform.elements.id_noun_number.value;
+					const casee = myform.elements.id_noun_case.value;
+					///alert(`Gender: ${genderr}, number: ${numberr}, case: ${casee}`);
+					if ((genderr === "{{ gender }}" ) && (numberr === "{{ number }}") && (casee === "{{ case }}")) {
+						alert(`Correct!`);
+					}
+					else {
+						alert(`Not Correct, try again`);
+						return false;
+					}
+					
+				};
+			});
+		</script>
+		<h1>Noun form: {{ verb_form }}</h1>
+		<!--
+		<h1>Gender: {{ gender }}</h1>
+		<h1>Number: {{ number }}</h1>
+		<h1>Case: {{ case }}</h1>
+		-->
+		<form id="my_django_form">
+			{{ form }}
+			<input type="submit">
+		</form>
+	</body>
+</html>
