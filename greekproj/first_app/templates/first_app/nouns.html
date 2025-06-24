@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title> Hello!</title>
-	</head>
-	<body>
+{% extends "first_app/layout.html" %}
+
+{% block body %}
 		<script>
 			document.addEventListener('DOMContentLoaded', function() {
-				document.querySelector('form').onsubmit = function() {
+				document.querySelector('#my_django_form').onsubmit = function() {
 					console.log("hello");
 					const myform = document.getElementById("my_django_form");
 					const genderr = myform.elements.id_noun_gender.value;
@@ -41,15 +38,16 @@
 				};
 			});
 		</script>
+		<h2>Nouns</h2>
+		<form id="my_django_form_2" action="{% url 'first_app:nouns' %}" method="post">
+			{% csrf_token %}
+			{{ unit_form }}
+			<input type="submit">
+		</form>
+
 		<h1>Noun form: {{ verb_form }}</h1>
-		<!--
-		<h1>Gender: {{ gender }}</h1>
-		<h1>Number: {{ number }}</h1>
-		<h1>Case: {{ case }}</h1>
-		-->
 		<form id="my_django_form">
 			{{ form }}
 			<input type="submit">
 		</form>
-	</body>
-</html>
+{% endblock %}

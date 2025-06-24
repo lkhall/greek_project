@@ -25,16 +25,33 @@ noun_number_choices = (
 	('plural', 'Plural'),
 )
 
+noun_unit_choices = (
+	("unit_1", "Unit 1"),
+	("unit_4", "Unit 4"),
+	("unit_10", "Unit 10"),
+	("unit_20", "Unit 20"),
+)
+
+units_available = []
+
 class NounForm(forms.Form):
 	noun_gender = forms.ChoiceField(choices=noun_gender_choices, label="Gender")
 	noun_case = forms.ChoiceField(choices=noun_case_choices, label="Case")
 	noun_number = forms.ChoiceField(choices=noun_number_choices, label="Number")
 
+class unit_form(forms.Form):
+	selected_items = forms.MultipleChoiceField(
+		choices=noun_unit_choices,
+		widget=forms.SelectMultiple,
+		label="Select Units:")
 
-def get_random_noun():
+def get_random_noun(units_available):
 	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
+		print(units_available)
 		response = json.load(f)
-		data = response['unit_1']['nouns']
+		selected_unit = random.choice(units_available)
+		print("selected unit: ", selected_unit)
+		data = response[selected_unit]['nouns']
 		num_nouns = len(data)
 
 		random_int = random.randint(0, num_nouns-1)
@@ -70,16 +87,41 @@ def nouns(request):
 	# 			"form": form
 	# 			})
 	# get random noun form from API
-	verb_form, gender, case, number = get_random_noun()
+	print("hello")
+	if request.method == "POST":
+		form = unit_form(request.POST)
+		print(form)
+		if form.is_valid():
+			selected = form.cleaned_data['selected_items']
+			print("selected:", selected)
+			global units_available
+			units_available = selected
+
+		# get data only from selected units
+		verb_form, gender, case, number = get_random_noun(units_available)
+		return render(request, "first_app/nouns.html", {
+			"form": NounForm(),
+			"verb_form" : verb_form,
+			"gender": gender,
+			"case": case,
+			"number": number,
+			"unit_form": unit_form()
+			})
 	# embed noun form
 	# embed its information
-	return render(request, "first_app/nouns.html", {
-		"form": NounForm(),
-		"verb_form" : verb_form,
-		"gender": gender,
-		"case": case,
-		"number": number
-		})
+	else:
+		#global units_available
+		if units_available == []:
+			units_available = ["unit_1"]
+		verb_form, gender, case, number = get_random_noun(units_available)
+		return render(request, "first_app/nouns.html", {
+			"form": NounForm(),
+			"verb_form" : verb_form,
+			"gender": gender,
+			"case": case,
+			"number": number,
+			"unit_form": unit_form()
+			})
 	# if the method is post, check the form
 
 def index(request):
