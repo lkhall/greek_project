@@ -28,6 +28,7 @@ noun_number_choices = (
 noun_unit_choices = (
 	("unit_1", "Unit 1"),
 	("unit_4", "Unit 4"),
+	("unit_6", "Unit 6"),
 	("unit_10", "Unit 10"),
 	("unit_20", "Unit 20"),
 )
@@ -49,6 +50,8 @@ def get_random_noun(units_available):
 	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
 		print(units_available)
 		response = json.load(f)
+		if (units_available == []):
+			units_available = ['unit_1']
 		selected_unit = random.choice(units_available)
 		print("selected unit: ", selected_unit)
 		data = response[selected_unit]['nouns']
@@ -95,6 +98,8 @@ def nouns(request):
 			selected = form.cleaned_data['selected_items']
 			print("selected:", selected)
 			global units_available
+			if units_available == []:
+				units_available = ['unit_1']
 			units_available = selected
 
 		# get data only from selected units
@@ -122,7 +127,17 @@ def nouns(request):
 			"number": number,
 			"unit_form": unit_form()
 			})
+
+
 	# if the method is post, check the form
+def verbs(request):
+	return render(request, "first_app/verbs.html")
+
+def adjectives(request):
+	return render(request, "first_app/adjectives.html")
+
+def participles(request):
+	return render(request, "first_app/participles.html")
 
 def index(request):
 	return render(request, "first_app/index.html")

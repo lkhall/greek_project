@@ -1,111 +1,111 @@
 {
 	"unit_1": {
 		"nouns": [{
-			"τεχνης":{
+			"τέχνη":{
 				"type": "first_declension",
-				"gender": "fem",
+				"gender": ["fem"],
 				"forms": [
-					{"τεχνη": {
+					{"τέχνη": {
 						"number": ["singular"],
 						"case": ["nom","voc"]
 					}},
-					{"τεχνης": {
+					{"τέχνης": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"τεχνη": {
+					{"τέχνῃ": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"τεχνην": {
+					{"τέχνην": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"τεχναι": {
+					{"τέχναι": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"τεχνων": {
+					{"τεχνῶν": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"τεχναις": {
+					{"τέχναις": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"τεχνας": {
+					{"τέχνας": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
 				}
 
 			},
-			{"λογος": {
+			{"λόγος": {
 				"type": "second_declension_masc",
-				"gender": "masc",
+				"gender": ["masc"],
 				"forms": [
-					{"λογος": {
+					{"λόγος": {
 						"number": ["singular"],
 						"case": ["nom"]
 					}},
-					{"λογου": {
+					{"λόγου": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"λογω": {
+					{"λόγῳ": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"λογον": {
+					{"λόγον": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"λογε": {
+					{"λόγε": {
 						"number": ["singular"],
 						"case": ["voc"]
 					}},
-					{"λογοι": {
+					{"λόγοι": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"λογων": {
+					{"λόγων": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"λογοις": {
+					{"λόγοις": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"λογους": {
+					{"λόγους": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
 			}},
 			{"εργον": {
 				"type": "second_declension_neut",
-				"gender": "neut",
+				"gender": ["neut"],
 				"forms": [
-					{"εργον": {
+					{"ἔργον": {
 						"number": ["singular"],
 						"case": ["nom","voc","acc"]
 					}},
-					{"εργου": {
+					{"ἔργου": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"εργω": {
+					{"ἔργῳ": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"εργα": {
+					{"ἔργα": {
 						"number": ["plural"],
 						"case": ["nom","voc","acc"]
 					}},
-					{"ερων": {
+					{"ἔρων": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"εργοις": {
+					{"ἔργοις": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}}]
@@ -116,39 +116,39 @@
 	},
 	"unit_4": {
 		"nouns": [{
-			"θαλλατα":{
+			"θάλλατα":{
 				"type": "fem_short_alpha",
-				"gender": "fem",
+				"gender": ["fem"],
 				"forms": [
-					{"θαλαττα": {
+					{"θάλαττα": {
 						"number": ["singular"],
 						"case": ["nom","voc"]
 					}},
-					{"θαλαττης": {
+					{"θαλάττης": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"θαλλατη": {
+					{"θαλλάτῃ": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"θαλατταν": {
+					{"θάλατταν": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"θαλατται": {
+					{"θάλατται": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"θαλαττων": {
+					{"θαλαττῶν": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"θαλατταις": {
+					{"θαλάτταις": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"θαλαττας": {
+					{"θαλάττας": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
@@ -157,41 +157,41 @@
 			},
 			{"πολιτης": {
 				"type": "masc_w_fem_endings",
-				"gender": "masc",
+				"gender": ["masc"],
 				"forms": [
-					{"πολιτης": {
+					{"πολίτης": {
 						"number": ["singular"],
 						"case": ["nom"]
 					}},
-					{"πολιτου": {
+					{"πολίτου": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"πολιτη": {
+					{"πολίτῃ": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"πολιτην": {
+					{"πολίτην": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"πολιτα": {
+					{"πολῖτα": {
 						"number": ["singular"],
 						"case": ["voc"]
 					}},
-					{"πολιται": {
+					{"πολῖται": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"πολιτων": {
+					{"πολιτῶν": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"πολιταις": {
+					{"πολίταις": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"λογους": {
+					{"πολίτας": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
@@ -201,220 +201,414 @@
 		]
 
 	},
-	"unit_10": {
+	"unit_6": {
 		"nouns": [{
-			"μητηρ":{
-				"type": "third_declension_1_fem",
-				"gender": "fem",
+			"φύλαξ":{
+				"type": "third_declension",
+				"gender": ["masc"],
 				"forms": [
-					{"μητηρ": {
+					{"φύλαξ": {
 						"number": ["singular"],
-						"case": ["nom"]
+						"case": ["nom","voc"]
 					}},
-					{"μητρος": {
+					{"φύλακος": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"μητρι": {
+					{"φύλακι": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"μητερα": {
+					{"φύλακα": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"μητερ": {
-						"number": ["singular"],
-						"case": ["voc"]
-					}},
-					{"μητερες": {
+					{"φύλακες": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"μητερων": {
+					{"φυλάκων": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"μητραδι(ν)": {
+					{"φύλαξι(ν)": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"μητερας": {
+					{"φύλακας": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
 				}
 
 			},
-			{"ανηρ": {
-				"type": "third_declension_1_masc",
-				"gender": "masc",
+			{"αἴξ": {
+				"type": "third_declension",
+				"gender": ["masc","fem"],
 				"forms": [
-					{"ανηρ": {
+					{"αἴξ": {
 						"number": ["singular"],
-						"case": ["nom"]
+						"case": ["nom","voc"]
 					}},
-					{"ανδρος": {
+					{"αἰγός": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"ανδρι": {
+					{"αἰγί": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"ανδρα": {
+					{"αἰγα": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"ανερ": {
-						"number": ["singular"],
-						"case": ["voc"]
-					}},
-					{"ανδρες": {
+					{"αἶγες": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"ανδρων": {
+					{"αἰγὼν": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"ανδρασι(ν)": {
+					{"αἰξί(ν)": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"ανδρας": {
+					{"αἰγας": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
 			}},
-			{"γενος": {
-				"type": "third_declension_2",
-				"gender": "neut",
+			{"ἐλπίς": {
+				"type": "third_declension",
+				"gender": ["fem"],
 				"forms": [
-					{"γενος": {
+					{"ἐλπίς": {
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"ἐλπίδος": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"ἐλπίδι": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"ἐλπίδα": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"ἐλπί": {
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"ἐλπίδες": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"έλπίδων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"ἐλπίσι(ν)": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"ἐλπίδας": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+			}},
+			{"χάρις": {
+				"type": "third_declension",
+				"gender": ["fem"],
+				"forms": [
+					{"χάρις": {
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"χάριτος": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"χάριτι": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"χάριν": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"χάρι": {
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"χάριτες": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"χαρίτων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"χάρισι(ν)": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"χάριτας": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+			}},
+			{"σῶμα": {
+				"type": "third_declension",
+				"gender": ["neut"],
+				"forms": [
+					{"σῶμα": {
+						"number": ["singular"],
+						"case": ["nom","voc","acc"]
+					}},
+					{"σώματος": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"σώματι": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"σώματα": {
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}},
+					{"σωμάτων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"σώμασι(ν)": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}}]
+			}}
+		
+
+		]
+
+	},
+	"unit_10": {
+		"nouns": [{
+			"μήτηρ":{
+				"type": "third_declension_1_fem",
+				"gender": ["fem"],
+				"forms": [
+					{"μήτηρ": {
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"μητρός": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"μητρί": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"μητέρα": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"μῆτερ": {
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"μητέρες": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"μητέρων": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"μητράδι(ν)": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"μητέρας": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+				}
+
+			},
+			{"ἀνήρ": {
+				"type": "third_declension_1_masc",
+				"gender": ["masc"],
+				"forms": [
+					{"ἀνήρ": {
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"ἀνδρός": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"ἀνδρί": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"ἄνδρα": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"ἄνερ": {
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"ἄνδρες": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"ἀνδρῶν": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"ἀνδράσι(ν)": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"ἄνδρας": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+			}},
+			{"γένος": {
+				"type": "third_declension_2",
+				"gender": ["neut"],
+				"forms": [
+					{"γένος": {
 						"number": ["singular"],
 						"case": ["nom","acc","voc"]
 					}},
-					{"γενους": {
+					{"γένους": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"γενει": {
+					{"γένει": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"γενη": {
+					{"γένη": {
 						"number": ["plural"],
 						"case": ["nom","voc","acc"]
 					}},
-					{"γενων": {
+					{"γενῶν": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"γενεσι(ν)": {
+					{"γένεσι(ν)": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}}]
 			}},
-			{"Σωκρατης": {
+			{"Σωκράτης": {
 				"type": "third_declension_2",
-				"gender": "masc",
+				"gender": ["masc"],
 				"forms": [
-					{"Σωκρατης": {
+					{"Σωκράτης": {
 						"number": ["singular"],
 						"case": ["nom"]
 					}},
-					{"Σωκρατους": {
+					{"Σωκράτους": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"Σωκρατει": {
+					{"Σωκράτει": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"Σωκρατη": {
+					{"Σωκράτη": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"Σωκρατες": {
+					{"Σώκρατες": {
 						"number": ["singular"],
 						"case": ["voc"]
 					}}]
 			}},
-			{"μολις": {
+			{"μόλις": {
 				"type": "third_declension_3",
-				"gender": "fem",
+				"gender": ["fem"],
 				"forms": [
-					{"πολις": {
+					{"πόλις": {
 						"number": ["singular"],
 						"case": ["nom"]
 					}},
-					{"πολεως": {
+					{"πόλεως": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"πολει": {
+					{"πόλει": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"πολιν": {
+					{"πόλιν": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"πολι": {
+					{"πόλι": {
 						"number": ["singular"],
 						"case": ["voc"]
 					}},
-					{"πολεις": {
+					{"πόλεις": {
 						"number": ["plural"],
 						"case": ["nom","voc","acc"]
 					}},
-					{"πολεων": {
+					{"πόλεων": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"πολεσι(ν)": {
+					{"πόλεσι(ν)": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}}]
 			}},
-			{"βασιλευς": {
+			{"βασιλεύς": {
 				"type": "third_declension_4",
-				"gender": "masc",
+				"gender": ["masc"],
 				"forms": [
-					{"βασιλευς": {
+					{"βασιλεύς": {
 						"number": ["singular"],
 						"case": ["nom"]
 					}},
-					{"βασιλεως": {
+					{"βασιλέως": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"βασιλει": {
+					{"βασιλεῖ": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"βασιλεα": {
+					{"βασιλέα": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"βασιλευ": {
+					{"βασιλεῦ": {
 						"number": ["singular"],
 						"case": ["voc"]
 					}},
-					{"βασιλης/βασιλεις": {
+					{"βασιλῆς/βασιλεῖς": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"βασιλεων": {
+					{"βασιλέων": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"βασιλευσι(ν)": {
+					{"βασιλεῦσι(ν)": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"βασιλεας": {
+					{"βασιλέας": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
@@ -425,70 +619,70 @@
 	},
 	"unit_20": {
 		"nouns": [{
-			"νους":{
+			"νοῦς":{
 				"type": "second_declension_masc",
-				"gender": "masc",
+				"gender": ["masc"],
 				"forms": [
-					{"νους": {
+					{"νοῦς": {
 						"number": ["singular"],
 						"case": ["nom"]
 					}},
-					{"νου": {
+					{"νοῦ": {
 						"number": ["singular"],
 						"case": ["gen","voc"]
 					}},
-					{"νω": {
+					{"νῷ": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"νουν": {
+					{"νοῦν": {
 						"number": ["singular"],
 						"case": ["acc"]
 					}},
-					{"νοι": {
+					{"νοῖ": {
 						"number": ["plural"],
 						"case": ["nom","voc"]
 					}},
-					{"νων": {
+					{"νῶν": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"νοις": {
+					{"νοῖς": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}},
-					{"νους": {
+					{"νοῦς": {
 						"number": ["plural"],
 						"case": ["acc"]
 					}}]
 				}
 
 			},
-			{"αστυ": {
+			{"ἄστυ": {
 				"type": "third_declension_town",
-				"gender": "neut",
+				"gender": ["neut"],
 				"forms": [
-					{"αστυ": {
+					{"ἄστυ": {
 						"number": ["singular"],
 						"case": ["nom","voc","acc"]
 					}},
-					{"αστεως": {
+					{"ἄστεως": {
 						"number": ["singular"],
 						"case": ["gen"]
 					}},
-					{"αστει": {
+					{"ἄστει": {
 						"number": ["singular"],
 						"case": ["dat"]
 					}},
-					{"αστη": {
+					{"ἄστη": {
 						"number": ["plural"],
 						"case": ["nom","voc","acc"]
 					}},
-					{"αστεων": {
+					{"ἄστεων": {
 						"number": ["plural"],
 						"case": ["gen"]
 					}},
-					{"αστεσι(ν)": {
+					{"ἄστεσι(ν)": {
 						"number": ["plural"],
 						"case": ["dat"]
 					}}]

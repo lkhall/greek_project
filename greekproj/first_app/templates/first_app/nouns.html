@@ -12,6 +12,8 @@
 					///alert(`Gender: ${genderr}, number: ${numberr}, case: ${casee}`);
 					let number_correct = false;
 					let case_correct = false;
+					let gender_correct = false;
+
 					{% for thing in number %}
 						if ("{{ thing }}" === numberr) {
 							number_correct = true;
@@ -25,7 +27,14 @@
 						
 					{% endfor %}
 
-					if ((genderr === "{{ gender }}") && number_correct && case_correct) {
+					{% for thing in gender %}
+						if ("{{ thing }}" === genderr) {
+							gender_correct = true;
+						}
+						
+					{% endfor %}
+
+					if (gender_correct && number_correct && case_correct) {
 						console.log("HI");
 						alert(`Correct!`);
 					}
@@ -38,6 +47,7 @@
 				};
 			});
 		</script>
+
 		<h2>Nouns</h2>
 		<form id="my_django_form_2" action="{% url 'first_app:nouns' %}" method="post">
 			{% csrf_token %}
@@ -45,7 +55,7 @@
 			<input type="submit">
 		</form>
 
-		<h1>Noun form: {{ verb_form }}</h1>
+		<h1 style="font-family: 'Arial Unicode MS', sans-serif;">Noun form: {{ verb_form }}</h1>
 		<form id="my_django_form">
 			{{ form }}
 			<input type="submit">
