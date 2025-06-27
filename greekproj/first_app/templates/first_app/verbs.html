@@ -1,5 +1,12 @@
 {% extends "first_app/layout.html" %}
 
 {% block body %}
+{%load crispy_forms_tags %}
+
 <h1>Verbs</h1>
+<form id="my_django_form_3" action="{% url 'first_app:verbs' %}" method="post">
+			{% csrf_token %}
+			{{ form|crispy }}
+			<input type="submit">
+</form>
 {% endblock %}

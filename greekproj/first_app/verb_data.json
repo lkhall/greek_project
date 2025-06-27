@@ -1,0 +1,58 @@
+{
+	"παιδεύω": {
+		"viable_combos": [
+			{
+				"pres indic act": {
+					"tense": "pres",
+					"mood": "indic",
+					"voice": "act"
+				}
+			}
+		],
+		"forms": [
+			{"παιδεύω": {
+				"tense": "pres",
+				"mood": "indic",
+				"voice": "act",
+				"person": "first",
+				"number": "singular"
+			}},
+			{"παιδεύεις": {
+				"tense": "pres",
+				"mood": "indic",
+				"voice": "act",
+				"person": "second",
+				"number": "singular"
+			}},
+			{"παιδεύει": {
+				"tense": "pres",
+				"mood": "indic",
+				"voice": "act",
+				"person": "third",
+				"number": "singular"
+			}},
+			{"παιδεύομεν": {
+				"tense": "pres",
+				"mood": "indic",
+				"voice": "act",
+				"person": "first",
+				"number": "plural"
+			}},
+			{"παιδεύετε": {
+				"tense": "pres",
+				"mood": "indic",
+				"voice": "act",
+				"person": "second",
+				"number": "plural"
+			}},
+			{"παιδεύουσι(ν)": {
+				"tense": "pres",
+				"mood": "indic",
+				"voice": "act",
+				"person": "third",
+				"number": "plural"
+			}}
+		]
+
+	}
+}

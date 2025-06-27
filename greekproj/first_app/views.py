@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from django import forms
+from django.forms import CheckboxSelectMultiple
 #import requests
 import json
 import random
@@ -33,18 +34,50 @@ noun_unit_choices = (
 	("unit_20", "Unit 20"),
 )
 
+verb_tense_choices = (
+	("present", "Present"),
+	("future", "Future"),
+	("imperfect", "Imperfect"),
+	("aorist", "Aorist"),
+	("perfect", "Perfect"),
+	("pluperfect", "Pluperfect"),
+)
+
+verb_mood_choices = (
+	("indic", "Indicative"),
+	("subj", "Subjunctive"),
+	("opt", "Optative"),
+	("imper", "Imperative"),
+	("infin", "Infinitive"),
+)
+
+verb_voice_choices = (
+	("act", "Active"),
+	("mid", "Middle"),
+	("pass", "Passive"),
+)
+
+verb_choices = (
+	("παιδεύω", "παιδεύω"),
+)
 units_available = []
 
 class NounForm(forms.Form):
-	noun_gender = forms.ChoiceField(choices=noun_gender_choices, label="Gender")
-	noun_case = forms.ChoiceField(choices=noun_case_choices, label="Case")
-	noun_number = forms.ChoiceField(choices=noun_number_choices, label="Number")
+	noun_gender = forms.MultipleChoiceField(choices=noun_gender_choices, label="Gender", widget=forms.CheckboxSelectMultiple)
+	noun_case = forms.MultipleChoiceField(choices=noun_case_choices, label="Case", widget=forms.CheckboxSelectMultiple)
+	noun_number = forms.MultipleChoiceField(choices=noun_number_choices, label="Number", widget=forms.CheckboxSelectMultiple)
 
 class unit_form(forms.Form):
 	selected_items = forms.MultipleChoiceField(
 		choices=noun_unit_choices,
 		widget=forms.SelectMultiple,
 		label="Select Units:")
+
+class VerbForm(forms.Form):
+	verb_choice = forms.MultipleChoiceField(choices=verb_choices, label="Verb", widget=forms.SelectMultiple)
+	verb_tense = forms.MultipleChoiceField(choices=verb_tense_choices, label="Tense", widget=forms.SelectMultiple)
+	verb_voice = forms.MultipleChoiceField(choices=verb_voice_choices, label="Voice", widget=forms.SelectMultiple)
+	verb_mood = forms.MultipleChoiceField(choices=verb_mood_choices, label="Mood", widget=forms.SelectMultiple)
 
 def get_random_noun(units_available):
 	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
@@ -119,6 +152,9 @@ def nouns(request):
 		if units_available == []:
 			units_available = ["unit_1"]
 		verb_form, gender, case, number = get_random_noun(units_available)
+		print(gender)
+		print(case)
+		print(number)
 		return render(request, "first_app/nouns.html", {
 			"form": NounForm(),
 			"verb_form" : verb_form,
@@ -128,10 +164,25 @@ def nouns(request):
 			"unit_form": unit_form()
 			})
 
+#def get_random_verb_form():
+
 
 	# if the method is post, check the form
 def verbs(request):
-	return render(request, "first_app/verbs.html")
+	if request.method == "POST":
+		form = VerbForm(request.POST)
+		print(form)
+		if form.is_valid():
+			selected_verb = form.cleaned_data['verb_choice']
+			selected_tense = form.cleaned_data['verb_tense']
+			selected_voice = form.cleaned_data['verb_voice']
+			selected_mood = form.cleaned_data['verb_mood']
+			print("selected:", selected_verb)
+			print("selected tense :", selected_tense)
+
+	return render(request, "first_app/verbs.html", {
+			"form": VerbForm(),
+			})
 
 def adjectives(request):
 	return render(request, "first_app/adjectives.html")

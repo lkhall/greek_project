@@ -87,7 +87,7 @@
 				"forms": [
 					{"ἔργον": {
 						"number": ["singular"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"ἔργου": {
 						"number": ["singular"],
@@ -99,7 +99,7 @@
 					}},
 					{"ἔργα": {
 						"number": ["plural"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"ἔρων": {
 						"number": ["plural"],
@@ -367,7 +367,7 @@
 				"forms": [
 					{"σῶμα": {
 						"number": ["singular"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"σώματος": {
 						"number": ["singular"],
@@ -379,7 +379,7 @@
 					}},
 					{"σώματα": {
 						"number": ["plural"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"σωμάτων": {
 						"number": ["plural"],
@@ -499,7 +499,7 @@
 					}},
 					{"γένη": {
 						"number": ["plural"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"γενῶν": {
 						"number": ["plural"],
@@ -561,7 +561,7 @@
 					}},
 					{"πόλεις": {
 						"number": ["plural"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"πόλεων": {
 						"number": ["plural"],
@@ -664,7 +664,7 @@
 				"forms": [
 					{"ἄστυ": {
 						"number": ["singular"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"ἄστεως": {
 						"number": ["singular"],
@@ -676,7 +676,7 @@
 					}},
 					{"ἄστη": {
 						"number": ["plural"],
-						"case": ["nom","voc","acc"]
+						"case": ["nom","acc","voc"]
 					}},
 					{"ἄστεων": {
 						"number": ["plural"],
