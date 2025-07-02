@@ -3,6 +3,29 @@
 {% block body %}
 {%load crispy_forms_tags %}
 
+<script type="module">
+   fetch('http://localhost:3000/verbs') // Replace with your actual API endpoint or local JSON file path
+  .then(response => {
+    // Check if the network response was successful (status code 200-299)
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    // Parse the JSON data from the response body
+    return response.json();
+  })
+  .then(data => {
+    // Work with the fetched JSON data
+    console.log(data); 
+    // Example: Displaying a specific property from the data
+    // document.getElementById('output').textContent = data.someProperty; 
+  })
+  .catch(error => {
+    // Handle any errors that occurred during the fetch operation
+    console.error('There was a problem with the fetch operation:', error);
+  });
+
+</script>
+
 <h1>Verbs</h1>
 <form id="my_django_form_3" action="{% url 'first_app:verbs' %}" method="post">
 			{% csrf_token %}

@@ -134,12 +134,73 @@
 					}
 				};
 			});
+			function checkSelection() {
+				const checkbox = document.getElementById('option1');
+				const checkbox2 = document.getElementById('option2');
+    			if (checkbox.parentElement.classList.contains("active")) {
+      				console.log('Checkbox is checked!');
+      				document.getElementById('my_django_form_nouns').style.display = 'none';
+      				document.getElementById('my_django_form_2').style.display = 'block';
+     			 	// Perform desired actions here
+    			} else {
+    				$("#option1").button('toggle');
+    				$("#option2").button('toggle');
+    				checkbox2.checked = false;
+    				checkbox.checked = true;
+    				checkbox2.parentElement.classList.remove("active");
+    				checkbox.parentElement.classList.add("active");
+      				console.log('Checkbox is unchecked!');
+      				document.getElementById('my_django_form_nouns').style.display = 'none';
+      				document.getElementById('my_django_form_2').style.display = 'block';
+      				// Perform actions for unchecked state if needed
+				}
+    			}
+    		function checkSelection2() {
+				const checkbox = document.getElementById('option1');
+				const checkbox2 = document.getElementById('option2');
+    			if (checkbox2.parentElement.classList.contains("active")) {
+      				console.log('Checkbox is checked!');
+      				document.getElementById('my_django_form_nouns').style.display = 'block';
+      				document.getElementById('my_django_form_2').style.display = 'none';
+     			 	// Perform desired actions here
+    			} else {
+    				$("#option1").button('toggle');
+    				$("#option2").button('toggle');
+    				checkbox2.checked = true;
+    				checkbox.checked = false;
+    				checkbox.parentElement.classList.remove("active");
+    				checkbox2.parentElement.classList.add("active");
+      				console.log('Checkbox is unchecked!');
+      				document.getElementById('my_django_form_nouns').style.display = 'block';
+      				document.getElementById('my_django_form_2').style.display = 'none';
+      				// Perform actions for unchecked state if needed
+				}
+    			}
 		</script>
 		<h2>Nouns</h2>
+		Select by:
+		<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" onclick="checkSelection()"> Unit
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off" onclick="checkSelection2()"> Noun
+  </label>
+</div>
+		<form id="my_django_form_nouns" style="display:none" action="{% url 'first_app:nouns' %}" method="post">
+			{% csrf_token %}
+			{{ noun_form|crispy }}
+			<button type="submit" name="submit_form" value="submitting_nouns">Submit</button>
+			<!--
+			<input type="submit" name="submit_form", value="submitting_nouns">-->
+		</form>
+
 		<form id="my_django_form_2" action="{% url 'first_app:nouns' %}" method="post">
 			{% csrf_token %}
 			{{ unit_form|crispy }}
-			<input type="submit">
+			<button type="submit" name="submit_form" value="submitting_units">Submit</button>
+			<!--
+			<input type="submit" name="submit_form", value="submitting_units">-->
 		</form>
 
 		<h1 style="font-family: 'Arial Unicode MS', sans-serif;">Noun form: {{ verb_form }}</h1>

@@ -1,0 +1,679 @@
+{
+	"unit_4": {
+		"adjectives": [{
+			"ἀγαθός, ἀγαθή, ἀγαθόν":{
+				"type": "first_second_declension_three_endings",
+				"forms": [
+					{"ἀγαθός": {
+						"gender": ["masc"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"ἀγαθοῦ": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"ἀγαθῷ": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"ἀγαθόν": {
+						"gender":["masc","neut"],
+						"number": ["singular"],
+						"case": ["acc","nom","voc"]
+					}},
+					{"ἀγαθέ": {
+						"gender": ["masc"],
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"ἀγαθοί": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"ἀγαθῶν": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"ἀγαθοῖς": {
+						"gender": ["masc","neut"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"ἀγαθούς": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"ἀγαθή": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["nom","voc"]
+					}},
+					{"ἀγαθῆς": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"ἀγαθῇ": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"ἀγαθήν": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"ἀγαθαί": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"ἀγαθαῖς": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"ἀγαθάς": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"ἀγαθά": {
+						"gender": ["neut"],
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}}]
+				}
+
+			},
+			{
+			"ἄδικος, ἄδικον":{
+				"type": "second_declension_two_endings",
+				"forms": [
+					{"ἄδικος": {
+						"gender": ["masc","fem"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"ἀδίκου": {
+						"gender": ["masc","fem","neut"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"άδικῶ": {
+						"gender": ["masc","fem","neut"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"ἄδικον": {
+						"gender":["masc","fem","neut"],
+						"number": ["singular"],
+						"case": ["acc","nom","voc"]
+					}},
+					{"ἄδικε": {
+						"gender": ["masc","fem"],
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"ἄδικοι": {
+						"gender": ["masc","fem"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"ἀδίκων": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"άδίκοις": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"άδίκους": {
+						"gender": ["masc","fem"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"ἄδικα": {
+						"gender": ["neut"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}}]
+				}}
+
+		]
+
+	},
+	"unit_8": {
+		"adjectives": [{
+			"πᾶς, πᾶσα, πᾶν":{
+				"type": "third_declension",
+				"forms": [
+					{"πᾶς": {
+						"gender": ["masc"],
+						"number": ["singular"],
+						"case": ["nom","voc"]
+					}},
+					{"παντός": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"παντί": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"πάντα": {
+						"gender":["masc","neut"],
+						"number": ["singular","plural"],
+						"case": ["acc","nom","voc"]
+					}},
+					{"πάντες": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["voc","nom"]
+					}},
+					{"πάντων": {
+						"gender": ["masc","fem","neut"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"πᾶσι(ν)": {
+						"gender": ["masc","neut"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"πάντας": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"πᾶσα": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["nom","voc"]
+					}},
+					{"πάσης": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"πάσῃ": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"πᾶσαν": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"πᾶδαι": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"πασῶν": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"πάσαις": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"πάσας": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"πᾶν": {
+						"gender": ["neut"],
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}}]
+				}
+			}
+
+		]
+
+	},
+	"unit_10": {
+		"adjectives": [{
+			"εὐδαίμων, εὔδαιμον":{
+				"type": "τηιρδ_declension_tςο_endings",
+				"forms": [
+					{"εὐδαίμων": {
+						"gender": ["masc","fem"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"εὐδαίμονος": {
+						"gender": ["masc","fem","neut"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"εὐδαίμονι": {
+						"gender": ["masc","neut","fem"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"εὐδαίμονα": {
+						"gender":["masc","neut","fem"],
+						"number": ["singular","plural"],
+						"case": ["acc","nom","voc"]
+					}},
+					{"εὔδαιμον": {
+						"gender": ["masc","fem","neut"],
+						"number": ["singular"],
+						"case": ["voc","nom","acc"]
+					}},
+					{"εὐδαίμονες": {
+						"gender": ["masc","fem"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"εὐδαιμόνων": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"εὐδαίμοσι(ν)": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"εὐδαίμονας": {
+						"gender": ["masc","fem"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+				}
+
+			},
+			{"πολίτης": {
+				"type": "masc_w_fem_endings",
+				"gender": ["masc"],
+				"forms": [
+					{"πολίτης": {
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"πολίτου": {
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"πολίτῃ": {
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"πολίτην": {
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"πολῖτα": {
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"πολῖται": {
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"πολιτῶν": {
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"πολίταις": {
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"πολίτας": {
+						"number": ["plural"],
+						"case": ["acc"]
+					}}]
+			}},
+			{
+			"εὐγενής, εὐγενές":{
+				"type": "third_declension_two_endings",
+				"forms": [
+					{"εὐγενής": {
+						"gender": ["masc","fem"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"εὐγενοῦς": {
+						"gender": ["masc","neut","fem"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"εὐγενεῖ": {
+						"gender": ["masc","neut","fem"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"εὐγενῆ": {
+						"gender":["masc","neut","fem"],
+						"number": ["singular","plural"],
+						"case": ["acc","nom","voc"]
+					}},
+					{"εὐγενές": {
+						"gender": ["masc","fem"],
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"εὐγενεῖς": {
+						"gender": ["masc","fem"],
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}},
+					{"εὐγενῶν": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"εὐγενέσι(ν)": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"εὐγενές": {
+						"gender": ["neut"],
+						"number": ["singular"],
+						"case": ["acc","nom","voc"]
+					}}]
+				}
+
+			}
+
+		]
+
+	},
+	"unit_16": {
+		"adjectives": [{
+			"πολύς, πολλή, πολύ":{
+				"type": "many_declensions",
+				"forms": [
+					{"πολύς": {
+						"gender": ["masc"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"πολλοῦ": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"πολλῷ": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"πολύν": {
+						"gender":["masc"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"πολλοί": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["nom"]
+					}},
+					{"πολλῶν": {
+						"gender": ["masc","fem","neut"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"πολλοῖς": {
+						"gender": ["masc","neut"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"πολλούς": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"πολλή": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"πολλῆς": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"πολλῇ": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"πολλήν": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"πολλαί": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["nom"]
+					}},
+					{"πολλαῖς": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"πολλάς": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"πολύ": {
+						"gender": ["neut"],
+						"number": ["singular"],
+						"case": ["nom","acc"]
+					}},
+					{"πολλά": {
+						"gender": ["neut"],
+						"number": ["plural"],
+						"case": ["nom","acc"]
+					}}]
+				}
+
+			}]
+
+	},
+	"unit_17": {
+		"adjectives": [{
+			"μέγας, μεγάλη, μέγα":{
+				"type": "third_declension_three_endings",
+				"forms": [
+					{"μέγας": {
+						"gender": ["masc"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"μεγάλου": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"μεγάλῳ": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"μέγαν": {
+						"gender":["masc"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"μεγάλε": {
+						"gender": ["masc"],
+						"number": ["singular"],
+						"case": ["voc"]
+					}},
+					{"μεγάλοι": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"μεγάλων": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"μεγάλοις": {
+						"gender": ["masc","neut"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"μεγάλους": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"μεγάλη": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["nom","voc"]
+					}},
+					{"μεγάλης": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"μεγάλῃ": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"μεγάλην": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"μεγάλαι": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"μεγάλαις": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"μεγάλας": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["acc"]
+					}},
+					{"μέγα": {
+						"gender": ["neut"],
+						"number": ["singular"],
+						"case": ["nom","voc","acc"]
+					}},
+					{"μεγάλα": {
+						"gender": ["neut"],
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}}]
+				}
+
+			},
+			{
+			"ἡδύς, ἡδεῖα, ἡδύ":{
+				"type": "third_declension_three_endings",
+				"forms": [
+					{"ἡδύς": {
+						"gender": ["masc"],
+						"number": ["singular"],
+						"case": ["nom"]
+					}},
+					{"ἡλέος": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["gen"]
+					}},
+					{"ἡδεῖ": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"ἡδύν": {
+						"gender":["masc"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"ἡδύ": {
+						"gender": ["masc","neut"],
+						"number": ["singular"],
+						"case": ["voc","nom","acc"]
+					}},
+					{"ἡδεῖς": {
+						"gender": ["masc"],
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}},
+					{"ἡδέων": {
+						"gender": ["masc","neut","fem"],
+						"number": ["plural"],
+						"case": ["gen"]
+					}},
+					{"ἡδέσι(ν)": {
+						"gender": ["masc","neut"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"ἡδεῖα": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["fem","voc"]
+					}},
+					{"ἡδείας": {
+						"gender": ["fem"],
+						"number": ["singular","plural"],
+						"case": ["gen", "acc"]
+					}},
+					{"ἡδείᾳ": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["dat"]
+					}},
+					{"ἡδεῖαν": {
+						"gender": ["fem"],
+						"number": ["singular"],
+						"case": ["acc"]
+					}},
+					{"ἡδεῖαι": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["nom","voc"]
+					}},
+					{"ἡδείαις": {
+						"gender": ["fem"],
+						"number": ["plural"],
+						"case": ["dat"]
+					}},
+					{"ἡδέα": {
+						"gender": ["neut"],
+						"number": ["plural"],
+						"case": ["nom","voc","acc"]
+					}}]
+				}
+
+			}
+		]
+
+	}
+
+}
