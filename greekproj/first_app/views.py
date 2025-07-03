@@ -90,6 +90,31 @@ nouns_available = []
 
 on_units = True
 
+on_units_adj = True
+units_available_adjectives = []
+adjectives_available = []
+
+adjective_unit_choices = (
+	("unit_4", "Unit 4"),
+	("unit_8", "Unit 8"),
+	("unit_10", "Unit 10"),
+	("unit_16", "Unit 16"),
+	("unit_17", "Unit 17"),
+)
+
+all_adjective_units = ["unit_4", "unit_8", "unit_10", "unit_16", "unit_17"]
+adjective_choices = (
+	("ἀγαθός, ἀγαθή, ἀγαθόν", "ἀγαθός, ἀγαθή, ἀγαθόν"),
+	("ἄδικος, ἄδικον", "ἄδικος, ἄδικον"),
+	("πᾶς, πᾶσα, πᾶν", "πᾶς, πᾶσα, πᾶν"),
+	("εὐδαίμων, εὔδαιμον", "εὐδαίμων, εὔδαιμον"),
+	("εὐγενής, εὐγενές", "εὐγενής, εὐγενές"),
+	("πολύς, πολλή, πολύ", "πολύς, πολλή, πολύ"),
+	("μέγας, μεγάλη, μέγα", "μέγας, μεγάλη, μέγα"),
+	("ἡδύς, ἡδεῖα, ἡδύ", "ἡδύς, ἡδεῖα, ἡδύ"),
+)
+all_adjective_choices = ["ἀγαθός, ἀγαθή, ἀγαθόν", "ἄδικος, ἄδικον", "πᾶς, πᾶσα, πᾶν", "εὐδαίμων, εὔδαιμον", "εὐγενής, εὐγενές", "πολύς, πολλή, πολύ", "μέγας, μεγάλη, μέγα", "ἡδύς, ἡδεῖα, ἡδύ"]
+
 class NounForm(forms.Form):
 	noun_gender = forms.MultipleChoiceField(choices=noun_gender_choices, label="Gender", widget=forms.CheckboxSelectMultiple)
 	noun_case = forms.MultipleChoiceField(choices=noun_case_choices, label="Case", widget=forms.CheckboxSelectMultiple)
@@ -107,11 +132,23 @@ class select_noun_form(forms.Form):
 		widget=forms.SelectMultiple,
 		label="Select Nouns:")
 
+class select_adj_form(forms.Form):
+	selected_adjs = forms.MultipleChoiceField(
+		choices=adjective_choices,
+		widget=forms.SelectMultiple,
+		label="Select Adjectives:")
+
 class VerbForm(forms.Form):
 	verb_choice = forms.MultipleChoiceField(choices=verb_choices, label="Verb", widget=forms.SelectMultiple)
 	verb_tense = forms.MultipleChoiceField(choices=verb_tense_choices, label="Tense", widget=forms.SelectMultiple)
 	verb_voice = forms.MultipleChoiceField(choices=verb_voice_choices, label="Voice", widget=forms.SelectMultiple)
 	verb_mood = forms.MultipleChoiceField(choices=verb_mood_choices, label="Mood", widget=forms.SelectMultiple)
+
+class adjective_unit_form(forms.Form):
+	selected_adj_units = forms.MultipleChoiceField(
+		choices=adjective_unit_choices,
+		widget=forms.SelectMultiple,
+		label="Select Units:")
 
 def get_random_noun(units_available):
 	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
@@ -175,9 +212,9 @@ def get_random_noun2(nouns_available):
 			forms = first_value["forms"]
 
 		# use random number to get random noun
-		first_key = next(iter(data))
-		first_value = data[first_key]
-		forms = first_value["forms"]
+		# first_key = next(iter(data))
+		# first_value = data[first_key]
+		# forms = first_value["forms"]
 		# get random thing in noun by generating random int between 0 and 9
 		# retrieve its data 
 		random_int = random.randint(0, len(forms)-1)
@@ -296,8 +333,149 @@ def verbs(request):
 			"form": VerbForm(), "verb_data": f
 			})
 
+def get_random_adj(units_available_adjectives):
+	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/adjective_data.json') as f:
+		print(units_available_adjectives)
+		response = json.load(f)
+		if (units_available_adjectives == []):
+			units_available_adjectives = all_adjective_units
+		selected_unit = random.choice(units_available_adjectives)
+		print("selected unit: ", selected_unit)
+		data = response[selected_unit]['adjectives']
+		num_nouns = len(data)
+
+		random_int = random.randint(0, num_nouns-1)
+		data = data[random_int]
+
+		# use random number to get random noun
+		first_key = next(iter(data))
+		first_value = data[first_key]
+		forms = first_value["forms"]
+		# get random thing in noun by generating random int between 0 and 9
+		# retrieve its data 
+		random_int = random.randint(0, len(forms)-1)
+		selected_form = forms[random_int]
+		verb_form = next(iter(selected_form))
+		verb_data = selected_form[verb_form]
+		print(verb_data)
+		return verb_form, verb_data["gender"], verb_data["case"], verb_data["number"]
+
+def get_random_adj2(adjectives_available):
+	with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/adjective_data.json') as f:
+		print(adjectives_available)
+		# select random unit
+		# select random noun
+		# check if noun is in the nouns available
+		response = json.load(f)
+		if (adjectives_available == []):
+			adjectives_available = all_adjectives
+		selected_unit = random.choice(all_adjective_units)
+		print("selected unit: ", selected_unit)
+		data = response[selected_unit]['adjectives']
+		num_nouns = len(data)
+		# selecting random noun within a unit
+		random_int = random.randint(0, num_nouns-1)
+		data = data[random_int]
+
+		# use random number to get random noun
+		first_key = next(iter(data))
+		first_value = data[first_key]
+		forms = first_value["forms"]
+		while first_key not in adjectives_available:
+			selected_unit = random.choice(all_adjective_units)
+			print("selected noun: ", first_key)
+			print("ajs avail: ", adjectives_available)
+			data = response[selected_unit]['adjectives']
+			num_nouns = len(data)
+			# selecting random noun within a unit
+			random_int = random.randint(0, num_nouns-1)
+			data = data[random_int]
+			first_key = next(iter(data))
+			first_value = data[first_key]
+			forms = first_value["forms"]
+
+		# use random number to get random noun
+		# first_key = next(iter(data))
+		# first_value = data[first_key]
+		# forms = first_value["forms"]
+		# get random thing in noun by generating random int between 0 and 9
+		# retrieve its data 
+		random_int = random.randint(0, len(forms)-1)
+		selected_form = forms[random_int]
+		verb_form = next(iter(selected_form))
+		verb_data = selected_form[verb_form]
+		print(verb_data)
+		return verb_form, verb_data["gender"], verb_data["case"], verb_data["number"]
+
 def adjectives(request):
-	return render(request, "first_app/adjectives.html")
+	if request.method == "POST":
+		if 'submit_form' in request.POST:
+			if request.POST['submit_form'] == 'submitting_units':
+				global on_units_adj
+				on_units_adj = True
+				form = adjective_unit_form(request.POST)
+				print(form)
+				if form.is_valid():
+					selected = form.cleaned_data['selected_adj_units']
+					print("selected:", selected)
+					global units_available_adjectives
+					if units_available_adjectives == []:
+						units_available_adjectives = all_adjective_units
+					units_available_adjectives = selected
+				adj_form, gender, case, number = get_random_adj(units_available_adjectives)
+				return render(request, "first_app/adjectives.html", {
+					"form": NounForm(),
+					"adj_form" : adj_form,
+					"gender": gender,
+					"case": case,
+					"number": number,
+					"unit_form": adjective_unit_form(),
+					"noun_form": select_adj_form()
+					})
+			elif request.POST['submit_form'] == 'submitting_adjs':
+				on_units_adj = False
+				form = select_adj_form(request.POST)
+				print(form)
+				if form.is_valid():
+					selected = form.cleaned_data['selected_adjs']
+					print("selected:", selected)
+					global adjectives_available
+					if adjectives_available == []:
+						adjectives_available = all_adjectives
+					adjectives_available = selected
+				adj_form, gender, case, number = get_random_adj2(adjectives_available)
+				return render(request, "first_app/adjectives.html", {
+					"form": NounForm(),
+					"adj_form" : adj_form,
+					"gender": gender,
+					"case": case,
+					"number": number,
+					"unit_form": adjective_unit_form(),
+					"noun_form": select_adj_form()
+					})
+	else:
+		print("hello")
+		#global units_available
+		if units_available_adjectives == []:
+			units_available_adjectives = all_adjective_units
+		if adjectives_available == []:
+			adjectives_available = all_adjective_choices
+		if on_units_adj == True:
+			adj_form, gender, case, number = get_random_adj(units_available_adjectives)
+		else:
+			adj_form, gender, case, number = get_random_adj2(adjectives_available)
+		print(gender)
+		print(case)
+		print(number)
+		return render(request, "first_app/adjectives.html", {
+			"form": NounForm(),
+			"adj_form" : adj_form,
+			"gender": gender,
+			"case": case,
+			"number": number,
+			"unit_form": adjective_unit_form(),
+			"noun_form": select_adj_form()
+			})
 
 def participles(request):
 	return render(request, "first_app/participles.html")

@@ -81,7 +81,7 @@
 						"case": ["acc"]
 					}}]
 			}},
-			{"εργον": {
+			{"ἔργον": {
 				"type": "second_declension_neut",
 				"gender": ["neut"],
 				"forms": [
@@ -155,7 +155,7 @@
 				}
 
 			},
-			{"πολιτης": {
+			{"πολίτης": {
 				"type": "masc_w_fem_endings",
 				"gender": ["masc"],
 				"forms": [
@@ -535,7 +535,7 @@
 						"case": ["voc"]
 					}}]
 			}},
-			{"μόλις": {
+			{"πόλις": {
 				"type": "third_declension_3",
 				"gender": ["fem"],
 				"forms": [

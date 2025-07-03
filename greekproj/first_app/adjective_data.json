@@ -144,7 +144,7 @@
 					{"ἄδικα": {
 						"gender": ["neut"],
 						"number": ["plural"],
-						"case": ["nom","voc"]
+						"case": ["nom","voc","acc"]
 					}}]
 				}}
 
@@ -300,47 +300,6 @@
 				}
 
 			},
-			{"πολίτης": {
-				"type": "masc_w_fem_endings",
-				"gender": ["masc"],
-				"forms": [
-					{"πολίτης": {
-						"number": ["singular"],
-						"case": ["nom"]
-					}},
-					{"πολίτου": {
-						"number": ["singular"],
-						"case": ["gen"]
-					}},
-					{"πολίτῃ": {
-						"number": ["singular"],
-						"case": ["dat"]
-					}},
-					{"πολίτην": {
-						"number": ["singular"],
-						"case": ["acc"]
-					}},
-					{"πολῖτα": {
-						"number": ["singular"],
-						"case": ["voc"]
-					}},
-					{"πολῖται": {
-						"number": ["plural"],
-						"case": ["nom","voc"]
-					}},
-					{"πολιτῶν": {
-						"number": ["plural"],
-						"case": ["gen"]
-					}},
-					{"πολίταις": {
-						"number": ["plural"],
-						"case": ["dat"]
-					}},
-					{"πολίτας": {
-						"number": ["plural"],
-						"case": ["acc"]
-					}}]
-			}},
 			{
 			"εὐγενής, εὐγενές":{
 				"type": "third_declension_two_endings",
