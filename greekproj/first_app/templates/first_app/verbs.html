@@ -3,33 +3,209 @@
 {% block body %}
 {%load crispy_forms_tags %}
 
-<script type="module">
-   fetch('http://localhost:3000/verbs') // Replace with your actual API endpoint or local JSON file path
-  .then(response => {
-    // Check if the network response was successful (status code 200-299)
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    // Parse the JSON data from the response body
-    return response.json();
-  })
-  .then(data => {
-    // Work with the fetched JSON data
-    console.log(data); 
-    // Example: Displaying a specific property from the data
-    // document.getElementById('output').textContent = data.someProperty; 
-  })
-  .catch(error => {
-    // Handle any errors that occurred during the fetch operation
-    console.error('There was a problem with the fetch operation:', error);
-  });
+		{{ tense|json_script:"mytenses" }}
+		{{ voice|json_script:"myvoices" }}
+		{{ mood|json_script:"mymoods" }}
+		{{ person|json_script:"mypersons" }}
+		{{ number|json_script:"mynumbers" }}
 
-</script>
+		<script>
+			// returns whether the arrays are equal in 0th element, and what elements are in arr2 that are not in arr1 in 1st element
+			function arraysEqual(arr1, arr2) {
+				//alert(`hello`);
+				var dataa = JSON.parse(document.getElementById(arr1).textContent);
+				let arrinarr1 = arrinarr(dataa, arr2);
+				let arrinarr2 = arrinarr(arr2, dataa);
+				let is_in_array1 = arrinarr1[0];
+				let is_in_array2 = arrinarr2[0];
+				//alert(`hello2`);
+				let arrayseq = is_in_array1 && is_in_array2;
+				//alert(`hello2`);
+				return [arrayseq,arrinarr1[1]];
+			}
+			// returns whether all the elements in arr2 are in arr1 in 0th element, and what elements are in arr2 that are not in arr1 in 1st element
+			function arrinarr(arr1, arr2) {
+				//alert(`hello3`);
+				let is_in_array = true;
+				let arr2_wrong = [];
+				//alert(`hello6`);
+				for (let i = 0; i < arr2.length; i++) {
+					//alert(`hello7`);
+					let in_array = false;
+						for (let j = 0; j < arr1.length; j++) {
+							if (arr1[j] === arr2[i]) {
+								in_array = true;
+							}
+						}
+						if (in_array === true) {
+							is_in_array = is_in_array && true;
+						}
+						else {
+							//alert(`arr2wrong: ${arr2[i]}`);
+							arr2_wrong.push(arr2[i]);
+							is_in_array = false;
+						}
+				}
+				//alert(`hello5`);
+				return [is_in_array,arr2_wrong];
+			}
+
+			function changeLabelColors(arr_wrong, cross_info) {
+				for (let i = 0; i < arr_wrong.length; i++) {
+					for (let j = 0; j < cross_info.length; j++) {
+						if (arr_wrong[i] === cross_info[j][0]){
+							//alert(`changing color`);
+							document.querySelector(`label[for=${cross_info[j][1]}]`).style.color = "red";
+						}
+					}
+				}
+			}
+			document.addEventListener('DOMContentLoaded', function() {
+				//document.getElementById("id_verb_tense_submit_0").disabled = true;
+				{% for tense_unused in tense_not_used %}
+					document.getElementById("{{ tense_unused }}").disabled = true;
+				{% endfor %}
+				{% for voice_unused in voice_not_used %}
+					document.getElementById("{{ voice_unused }}").disabled = true;
+				{% endfor %}
+				{% for mood_unused in mood_not_used %}
+					document.getElementById("{{ mood_unused }}").disabled = true;
+				{% endfor %}
+				document.querySelector('#my_django_form').onsubmit = function() {
+					//alert(`at the start`);
+					console.log("hello");
+					const myform = document.getElementById("my_django_form");
+					//alert(`after the start`);
+					let tense_array = [];
+					//alert(`after the start: ${myform.elements.id_noun_gender.options[0].selected}`);
+					if (myform.elements.id_verb_tense_submit_0.checked === true){
+						//alert(`weeooo`);
+						tense_array.push("present");
+					}
+					if (myform.elements.id_verb_tense_submit_1.checked === true) {
+						tense_array.push("future");
+					}
+					if (myform.elements.id_verb_tense_submit_2.checked === true) {
+						tense_array.push("imperfect");
+					}
+					if (myform.elements.id_verb_tense_submit_3.checked === true) {
+						tense_array.push("aorist");
+					}
+					if (myform.elements.id_verb_tense_submit_4.checked === true) {
+						tense_array.push("perfect");
+					}
+					if (myform.elements.id_verb_tense_submit_5.checked === true) {
+						tense_array.push("pluperfect");
+					}
+					//alert(`after gender`);
+					//console.log(myform.elements.id_noun_gender_0.checked);
+					//alert(`Gender: ${gender_array[0]}`);
+					let voice_array = [];
+					if (myform.elements.id_verb_voice_submit_0.checked === true) {
+						voice_array.push("act");
+					}
+					if (myform.elements.id_verb_voice_submit_1.checked === true) {
+						voice_array.push("mid");
+					}
+					if (myform.elements.id_verb_voice_submit_2.checked === true) {
+						voice_array.push("pass");
+					}
+					//alert(`after number`);
+					let mood_array = [];
+					if (myform.elements.id_verb_mood_submit_0.checked === true) {
+						mood_array.push("indic");
+					}
+					if (myform.elements.id_verb_mood_submit_1.checked === true) {
+						mood_array.push("subj");
+					}
+					if (myform.elements.id_verb_mood_submit_2.checked === true) {
+						mood_array.push("opt");
+					}
+					if (myform.elements.id_verb_mood_submit_3.checked=== true) {
+						mood_array.push("imper");
+					}
+					if (myform.elements.id_verb_mood_submit_4.checked === true) {
+						mood_array.push("infin");
+					}
+
+					let person_array = [];
+					if (myform.elements.id_verb_person_0.checked === true) {
+						person_array.push("first");
+					}
+					if (myform.elements.id_verb_person_1.checked === true) {
+						person_array.push("second");
+					}
+					if (myform.elements.id_verb_person_2.checked === true) {
+						person_array.push("third");
+					}
+
+					let number_array = [];
+					if (myform.elements.id_verb_number_0.checked === true) {
+						console.log("true")
+						number_array.push("singular");
+					}
+					if (myform.elements.id_verb_number_1.checked === true) {
+						number_array.push("plural");
+					}
+
+					console.log(`numarr: ${number_array[0]}`);
+					let tense_correct_arr = arraysEqual("mytenses", tense_array);
+					let voice_correct_arr = arraysEqual("myvoices", voice_array);
+					let mood_correct_arr = arraysEqual("mymoods", mood_array);
+					let person_correct_arr = arraysEqual("mypersons", person_array);
+					let number_correct_arr = arraysEqual("mynumbers", number_array);
+					//alert(`hello4`);
+
+					let tense_correct = tense_correct_arr[0];
+					let voice_correct = voice_correct_arr[0];
+					let mood_correct = mood_correct_arr[0];
+					let person_correct = person_correct_arr[0];
+					let number_correct = number_correct_arr[0];
+
+
+					let tense_wrong = tense_correct_arr[1];
+					let voice_wrong = voice_correct_arr[1];
+					let mood_wrong = mood_correct_arr[1];
+					let person_wrong = person_correct_arr[1];
+					let number_wrong = number_correct_arr[1];
+
+					let number_cross_info = [["singular","id_verb_number_0"],["plural","id_verb_number_1"]];
+					let person_cross_info = [["first","id_verb_person_0"],["second","id_verb_person_1"],["third","id_verb_person_2"]];
+					let mood_cross_info = [["indic","id_verb_mood_submit_0"],["subj","id_verb_mood_submit_1"],["opt","id_verb_mood_submit_2"],["imper","id_verb_mood_submit_3"],["infin","id_verb_mood_submit_4"]];
+					let voice_cross_info = [["act","id_verb_voice_submit_0"],["mid","id_verb_voice_submit_1"],["pass","id_verb_voice_submit_2"]];
+					let tense_cross_info = [["present","id_verb_tense_submit_0"],["future","id_verb_tense_submit_1"],["imperfect","id_verb_tense_submit_2"],["aorist","id_verb_tense_submit_3"],["perfect","id_verb_tense_submit_4"],["pluperfect","id_verb_tense_submit_5"]];
+					
+					//alert(`number: ${number_correct}, case: ${case_correct}, gender: ${gender_correct}`);
+
+					if (tense_correct && voice_correct && mood_correct && person_correct && number_correct) {
+						//console.log("HI");
+					}
+					else {
+						//console.log("p");
+						//alert(`Incorrect, try again`);
+						changeLabelColors(number_wrong,number_cross_info);
+						changeLabelColors(tense_wrong,tense_cross_info);
+						changeLabelColors(voice_wrong,voice_cross_info);
+						changeLabelColors(mood_wrong,mood_cross_info);
+						changeLabelColors(person_wrong,person_cross_info);
+						return false;
+					}
+				};
+			});
+		</script>
 
 <h1>Verbs</h1>
 <form id="my_django_form_3" action="{% url 'first_app:verbs' %}" method="post">
 			{% csrf_token %}
 			{{ form|crispy }}
-			<input type="submit">
+			<br>
+			<button type="submit" name="submit_form" value="submitting_type_selection">Submit</button>
 </form>
+{{ errormessage }}
+<h1 style="font-family: 'Arial Unicode MS', sans-serif;">Verb form: {{ verb_form }}</h1>
+		<form id="my_django_form">
+			{{ verb_form_submit|crispy }}
+			<button type="submit" name="submit_form" value="submitting_verb_answers">Submit</button>
+
+		</form>
 {% endblock %}

@@ -2,57 +2,479 @@
 	"verbs": {
 	"παιδεύω": {
 		"viable_combos": [
-			{
-				"pres indic act": {
-					"tense": "pres",
-					"mood": "indic",
-					"voice": "act"
-				}
-			}
+			{"present indic act": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"imperfect indic act": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"future indic act": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"aorist indic act": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"perfect indic act": {
+				"tense": "person",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"pluperfect indic act": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present subj act": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"aorist subj act": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"present opt act": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"aorist opt act": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "act"
+			}}
 		],
 		"forms": [
 			{"παιδεύω": {
-				"tense": "pres",
-				"mood": "indic",
-				"voice": "act",
-				"person": "first",
-				"number": "singular"
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
 			}},
 			{"παιδεύεις": {
-				"tense": "pres",
-				"mood": "indic",
-				"voice": "act",
-				"person": "second",
-				"number": "singular"
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
 			}},
 			{"παιδεύει": {
-				"tense": "pres",
-				"mood": "indic",
-				"voice": "act",
-				"person": "third",
-				"number": "singular"
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
 			}},
 			{"παιδεύομεν": {
-				"tense": "pres",
-				"mood": "indic",
-				"voice": "act",
-				"person": "first",
-				"number": "plural"
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
 			}},
 			{"παιδεύετε": {
-				"tense": "pres",
-				"mood": "indic",
-				"voice": "act",
-				"person": "second",
-				"number": "plural"
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
 			}},
 			{"παιδεύουσι(ν)": {
-				"tense": "pres",
-				"mood": "indic",
-				"voice": "act",
-				"person": "third",
-				"number": "plural"
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"ἐπαίδευον": {
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"ἐπαίδευες": {
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"ἐπαίδευε(ν)": {
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"ἐπαιδεύομεν": {
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"ἐπαιδεύετε": {
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"ἐπαίδευον": {
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσω": {
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσεις": {
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσει": {
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσομεν": {
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσετε": {
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσουσι(ν)": {
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"ἐπαίδευσα": {
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"ἐπαιδευσας": {
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"ἐπαίδευσε(ν)": {
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"ἐπαιδεύσαμεν": {
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"ἐπαιδεύσατε": {
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"ἐπαίδευσαν": {
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"πεπαίδευκα": {
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"πεπαίδευκας": {
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"πεπαίδευκε(ν)": {
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"πεπαιδεύκαμεν": {
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"πεπαιδεύκατε": {
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"πεπαιδεύκασι(ν)": {
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"ἐπεπαιδεύκη": {
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"ἐπεπαιδεύκης": {
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"ἐπεπαιδεύκει(ν)": {
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"ἐπεπαιδεὐκεμεν": {
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"ἐπεπαιδεύκετε": {
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"ἐπεπαιδεύκεσαν": {
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύω": {
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύῃς": {
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύῃ": {
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύωμεν": {
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύητε": {
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύωσι(ν)": {
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσω": {
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσῃς": {
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσῃ": {
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσωμεν": {
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσητε": {
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσωσι(ν)": {
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύοιμι": {
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"παιδεύοις": {
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"παιδεύοι": {
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"παιδεύοιμεν": {
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"παιδεύοιτε": {
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"παιδεύοιεν": {
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσαιμι": {
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσαις/παιδεύσειας": {
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσαι/παιδεύσειε(ν)": {
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}},
+			{"παιδεύσαιμεν": {
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσαιτε": {
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}},
+			{"παιδεύσαιεν/παιδεύσειαν": {
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
 			}}
+
 		]
 
 	}
