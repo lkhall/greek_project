@@ -59,6 +59,35 @@
 						}
 					}
 				}
+
+
+			}
+			function changeorangelabel(case_wrong, case_correct, div_id_label) {
+				let using_orange_label = false;
+				console.log(`case wrong: ${case_wrong}`);
+						//alert(`Incorrect, try again`);
+						if (!case_correct) {
+							using_orange_label = true;
+							let case_div = document.getElementById(div_id_label);
+							const labelElement = case_div.querySelector('label');
+							labelElement.style.color = "orange";
+							const checkingifexists = document.getElementById('myNewDiv');
+							if (!checkingifexists){
+								const newDiv = document.createElement("div");
+								newDiv.textContent = "Missing one of more forms.";
+	    					newDiv.setAttribute("id", "myNewDiv");
+	    					newDiv.style.color = "orange";
+	    					const parentElement = document.getElementById("div_id_verb_number"); // Get the parent element
+	        			parentElement.appendChild(newDiv);
+							}
+						}
+						else {
+							using_orange_label = false;
+							let case_div = document.getElementById(div_id_label);
+							const labelElement = case_div.querySelector('label');
+							labelElement.style.color = "black";
+						}
+					return using_orange_label;
 			}
 			document.addEventListener('DOMContentLoaded', function() {
 				//document.getElementById("id_verb_tense_submit_0").disabled = true;
@@ -71,6 +100,39 @@
 				{% for mood_unused in mood_not_used %}
 					document.getElementById("{{ mood_unused }}").disabled = true;
 				{% endfor %}
+
+				{% if tense_used|length == 1 %}
+				{% for tu in tense_used %}
+					document.getElementById("{{ tu }}").checked = true;
+				{% endfor %}
+				{% endif %}
+
+				{% if voice_used|length == 1 %}
+				{% for vu in voice_used %}
+					document.getElementById("{{ vu }}").checked = true;
+				{% endfor %}
+				{% endif %}
+
+				{% if mood_used|length == 1 %}
+				{% for mu in mood_used %}
+					document.getElementById("{{ mu }}").checked = true;
+				{% endfor %}
+				{% endif %}
+
+				{% for verbb in verbs_used %}
+					console.log("{{ unitt }}");
+					document.querySelector('[value="{{ verbb }}"]').selected = true;
+				{% endfor %}
+				{% for tensee in tenses_used %}
+					document.querySelector('[value="{{ tensee }}"]').selected = true;
+				{% endfor %}
+				{% for voicee in voices_used %}
+					document.querySelector('[value="{{ voicee }}"]').selected = true;
+				{% endfor %}
+				{% for moodd in moods_used %}
+					document.querySelector('[value="{{ moodd }}"]').selected = true;
+				{% endfor %}
+
 				document.querySelector('#my_django_form').onsubmit = function() {
 					//alert(`at the start`);
 					console.log("hello");
@@ -181,8 +243,19 @@
 						//console.log("HI");
 					}
 					else {
-						//console.log("p");
-						//alert(`Incorrect, try again`);
+
+						let tense_orange = changeorangelabel(tense_wrong, tense_correct, 'div_id_verb_tense_submit');
+						let voice_orange = changeorangelabel(voice_wrong, voice_correct, 'div_id_verb_voice_submit');
+						let number_orange = changeorangelabel(number_wrong, number_correct, 'div_id_verb_number');
+						let mood_orange = changeorangelabel(mood_wrong, mood_correct, 'div_id_verb_mood_submit');
+						let person_orange = changeorangelabel(person_wrong, person_correct, 'div_id_verb_person');
+
+						if (!tense_orange && !voice_orange && !number_orange && !mood_orange && !person_orange) {
+							const elementToRemove = document.getElementById('myNewDiv');
+							if (elementToRemove) {
+ 							 elementToRemove.remove();
+							}
+						}
 						changeLabelColors(number_wrong,number_cross_info);
 						changeLabelColors(tense_wrong,tense_cross_info);
 						changeLabelColors(voice_wrong,voice_cross_info);
@@ -195,6 +268,7 @@
 		</script>
 
 <h1>Verbs</h1>
+Select verbs and forms to be quizzed on:
 <form id="my_django_form_3" action="{% url 'first_app:verbs' %}" method="post">
 			{% csrf_token %}
 			{{ form|crispy }}
@@ -202,6 +276,7 @@
 			<button type="submit" name="submit_form" value="submitting_type_selection">Submit</button>
 </form>
 {{ errormessage }}
+<br>
 <h1 style="font-family: 'Arial Unicode MS', sans-serif;">Verb form: {{ verb_form }}</h1>
 		<form id="my_django_form">
 			{{ verb_form_submit|crispy }}

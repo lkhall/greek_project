@@ -1,0 +1,2157 @@
+{
+	"participles": {
+		"παιδεύω": {
+			"viable_combos": [
+				{"present act": {
+				"tense": "present",
+				"voice": "act"
+				}},
+				{"future act": {
+				"tense": "future",
+				"voice": "act"
+				}},
+				{"aorist act": {
+				"tense": "aorist",
+				"voice": "act"
+				}},
+				{"perfect act": {
+				"tense": "perfect",
+				"voice": "act"
+				}},
+				{"present mid": {
+				"tense": "present",
+				"voice": "mid"
+				}},
+				{"present pass": {
+				"tense": "present",
+				"voice": "pass"
+				}},
+				{"future mid": {
+				"tense": "future",
+				"voice": "mid"
+				}},
+				{"future pass": {
+				"tense": "future",
+				"voice": "pass"
+				}},
+				{"aorist mid": {
+				"tense": "aorist",
+				"voice": "mid"
+				}},
+				{"aorist pass": {
+				"tense": "aorist",
+				"voice": "pass"
+				}}
+			],
+			"forms": [
+				{"παιδεύων": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδεύοντος": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύοντι": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύοντα": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύοντι": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευόντων": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύουσι(ν)": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύοντας": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευουσῶν": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύουσα": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευούσης": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευούσῃ": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύουσαν": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύουσαι": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευούσαις": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευούσας": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεῦον": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσων": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδεύσοντος": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσοντι": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσοντα": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσοντι": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσόντων": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύσουσι(ν)": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσοντας": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδεύσουσα": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσούσης": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσούσῃ": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύσουσαν": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύσουσαι": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσούσαις": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσούσας": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεῦσον": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσουσῶν": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύσας": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδεύσαντος": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσαντι": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσοντα": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσαντες": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσάντων": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσασι(ν)": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδεύσαντας": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσασῶν": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύσασα": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσάσης": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσάσῃς": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύσασαν": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεύσασαι": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσάσαις": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσάσας": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδεῦσαν": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευκώς": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"πεπαιδευκότος": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευκότι": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευκότα": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευκότες": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"πεπαιδευκότων": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευκόσι(ν)": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευκότας": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"πεπαιδευκυιῶν": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκυῖα": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκυίας": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκθίᾳ": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκυῖαν": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκυῖαι": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκυίαις": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκυίας": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευκός": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευόμενος": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευομένου": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευομένῳ": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευόμενον": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευόμενε": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευόμενοι": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευομένων": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευομένοις": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευομένους": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευομένη": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευομένης": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευομένῃ": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευομένην": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευόμεναι": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευομέναις": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευομένας": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευόμενα": [{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσόμενος": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσομένου": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσομένῳ": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσόμενον": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσόμενε": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσόμενοι": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσομένων": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσομένοις": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσομένους": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσομένη": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσομένης": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσομένῃ": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσομένην": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσόμεναι": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσομέναις": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσομένας": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσόμενα": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθησόμενος": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευθησομένου": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθησομένῳ": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθησόμενον": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθησόμενε": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευθησόμενοι": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευθησομένων": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθησομένοις": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθησομένους": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευθησομένη": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθησομένης": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθησομένῃ": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθησομένην": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθησόμεναι": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθησομέναις": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθησομένας": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθησόμενα": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσάμενος": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσαμένου": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσαμένῳ": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσάμενον": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσάμενε": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσάμενοι": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσαμένων": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσαμένοις": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευσαμένους": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευσαμένη": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσαμένης": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσαμένῃ": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσαμένην": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσάμεναι": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσαμέναις": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσαμένας": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευσάμενα": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθείς": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευθέντος": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθέντι": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθέντα": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθέντες": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευθέντων": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθεῖσι(ν)": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"παιδευθέντας": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"παιδευθεισῶν": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθεῖσα": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθείσης": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθείσῃ": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθεῖσαν": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθεῖσαι": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθείσαις": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθείσας": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"παιδευθέν": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]}
+			]
+		}
+	}
+}

@@ -23,7 +23,7 @@
 				"voice": "act"
 			}},
 			{"perfect indic act": {
-				"tense": "person",
+				"tense": "perfect",
 				"mood": "indic",
 				"voice": "act"
 			}},
@@ -51,432 +51,5751 @@
 				"tense": "aorist",
 				"mood": "opt",
 				"voice": "act"
+			}},
+			{"perfect infin act": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"present infin act": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"aorist infin act": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"present indic pass": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"imperfect indic pass": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"present subj pass": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"present opt pass": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"present infin pass": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"aorist indic pass": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"aorist subj pass": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"aorist opt pass": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"aorist infin pass": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"future indic pass": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect indic pass": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"pluperfect indic pass": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect infin pass": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"present indic mid": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"imperfect indic mid": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"present subj mid": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"present opt mid": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"present infin mid": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"perfect indic mid": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"perfect infin mid": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"pluperfect indic mid": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"future indic mid": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist indic mid": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist subj mid": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"aorist opt mid": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"aorist infin mid": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"present imper act": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"present imper mid": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"present imper pass": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"aorist imper act": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"aorist imper mid": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"aorist imper pass": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"future opt act": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"future opt mid": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"future opt pass": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"future infin act": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"future infin mid": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future infin pass": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "pass"
 			}}
 		],
 		"forms": [
-			{"παιδεύω": {
+			{"παιδεύω": [{
 				"tense": ["present"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"παιδεύεις": {
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]
+			},
+			{"παιδεύεις": [{
 				"tense": ["present"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"παιδεύει": {
+			}]},
+			{"παιδεύει": [{
 				"tense": ["present"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"παιδεύομεν": {
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]
+			},
+			{"παιδεύομεν": [{
 				"tense": ["present"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"παιδεύετε": {
+			}]},
+			{"παιδεύετε": [{
 				"tense": ["present"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"παιδεύουσι(ν)": {
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύουσι(ν)": [{
 				"tense": ["present"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"ἐπαίδευον": {
+			}]},
+			{"ἐπαίδευον": [{
 				"tense": ["imperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"ἐπαίδευες": {
-				"tense": ["imperfect"],
-				"mood": ["indic"],
-				"voice": ["act"],
-				"person": ["second"],
-				"number": ["singular"]
-			}},
-			{"ἐπαίδευε(ν)": {
-				"tense": ["imperfect"],
-				"mood": ["indic"],
-				"voice": ["act"],
-				"person": ["third"],
-				"number": ["singular"]
-			}},
-			{"ἐπαιδεύομεν": {
-				"tense": ["imperfect"],
-				"mood": ["indic"],
-				"voice": ["act"],
-				"person": ["first"],
-				"number": ["plural"]
-			}},
-			{"ἐπαιδεύετε": {
-				"tense": ["imperfect"],
-				"mood": ["indic"],
-				"voice": ["act"],
-				"person": ["second"],
-				"number": ["plural"]
-			}},
-			{"ἐπαίδευον": {
+			},
+			{
 				"tense": ["imperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσω": {
+			}]
+			},
+			{"ἐπαίδευες": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαίδευε(ν)": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύομεν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδεύετε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσω": [{
 				"tense": ["future"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσεις": {
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]
+			},
+			{"παιδεύσεις": [{
 				"tense": ["future"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσει": {
+			}]},
+			{"παιδεύσει": [{
 				"tense": ["future"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσομεν": {
+			},
+			{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσομεν": [{
 				"tense": ["future"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσετε": {
+			}]},
+			{"παιδεύσετε": [{
 				"tense": ["future"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσουσι(ν)": {
+			}]},
+			{"παιδεύσουσι(ν)": [{
 				"tense": ["future"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"ἐπαίδευσα": {
+			}]},
+			{"ἐπαίδευσα": [{
 				"tense": ["aorist"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"ἐπαιδευσας": {
+			}]},
+			{"ἐπαιδευσας": [{
 				"tense": ["aorist"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"ἐπαίδευσε(ν)": {
+			}]},
+			{"ἐπαίδευσε(ν)": [{
 				"tense": ["aorist"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"ἐπαιδεύσαμεν": {
+			}]},
+			{"ἐπαιδεύσαμεν": [{
 				"tense": ["aorist"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"ἐπαιδεύσατε": {
+			}]},
+			{"ἐπαιδεύσατε": [{
 				"tense": ["aorist"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"ἐπαίδευσαν": {
+			}]},
+			{"ἐπαίδευσαν": [{
 				"tense": ["aorist"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"πεπαίδευκα": {
+			}]},
+			{"πεπαίδευκα": [{
 				"tense": ["perfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"πεπαίδευκας": {
+			}]},
+			{"πεπαίδευκας": [{
 				"tense": ["perfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"πεπαίδευκε(ν)": {
+			}]},
+			{"πεπαίδευκε(ν)": [{
 				"tense": ["perfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"πεπαιδεύκαμεν": {
+			}]},
+			{"πεπαιδεύκαμεν": [{
 				"tense": ["perfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"πεπαιδεύκατε": {
+			}]},
+			{"πεπαιδεύκατε": [{
 				"tense": ["perfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"πεπαιδεύκασι(ν)": {
+			}]},
+			{"πεπαιδεύκασι(ν)": [{
 				"tense": ["perfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"ἐπεπαιδεύκη": {
+			}]},
+			{"ἐπεπαιδεύκη": [{
 				"tense": ["pluperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"ἐπεπαιδεύκης": {
+			}]},
+			{"ἐπεπαιδεύκης": [{
 				"tense": ["pluperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"ἐπεπαιδεύκει(ν)": {
+			}]},
+			{"ἐπεπαιδεύκει(ν)": [{
 				"tense": ["pluperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"ἐπεπαιδεὐκεμεν": {
+			}]},
+			{"ἐπεπαιδεὐκεμεν": [{
 				"tense": ["pluperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"ἐπεπαιδεύκετε": {
+			}]},
+			{"ἐπεπαιδεύκετε": [{
 				"tense": ["pluperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"ἐπεπαιδεύκεσαν": {
+			}]},
+			{"ἐπεπαιδεύκεσαν": [{
 				"tense": ["pluperfect"],
 				"mood": ["indic"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"παιδεύω": {
+			}]},
+			{"παιδεύῃς": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύῃ": [{
 				"tense": ["present"],
 				"mood": ["subj"],
 				"voice": ["act"],
 				"person": ["third"],
-				"number": ["plural"]
-			}},
-			{"παιδεύῃς": {
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
 				"tense": ["present"],
 				"mood": ["subj"],
-				"voice": ["act"],
-				"person": ["third"],
-				"number": ["plural"]
-			}},
-			{"παιδεύῃ": {
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
 				"tense": ["present"],
 				"mood": ["subj"],
-				"voice": ["act"],
-				"person": ["third"],
-				"number": ["plural"]
-			}},
-			{"παιδεύωμεν": {
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]
+			},
+			{"παιδεύωμεν": [{
 				"tense": ["present"],
-				"mood": ["subj"],
-				"voice": ["act"],
-				"person": ["third"],
-				"number": ["plural"]
-			}},
-			{"παιδεύητε": {
-				"tense": ["present"],
-				"mood": ["subj"],
-				"voice": ["act"],
-				"person": ["third"],
-				"number": ["plural"]
-			}},
-			{"παιδεύωσι(ν)": {
-				"tense": ["present"],
-				"mood": ["subj"],
-				"voice": ["act"],
-				"person": ["third"],
-				"number": ["plural"]
-			}},
-			{"παιδεύσω": {
-				"tense": ["aorist"],
 				"mood": ["subj"],
 				"voice": ["act"],
 				"person": ["first"],
-				"number": ["singular"]
-			}},
-			{"παιδεύσῃς": {
+				"number": ["plural"]
+			}]},
+			{"παιδεύητε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύωσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσῃς": [{
 				"tense": ["aorist"],
 				"mood": ["subj"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσῃ": {
+			}]},
+			{"παιδεύσῃ": [{
 				"tense": ["aorist"],
 				"mood": ["subj"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσωμεν": {
+			},
+			{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσωμεν": [{
 				"tense": ["aorist"],
 				"mood": ["subj"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσητε": {
+			}]},
+			{"παιδεύσητε": [{
 				"tense": ["aorist"],
 				"mood": ["subj"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσωσι(ν)": {
+			}]},
+			{"παιδεύσωσι(ν)": [{
 				"tense": ["aorist"],
 				"mood": ["subj"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"παιδεύοιμι": {
+			}]},
+			{"παιδεύοιμι": [{
 				"tense": ["present"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"παιδεύοις": {
+			}]},
+			{"παιδεύοις": [{
 				"tense": ["present"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"παιδεύοι": {
+			}]},
+			{"παιδεύοι": [{
 				"tense": ["present"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"παιδεύοιμεν": {
+			}]},
+			{"παιδεύοιμεν": [{
 				"tense": ["present"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"παιδεύοιτε": {
+			}]},
+			{"παιδεύοιτε": [{
 				"tense": ["present"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"παιδεύοιεν": {
+			}]},
+			{"παιδεύοιεν": [{
 				"tense": ["present"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσαιμι": {
+			}]},
+			{"παιδεύσαιμι": [{
 				"tense": ["aorist"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσαις/παιδεύσειας": {
+			}]},
+			{"παιδεύσαις/παιδεύσειας": [{
 				"tense": ["aorist"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσαι/παιδεύσειε(ν)": {
+			}]},
+			{"παιδεύσαι/παιδεύσειε(ν)": [{
 				"tense": ["aorist"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["singular"]
-			}},
-			{"παιδεύσαιμεν": {
+			}]},
+			{"παιδεύσαιμεν": [{
 				"tense": ["aorist"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["first"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσαιτε": {
+			}]},
+			{"παιδεύσαιτε": [{
 				"tense": ["aorist"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["second"],
 				"number": ["plural"]
-			}},
-			{"παιδεύσαιεν/παιδεύσειαν": {
+			}]},
+			{"παιδεύσαιεν/παιδεύσειαν": [{
 				"tense": ["aorist"],
 				"mood": ["opt"],
 				"voice": ["act"],
 				"person": ["third"],
 				"number": ["plural"]
-			}}
+			}]},
+			{"πεπαιδευκέναι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"παιδεύειν": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"παιδεῦσαι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"παιδεύομαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύεται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευόμεθα": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύεσθε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύονται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδευόμην": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύου": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύετο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδευόμεθα": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδεύεσθε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδεύοντο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύωμαι": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύηται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευώμεθα": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύησθε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύωνται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδευοίμην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύοιο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύοιτο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευοίμεθα": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύοισθε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύοιντο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύεσται": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἐπαιδεύθην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύθης": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύθη": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύθημεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδεύθητε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδεύθησαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθῇς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθῇ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθῆτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθείην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθείης": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθείη": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθεῖμεν/παιδευθείημεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθεῖτε/παιδευθείητε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθεῖεν/παιδευθείησαν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθῆναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"παιδευθήσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθήσει/παιδευθήσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθήσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθησόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθήσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθήσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"πεπαίδευμαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"πεπαίδευσαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"πεπαίδευται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"πεπαιδεύμεθα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"πεπαίδευσθε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"πεπαίδευνται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐπεπαιδεύμην": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐπεπαίδευσο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐπεπαίδευτο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐπεπαιδεύμεθα": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐπεπαίδευσθε": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐπεπαίδευντο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"πεπαιδεῦσθαι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"παιδεύσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευσόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδευσάμην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύσω": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδεύσατο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐπαιδευσάμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδεύσασθε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐπαιδεύσαντο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσωμαι": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσηται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευσώμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσησθε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσωνται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδευσαίμην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσαιο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσαιτο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευσαίμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσαισθε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσαιντο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσασθαι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"παίδευε": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευέτω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευόντων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύου": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευέσθε": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευέστων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παίδευσον": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευσατω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσατε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδευσάντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παίδευσαι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευσάσθω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσασθε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδευσάσθων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύθητι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθήτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύθητε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθέντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσοιμι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσοις": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσοι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσοιμεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσοιτε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσοιεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδευσοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδεύσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευσοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθησοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθήσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθήσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"παιδευθησοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθήσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"παιδευθήσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"παιδεύσειν": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"παιδεύσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"παιδευθήσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]}
+
 
 		]
+	},
+	"λείπω": {
+		"viable_combos": [
+			{"present indic act": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"imperfect indic act": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"future indic act": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"aorist indic act": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"perfect indic act": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"pluperfect indic act": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present subj act": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"aorist subj act": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"present opt act": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"aorist opt act": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"perfect infin act": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"present infin act": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"aorist infin act": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"present indic pass": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"present indic mid": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"imperfect indic pass": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"imperfect indic mid": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"present subj pass": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"present subj mid": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"present opt pass": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"present opt mid": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"present infin pass": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"present infin mid": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"aorist indic pass": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"aorist subj pass": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"aorist opt pass": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"aorist infin pass": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"future indic pass": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect indic pass": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect indic mid": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"pluperfect indic pass": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"pluperfect indic mid": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"perfect infin pass": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"perfect infin mid": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future indic mid": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist indic mid": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist subj mid": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"aorist opt mid": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"aorist infin mid": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"present imper act": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"present imper mid": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"present imper pass": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"aorist imper act": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"aorist imper mid": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"aorist imper pass": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"future opt act": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"future opt mid": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"future opt pass": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"future infin act": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"future infin mid": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future infin pass": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "pass"
+			}}
+		],
+		"forms": [
+			{"λείπω": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείπεις": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείπει": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείπομεν": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείπετε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείπουσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἔλειπον": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἔλειπες": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔλειπε(ν)": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐλείπομεν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐλείπετε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείψω": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείψεις": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείψει": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείψομεν": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείψετε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείψουσι(ν)": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἔλιπον": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἔλιπες": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔλιπε(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ελίπομεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐλίπετε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λέλοιπα": [{
+				"tense": ["person"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λέλοιπας": [{
+				"tense": ["person"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λέλοιπε(ν)": [{
+				"tense": ["person"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λελοίπαμεν": [{
+				"tense": ["person"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λελοίπατε": [{
+				"tense": ["person"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λελοίπασι(ν)": [{
+				"tense": ["person"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐλελοίπη": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐλελοίπης": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐλελοίπει(ν)": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐλελοίπεμεν": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐλελοίπετε": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐλελοίπεσαν": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείπῃς": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείπῃ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείπωμεν": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείπητε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείπωσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λίπω": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λίπῃς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λίπῃ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λίπωμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λίπητε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λίπωσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείποιμι": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείποις": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείποι": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λείποιμεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείποιτε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείποιεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λίποιμι": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λίποις": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λίποι": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λίποιμεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λίποιτε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λίποιεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λελοιπέναι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"λείπειν": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"λιπεῖν": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"λείπομαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείπεται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειπόμεθα": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείπεσθε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείπονται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐλειπόμην": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐλειπου": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐλείπετο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐλειπόμεθα": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐλείπεσθε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐλείποντο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείπωμαι": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείπηται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειπώμεθα": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείπησθε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείπωνται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λειποίμην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείοιο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείποιτο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειποίμεθα": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείποισθε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείποιντο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείπεσθαι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἐλείφθην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐλείφθης": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐλείφθη": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐλείφθημεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐλείφθητε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐλείφθησαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λειφθῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λειφθῇς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λειφθῇ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειφθῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λειφθῆτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λειφθῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λειφθείην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λειφθείης": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λειφθείη": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειφθεῖμεν/λειφθείημεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λειφθείτε/λειφθείητε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λειφθεῖεν/λειφθείησαν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λειφθῆναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"λειφθήσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λειφθήσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λειφθήσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειφθησόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λειφθήσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λειφθήσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λέλειμμαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λέλειψαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λέλειπται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λελείμμεθα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λέλειφθε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λελείμαται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐλελείμμην": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐλέλειψο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐλέλειπτο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐλελείμμεθα": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐλέλειφθε": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐλελείπατο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λελεῖφθαι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"λείψομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείψῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείψεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειψόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείψεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείψονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐλιπόμην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐλίπου": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐλίπετο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐλιπόμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐλίπεσθε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐλίποντο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λίπωμαι": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λίπηται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λιπώμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λίπησθε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λίπωνται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λιποίμην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λίποιο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λίποιτο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λιποίμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λίποισθε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λίποιντο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λιπέσθαι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"λεῖπε": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λειπέτω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειπόντων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείπου": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λειπέσθω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειπέσθων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λίπε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λιπέτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λίπετε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λιπόντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λιποῦ": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λιπέσθω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λίπεσθε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λιπέσθων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείφθητι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λειφθήτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λείφθητε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λειφθέντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείψοιμι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείψοις": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείψοι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λείψοιμεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείψοιτε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείψοιεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λειψοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λείψοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λείψοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειψοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λείχοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λείψοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λειψθησοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"λειψθήσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"λειψθήσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"λειψθησοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"λειψθήσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"λειψθήσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"λείψειν": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"λείψεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"λειφθήσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]}
 
+
+		]
+	},
+	"δίδωμι": {
+		"viable_combos": [
+			{"present indic act": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"imperfect indic act": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present indic pass": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"present indic mid": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"imperfect indic pass": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"imperfect indic mid": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"future indic act": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present subj act": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"present subj pass": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"present subj mid": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"present opt act": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"present opt pass": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"present opt mid": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"present imper act": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"present imper mid": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"present imper pass": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"present infin act": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"present infin pass": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"present infin mid": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"aorist indic act": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"aorist indic mid": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist subj act": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"aorist subj mid": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"aorist opt act": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"aorist opt mid": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"aorist imper act": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"aorist imper mid": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"aorist infin act": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"aorist infin mid": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"perfect indic act": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"pluperfect indic act": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"perfect infin act": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"aorist indic pass": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"aorist subj pass": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"aorist opt pass": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"aorist infin pass": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"future indic pass": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect indic pass": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect indic mid": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"pluperfect indic pass": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"pluperfect indic mid": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"perfect infin pass": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"perfect infin mid": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future indic mid": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist imper pass": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"future opt act": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"future opt mid": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"future opt pass": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"future infin act": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"future infin mid": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future infin pass": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "pass"
+			}}
+		],
+		"forms": [
+			{"δίδωμι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δίδως": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δίδωσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δίδομεν": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δίδοτε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δίδόασι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐδίδουν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐδίδους": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐδίδου": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐδίδομεν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐδίδοτε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐδίδοσαν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δίδομαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δίδοσαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δίδοται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"διδόμεθα": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δίδοσθε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δίδονται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐδιδόμην": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐδίδοσο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐδίδοτο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐδιδόμεθα": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐδίδοσθε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐδίδοντο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δώσω": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δώσεις": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δώσει": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δώσομεν": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δώσετε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δώσουσι(ν)": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"διδῶ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"διδῷς": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"διδῷ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"διδῶμεν": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"διδῶτε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"διδῶσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"διδῶμαι": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"διδῶται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"διδώμεθα": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"διδῶσθε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"διδῶνται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"διδοίην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"διδοίης": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"διδοίη": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"διδοίμεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"διδοίημεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"διδοίτε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"διδοίητε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"διδοίεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"διδοίησαν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"διδοίμην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"διδοῖο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"διδοῖτο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"διδοίμεθα": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"διδοῖσθε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"διδοῖντο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δίδου": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"διδότω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"διδόντων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δίδοσο": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"διδόσθω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"διδόσθων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"διδόναι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"δίδοσθαι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἔδωκα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἔδωκας": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔδωκε(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἔδομεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἔδοτε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔδοσαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐδόμην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἔδου": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔδοτο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐδόμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἔδοσθε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔδοντο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δῷς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δῷ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δῶτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δῶμαι": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δῶται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δώμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δῶσθε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δῶνται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοίην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δοίης": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δοίη": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δοῖμεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοῖτε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοῖεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοίημεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοίητε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοίησαν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοίμην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δοῖο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δοῖτο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δοῖμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοῖσθε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοῖντο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δός": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δότω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δότε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δόντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοῦ": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δόσθω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δόσθε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δόσθων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοῦναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"δόσθαι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"δέδωκα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δέδωκας": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δέδωκε(ν)": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δεδώκαμεν": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δεδώκατε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δεδώκασι(ν)": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐδεδώκη": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐδεδώκης": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐδεδώκει(ν)": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐδεδώκεμεν": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐδεδώκετε": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐδεδώκεσαν": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δεδωκέναι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἐδόθην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐδόθης": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐδόθη": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐδόθημεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐδόθητε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐδόθησαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοθῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δοθῇς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δοθῇ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δοθῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοθῆτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοθῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοθείην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δοθείης": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δοθείη": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δοθεῖμεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοθείημεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοθεῖτε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοθείητε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοθεῖεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοθείησαν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοθῆναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"δοθήσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δοθήσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δοθήσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δοθησόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοθήσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοθήσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δέδομαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δέδοσαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δέδοται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δεδόμεθα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δέδοσθε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δέδονται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐδεδόμην": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐδέδοσο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐδέδοτο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐδεδόμεθα": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐδέδοσθε": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐδέδοντο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δεδόσθαι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"δῶσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δώσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δώσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δωσόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δώσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δώσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δόθηθι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δοθήτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δοθήτε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοθέντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δώσοιμι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δώσοις": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δώσοι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δώσοιμεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δώσοιτε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δώσοιεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δωσοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δώσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δώσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δωσοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δώσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δώσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δοθησοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"δοθήσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"δοθήσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"δοθησοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"δοθήσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"δοθήσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"δώσειν": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"δώσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"δοθήσεσται": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]}
+		]
 	}
 }
 }

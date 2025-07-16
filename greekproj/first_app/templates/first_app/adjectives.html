@@ -57,7 +57,49 @@
 					}
 				}
 			}
+			function changeorangelabel(case_wrong, case_correct, div_id_label) {
+				let using_orange_label = false;
+				console.log(`case wrong: ${case_wrong}`);
+						//alert(`Incorrect, try again`);
+						if (!case_correct) {
+							using_orange_label = true;
+							let case_div = document.getElementById(div_id_label);
+							const labelElement = case_div.querySelector('label');
+							labelElement.style.color = "orange";
+							const checkingifexists = document.getElementById('myNewDiv');
+							if (!checkingifexists){
+								const newDiv = document.createElement("div");
+								newDiv.textContent = "Missing one of more forms.";
+	    					newDiv.setAttribute("id", "myNewDiv");
+	    					newDiv.style.color = "orange";
+	    					const parentElement = document.getElementById("div_id_noun_number"); // Get the parent element
+	        			parentElement.appendChild(newDiv);
+							}
+						}
+						else {
+							using_orange_label = false;
+							let case_div = document.getElementById(div_id_label);
+							const labelElement = case_div.querySelector('label');
+							labelElement.style.color = "black";
+						}
+					return using_orange_label;
+			}
 			document.addEventListener('DOMContentLoaded', function() {
+					{% if adjective_on_unit %}
+						console.log("helloooooo");
+						checkSelection();
+					{% else %}
+						checkSelection2();
+					{% endif %}
+
+					{% for unitt in units_available %}
+						console.log("{{ unitt }}");
+						document.querySelector('[value="{{ unitt }}"]').selected = true;
+					{% endfor %}
+					{% for adjj in adjectives_available %}
+						document.querySelector('[value="{{ adjj }}"]').selected = true;
+					{% endfor %}
+
 				document.querySelector('#my_django_form').onsubmit = function() {
 					//alert(`at the start`);
 					//console.log("hello");
@@ -127,6 +169,16 @@
 					else {
 						//console.log("p");
 						//alert(`Incorrect, try again`);
+						let case_orange = changeorangelabel(case_wrong, case_correct, 'div_id_noun_case');
+						let gender_orange = changeorangelabel(gender_wrong, gender_correct, 'div_id_noun_gender');
+						let number_orange = changeorangelabel(number_wrong, number_correct, 'div_id_noun_number');
+
+						if (!case_orange && !gender_orange && !number_orange) {
+							const elementToRemove = document.getElementById('myNewDiv');
+							if (elementToRemove) {
+ 							 elementToRemove.remove();
+							}
+						}
 						changeLabelColors(number_wrong,number_cross_info);
 						changeLabelColors(gender_wrong,gender_cross_info);
 						changeLabelColors(case_wrong,case_cross_info);
@@ -142,9 +194,13 @@
       				document.getElementById('my_django_form_nouns').style.display = 'none';
       				document.getElementById('my_django_form_2').style.display = 'block';
      			 	// Perform desired actions here
+      				checkbox2.checked = false;
+	    				checkbox.checked = true;
+	    				checkbox2.parentElement.classList.remove("active");
+	    				checkbox.parentElement.classList.add("active");
     			} else {
-    				$("#option1").button('toggle');
-    				$("#option2").button('toggle');
+    				//$("#option1").button('toggle');
+    				//$("#option2").button('toggle');
     				checkbox2.checked = false;
     				checkbox.checked = true;
     				checkbox2.parentElement.classList.remove("active");
@@ -163,9 +219,13 @@
       				document.getElementById('my_django_form_nouns').style.display = 'block';
       				document.getElementById('my_django_form_2').style.display = 'none';
      			 	// Perform desired actions here
+      				checkbox2.checked = true;
+	    				checkbox.checked = false;
+	    				checkbox.parentElement.classList.remove("active");
+	    				checkbox2.parentElement.classList.add("active");
     			} else {
-    				$("#option1").button('toggle');
-    				$("#option2").button('toggle');
+    				//$("#option1").button('toggle');
+    				//$("#option2").button('toggle');
     				checkbox2.checked = true;
     				checkbox.checked = false;
     				checkbox.parentElement.classList.remove("active");
@@ -202,7 +262,7 @@
 			<!--
 			<input type="submit" name="submit_form", value="submitting_units">-->
 		</form>
-
+		<br>
 		<h1 style="font-family: 'Arial Unicode MS', sans-serif;">Adjective form: {{ adj_form }}</h1>
 		<form id="my_django_form">
 			{{ form|crispy }}
