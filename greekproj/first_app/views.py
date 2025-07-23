@@ -203,7 +203,7 @@ def get_random_noun(units_available):
 
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
 	print("HELLLOOOOOO")
-	with open('/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
+	with open('first_app/greek_data_by_unit.json') as f:
 		print(units_available)
 		response = json.load(f)
 		if (units_available == []):
