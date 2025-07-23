@@ -354,10 +354,8 @@ def nouns(request):
 	else:
 		print("noun on unit: ", noun_on_unit)
 		print("hello")
-		global units_available
 		if units_available == []:
 			units_available = ["unit_1"]
-		global nouns_available
 		if nouns_available == []:
 			nouns_available = ["τέχνη"]
 		if on_units == True:
