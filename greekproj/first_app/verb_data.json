@@ -5796,6 +5796,4389 @@
 				"number": []
 			}]}
 		]
+	},
+	"τίθημι": {
+		"viable_combos": [
+			{"present indic act": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"imperfect indic act": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present indic pass": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"present indic mid": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"imperfect indic pass": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"imperfect indic mid": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"present subj act": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"present subj pass": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"present subj mid": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"present opt act": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"present opt pass": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"present opt mid": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"present imper act": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"present imper mid": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"present imper pass": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"present infin act": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"present infin pass": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"present infin mid": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"aorist indic act": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"aorist indic mid": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist subj act": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"aorist subj mid": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"aorist opt act": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"aorist opt mid": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"aorist imper act": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"aorist imper mid": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"aorist infin act": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"aorist infin mid": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future indic act": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"perfect indic act": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"perfect infin act": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"perfect indic pass": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect indic mid": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"perfect infin pass": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"perfect infin mid": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"aorist indic pass": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"aorist subj pass": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"aorist opt pass": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"aorist infin pass": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"future indic pass": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"future indic mid": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"future opt act": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"future opt mid": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"future opt pass": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"future infin act": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"future infin mid": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future infin pass": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"aorist imper pass": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"pluperfect indic act": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"pluperfect indic pass": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"pluperfect indic mid": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}}
+		],
+		"forms": [
+			{"τίθημι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τίθης": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τίθησι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τίθεμεν": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τίθετε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τιθέασι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐτίθην": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐτίθεις": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐτίθει": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐτίθεμεν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐτίθετε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐτίθεσαν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τίθεμαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τίθεσαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τίθεται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τίθέμεθα": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τίθεσθε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τίθενται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐτιθέμην": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐτίθεσο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐτίθετο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐτιθέμεθα": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐτίθεσθε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐτίθεντο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τιθῶ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τιθῇς": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τιθῇ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τιθῶμεν": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τιθῆτε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τιθῶσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τιθῶμαι": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τιθῆται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τιθώμεθα": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τιθῆσθε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τιθῶνται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τιθείην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τιθείης": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τιθείη": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τιθεῖμεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τιθεῖτε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τιθεῖεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τιθείμην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τιθεῖο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τιθεῖτο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τιθείμεθα": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τιθεῖσθε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τιθεῖντο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τίθει": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τιθέτω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τιθέντων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τίθεσο": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τιθέσθω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τιθέσθων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τιθέναι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"τίθεσθαι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἔθηκα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἔθηκας": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔθηκε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἔθεμεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἔθετε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔθεσαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐθέμην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἔθου": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔθετο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐθέμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἔθεσθε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔθεντο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θῇς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θῇ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θῆτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θῶμαι": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θῆται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θῶμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θῆσθε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θῶνται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θείην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θείης": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θείη": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θεῖμεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θεῖτε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θεῖεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θείμην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θεῖο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θεῖτο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θείμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θεῖσθε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θεῖντο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θές": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θέτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θέτε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θέντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θοῦ": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θέσθω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θέσθε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θέσθων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θεῖναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"θέσθαι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["mic"],
+				"person": [],
+				"number": []
+			}]},
+			{"θήσω": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θήσεις": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θήσει": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θήσομεν": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θήσετε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θήσουσι(ν)": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τέθηκα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τέθηκας": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τέθηκε(ν)": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τεθήκαμεν": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τεθήκατε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τεθήκασι(ν)": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τεθηκέναι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"τέθειμαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τέθεισαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τέθειται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τεθείμεθα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τέθεισθε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τέθεινται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τεθεῖσθαι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἐτέθην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐτέθης": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐτέθη": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐτέθημεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐτέθητε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐτέθησαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τεθῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τεθῇε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τεθῇ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τεθῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τεθῆτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τεθῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τεθείην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τεθείης": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τεθείη": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τεθεῖμεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τεθεῖτε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τεθεῖεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τεθῆναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"τεθήσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τεθήσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τεθήσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τεθησόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τεθήσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τεθήσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θήσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θήσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θήσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θησόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θήσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θήσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θήσοιμι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θήσοις": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θήσοι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θήσοιμεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θήσοιτε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θήσοιεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θησοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"θήσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"θήσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"θησοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"θήσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"θήσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"τεθησοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"τεθήσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τεθήσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τεθησοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"τεθήσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τεθήσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"θήσειν": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"θήσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"τεθήσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"τέθηθι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"τεθήτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"τέθητε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"τεθέντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐτεθήκη": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐτεθήκης": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐτεθήκει(ν)": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐτεθήκεμεν": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐτεθήκετε": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐτεθήκεσαν": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐτεθείμην": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐτέθεισο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐτέθειτο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐτεθείμεθα": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐτέθεισθε": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐτέθειντο": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]}
+		]
+	},
+	"ἵστημι": {
+		"viable_combos": [
+			{"present indic act": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present indic pass": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"present indic mid": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"present subj act": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"present subj pass": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"present subj mid": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"present opt act": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"present opt pass": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"present opt mid": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"present imper act": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"present imper mid": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"present imper pass": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"present infin act": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"present infin pass": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"present infin mid": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future indic act": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"future indic mid": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"future indic pass": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"future opt act": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"future opt mid": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"future opt pass": {
+				"tense": "future",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"future infin act": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"future infin mid": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"future infin pass": {
+				"tense": "future",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"aorist indic act": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"aorist indic mid": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"aorist indic pass": {
+				"tense": "aorist",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"aorist subj act": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"aorist subj mid": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "mid"
+			}},
+			{"aorist subj pass": {
+				"tense": "aorist",
+				"mood": "subj",
+				"voice": "pass"
+			}},
+			{"aorist opt act": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"aorist opt mid": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "mid"
+			}},
+			{"aorist opt pass": {
+				"tense": "aorist",
+				"mood": "opt",
+				"voice": "pass"
+			}},
+			{"aorist imper act": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"aorist imper mid": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "mid"
+			}},
+			{"aorist imper pass": {
+				"tense": "aorist",
+				"mood": "imper",
+				"voice": "pass"
+			}},
+			{"aorist infin act": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"aorist infin mid": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "mid"
+			}},
+			{"aorist infin pass": {
+				"tense": "aorist",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"perfect indic act": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"perfect infin act": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"imperfect indic act": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"imperfect indic pass": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"imperfect indic mid": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"pluperfect indic act": {
+				"tense": "pluperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"perfect indic pass": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "pass"
+			}},
+			{"perfect indic mid": {
+				"tense": "perfect",
+				"mood": "indic",
+				"voice": "mid"
+			}},
+			{"perfect infin pass": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "pass"
+			}},
+			{"perfect infin mid": {
+				"tense": "perfect",
+				"mood": "infin",
+				"voice": "mid"
+			}}
+		],
+		"forms": [
+			{"ἵστημι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἵστης": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἵστησι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἵσταμεν": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἵστατε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἱστᾶσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἵστην": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἵστη": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἵστασαν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἵσταμαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἵστασαι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἵσταται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἱστάμεθα": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἵστασθε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἵστανται": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἱστάμην": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἵστασο": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἵστατο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἵσταντο": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἱστῶ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἱστῇς": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἱστῇ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἱστῶμεν": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἱστῆτε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἱστῶσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἱστῶμαι": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἱστῆται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἱστώμεθα": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἱστῆσθε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἱστῶνται": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἱσταίην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἱσταίης": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἱσταίη": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἱσταῖμεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἱσταῖτε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἱσταῖεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἱσταίμην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἱσταῖο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἱσταῖτο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἱσταίμεθα": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἱσταῖσθε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἱσταῖντο": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἱστάτω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἱστάντων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἱστάσθω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἱστάσθων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἵστάναι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἵστασθαι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"στήσω": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσεις": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσει": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσομεν": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσετε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσουσι(ν)": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στήσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στησόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"σταθήσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"σταθήσει": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"σταθήσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"σταθήσεται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"σταθησόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"σταθήσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"σταθήσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στήσοιμι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσοις": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσοι": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στήσοιμεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσοιτε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσοιεν": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στησοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στησοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"σταθησοίμην": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"σταθήσοιο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"σταθήσοιτο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"σταθησοίμεθα": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"σταθήσοισθε": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"σταθήσοιντο": [{
+				"tense": ["future"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στήσειν": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"στήσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"σταθήσεσθαι": [{
+				"tense": ["future"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἔστησα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἔστησας": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔστησε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐστήσαμεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐστήσατε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔστησαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἔστην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἔστης": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔστη": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἔστημεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἔστητε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔστησαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐστησάμην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"έστήσω": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐστήσατο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐστησάμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐστήσασθε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐστήσαντο": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἐστάθην": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἐστάθης": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐστάθη": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐστάθημεν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐστάθητε": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἐστάθησαν": [{
+				"tense": ["aorist"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στήσω": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσῃς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσωμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσητε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσωσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στῇς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στῇ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στῆτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στήσωμαι": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσηται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στησῶμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσησθε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσωνται": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"σταθῶ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"σταθῇς": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"σταθῇ": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"σταθῶμεν": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"σταθῆτε": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"σταθῶσι(ν)": [{
+				"tense": ["aorist"],
+				"mood": ["subj"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στήσαιμι": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσαις": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσαι": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στήσαιμεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσαιτε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσαιεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στησαίμην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"στήσαιο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσαιτο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στησαίμεθα": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"στήσαισθε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στήσαιντο": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"σταθείην": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"σταθείης": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"σταθείη": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"σταθεῖμεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"σταθεῖτε": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"σταθεῖεν": [{
+				"tense": ["aorist"],
+				"mood": ["opt"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στῆσον": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήσατω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στήσατε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"στησάντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στῆθι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"στήτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στάντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στῆσαι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"στήσασθε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στησάσθω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στησάσθων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στάθητι": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"σταθήτω": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"στάθητε": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"σταθέντων": [{
+				"tense": ["aorist"],
+				"mood": ["imper"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"στῆναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"στήσασθαι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			}]},
+			{"σταθῆναι": [{
+				"tense": ["aorist"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἕστηκα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἕστηκας": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἕστηκε(ν)": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἕσταμεν": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἕστατε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἑστᾶσι(ν)": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"εἱστήκη": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"εἱστήκης": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"εἱστήκει(ν)": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἕστασαν": [{
+				"tense": ["pluperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἑστάναι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἕσταμαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἕστασαι": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἕσταται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["singular"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἑσταμεθα": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["first"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἕστασθε": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἕστανται": [{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["mid"],
+				"person": ["third"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["indic"],
+				"voice": ["pass"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἑστασθαι": [{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["mid"],
+				"person": [],
+				"number": []
+			},
+			{
+				"tense": ["perfect"],
+				"mood": ["infin"],
+				"voice": ["pass"],
+				"person": [],
+				"number": []
+			}]}
+		]
+	},
+	"εἰμί": {
+		"viable_combos": [
+			{"present indic act": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"imperfect indic act": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present subj act": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"present opt act": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"present imper act": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"present infin act": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "act"
+			}},
+			{"future indic act": {
+				"tense": "future",
+				"mood": "indic",
+				"voice": "act"
+			}}
+		],
+		"forms": [
+			{"εἰμί": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"εἶ": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἐστί(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐσμέν": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἐστέ": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"εἰσί(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἦ(ν)": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἦσθα": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἦν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἦμεν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἦτε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἦσαν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ὦ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ᾖς": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ᾖ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ὦμεν": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἦτε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ὦσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"εἴην": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"εἴης": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"εἴη": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"εἶμεν/εἴημεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"εἶτε/εἴητε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"εἶεν/εἴησαν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἴσθι": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔστω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἔστε": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔστων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"εἶναι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]},
+			{"ἔσομαι": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἔσῃ": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔσει": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἔσται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἐσόμεθα": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἔσεσθε": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἔσονται": [{
+				"tense": ["future"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]}
+		]
+	},
+	"εἶμι": {
+		"viable_combos": [
+			{"present indic act": {
+				"tense": "present",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"imperfect indic act": {
+				"tense": "imperfect",
+				"mood": "indic",
+				"voice": "act"
+			}},
+			{"present subj act": {
+				"tense": "present",
+				"mood": "subj",
+				"voice": "act"
+			}},
+			{"present opt act": {
+				"tense": "present",
+				"mood": "opt",
+				"voice": "act"
+			}},
+			{"present imper act": {
+				"tense": "present",
+				"mood": "imper",
+				"voice": "act"
+			}},
+			{"present infin act": {
+				"tense": "present",
+				"mood": "infin",
+				"voice": "act"
+			}}
+		],
+		"forms": [
+			{"εἶμι": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"εἶ": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"εἶσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἴμεν": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἴτε": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			},
+			{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἴασι(ν)": [{
+				"tense": ["present"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ᾖα/ᾔειν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ᾔεισθα/ᾔειν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ᾔει": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ᾖμεν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ᾖτε": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ᾖσαν/ᾔεσαν": [{
+				"tense": ["imperfect"],
+				"mood": ["indic"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἴω": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἴῃς": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἴῃ": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἴωμεν": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἴητε": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἴωσι(ν)": [{
+				"tense": ["present"],
+				"mood": ["subj"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἴοιμι": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["singular"]
+			}]},
+			{"ἴοις": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἴοι": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἴοιμεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["first"],
+				"number": ["plural"]
+			}]},
+			{"ἴοιτε": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["plural"]
+			}]},
+			{"ἴοιεν": [{
+				"tense": ["present"],
+				"mood": ["opt"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἴθι": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["second"],
+				"number": ["singular"]
+			}]},
+			{"ἴτω": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["singular"]
+			}]},
+			{"ἰόντων": [{
+				"tense": ["present"],
+				"mood": ["imper"],
+				"voice": ["act"],
+				"person": ["third"],
+				"number": ["plural"]
+			}]},
+			{"ἰέναι": [{
+				"tense": ["present"],
+				"mood": ["infin"],
+				"voice": ["act"],
+				"person": [],
+				"number": []
+			}]}
+		]
 	}
 }
 }

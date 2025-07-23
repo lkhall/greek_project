@@ -18,7 +18,7 @@
 				//alert(`hello2`);
 				let arrayseq = is_in_array1 && is_in_array2;
 				//alert(`hello2`);
-				return [arrayseq,arrinarr1[1]];
+				return [arrayseq,arrinarr1[1],arrinarr2[1]];
 			}
 			// returns whether all the elements in arr2 are in arr1 in 0th element, and what elements are in arr2 that are not in arr1 in 1st element
 			function arrinarr(arr1, arr2) {
@@ -53,28 +53,44 @@
 						if (arr_wrong[i] === cross_info[j][0]){
 							//alert(`changing color`);
 							document.querySelector(`label[for=${cross_info[j][1]}]`).style.color = "red";
+							document.getElementById(cross_info[j][1]).checked = false;
 						}
 					}
 				}
 			}
-			function changeorangelabel(case_wrong, case_correct, div_id_label) {
+			function changeorangelabel(case_wrong, case_correct, div_id_label,case_wrong2) {
 				let using_orange_label = false;
 				console.log(`case wrong: ${case_wrong}`);
 						//alert(`Incorrect, try again`);
 						if (!case_correct) {
-							using_orange_label = true;
-							let case_div = document.getElementById(div_id_label);
-							const labelElement = case_div.querySelector('label');
-							labelElement.style.color = "orange";
-							const checkingifexists = document.getElementById('myNewDiv');
-							if (!checkingifexists){
-								const newDiv = document.createElement("div");
-								newDiv.textContent = "Missing one of more forms.";
-	    					newDiv.setAttribute("id", "myNewDiv");
-	    					newDiv.style.color = "orange";
-	    					const parentElement = document.getElementById("div_id_noun_number"); // Get the parent element
-	        			parentElement.appendChild(newDiv);
+							if (case_wrong2.length != 0) {
+								using_orange_label = true;
+								let case_div = document.getElementById(div_id_label);
+								const labelElement = case_div.querySelector('label');
+								labelElement.style.color = "orange";
+								const checkingifexists = document.getElementById('myNewDiv');
+								if (!checkingifexists){
+									const newDiv = document.createElement("div");
+									newDiv.textContent = "Missing one of more forms.";
+		    					newDiv.setAttribute("id", "myNewDiv");
+		    					newDiv.style.color = "orange";
+		    					const parentElement = document.getElementById("div_id_noun_number"); // Get the parent element
+		        			parentElement.appendChild(newDiv);
 							}
+							}
+							// using_orange_label = true;
+							// let case_div = document.getElementById(div_id_label);
+							// const labelElement = case_div.querySelector('label');
+							// labelElement.style.color = "orange";
+							// const checkingifexists = document.getElementById('myNewDiv');
+							// if (!checkingifexists){
+							// 	const newDiv = document.createElement("div");
+							// 	newDiv.textContent = "Missing one of more forms.";
+	    				// 	newDiv.setAttribute("id", "myNewDiv");
+	    				// 	newDiv.style.color = "orange";
+	    				// 	const parentElement = document.getElementById("div_id_noun_number"); // Get the parent element
+	        		// 	parentElement.appendChild(newDiv);
+							// }
 						}
 						else {
 							using_orange_label = false;
@@ -157,6 +173,10 @@
 					let number_wrong = number_correct_arr[1];
 					let gender_wrong = gender_correct_arr[1];
 					let case_wrong = case_correct_arr[1];
+
+					let number_wrong2 = number_correct_arr[2];
+					let gender_wrong2 = gender_correct_arr[2];
+					let case_wrong2 = case_correct_arr[2];
 					let number_cross_info = [["singular","id_noun_number_0"],["plural","id_noun_number_1"]];
 					let gender_cross_info = [["masc","id_noun_gender_0"],["fem","id_noun_gender_1"],["neut","id_noun_gender_2"]];
 					let case_cross_info = [["nom","id_noun_case_0"],["gen","id_noun_case_1"],["dat","id_noun_case_2"],["acc","id_noun_case_3"],["voc","id_noun_case_4"]];
@@ -169,9 +189,9 @@
 					else {
 						//console.log("p");
 						//alert(`Incorrect, try again`);
-						let case_orange = changeorangelabel(case_wrong, case_correct, 'div_id_noun_case');
-						let gender_orange = changeorangelabel(gender_wrong, gender_correct, 'div_id_noun_gender');
-						let number_orange = changeorangelabel(number_wrong, number_correct, 'div_id_noun_number');
+						let case_orange = changeorangelabel(case_wrong, case_correct, 'div_id_noun_case',case_wrong2);
+						let gender_orange = changeorangelabel(gender_wrong, gender_correct, 'div_id_noun_gender',gender_wrong2);
+						let number_orange = changeorangelabel(number_wrong, number_correct, 'div_id_noun_number',number_wrong2);
 
 						if (!case_orange && !gender_orange && !number_orange) {
 							const elementToRemove = document.getElementById('myNewDiv');
@@ -237,7 +257,7 @@
 				}
     			}
 		</script>
-		<h2>Adjectives</h2>
+		<h1>Adjectives</h1>
 		Select by:
 		<div class="btn-group btn-group-toggle" data-toggle="buttons">
   <label class="btn btn-secondary active">

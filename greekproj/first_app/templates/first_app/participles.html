@@ -21,7 +21,7 @@
 				//alert(`hello2`);
 				let arrayseq = is_in_array1 && is_in_array2;
 				//alert(`hello2`);
-				return [arrayseq,arrinarr1[1]];
+				return [arrayseq,arrinarr1[1],arrinarr2[1]];
 			}
 			// returns whether all the elements in arr2 are in arr1 in 0th element, and what elements are in arr2 that are not in arr1 in 1st element
 			function arrinarr(arr1, arr2) {
@@ -56,29 +56,45 @@
 						if (arr_wrong[i] === cross_info[j][0]){
 							//alert(`changing color`);
 							document.querySelector(`label[for=${cross_info[j][1]}]`).style.color = "red";
+							document.getElementById(cross_info[j][1]).checked = false;
 						}
 					}
 				}
 
 
 			}
-			function changeorangelabel(case_wrong, case_correct, div_id_label) {
+			function changeorangelabel(case_wrong, case_correct, div_id_label,case_wrong2) {
 				let using_orange_label = false;
 				console.log(`case wrong: ${case_wrong}`);
 						if (!case_correct) {
-							using_orange_label = true;
-							let case_div = document.getElementById(div_id_label);
-							const labelElement = case_div.querySelector('label');
-							labelElement.style.color = "orange";
-							const checkingifexists = document.getElementById('myNewDiv');
-							if (!checkingifexists){
-								const newDiv = document.createElement("div");
-								newDiv.textContent = "Missing one of more forms.";
-	    					newDiv.setAttribute("id", "myNewDiv");
-	    					newDiv.style.color = "orange";
-	    					const parentElement = document.getElementById("div_id_participle_number_submit"); // Get the parent element
-	        			parentElement.appendChild(newDiv);
+							if (case_wrong2.length != 0) {
+								using_orange_label = true;
+								let case_div = document.getElementById(div_id_label);
+								const labelElement = case_div.querySelector('label');
+								labelElement.style.color = "orange";
+								const checkingifexists = document.getElementById('myNewDiv');
+								if (!checkingifexists){
+									const newDiv = document.createElement("div");
+									newDiv.textContent = "Missing one of more forms.";
+		    					newDiv.setAttribute("id", "myNewDiv");
+		    					newDiv.style.color = "orange";
+		    					const parentElement = document.getElementById("div_id_participle_number_submit"); // Get the parent element
+		        				parentElement.appendChild(newDiv);
+								}
 							}
+						// 	using_orange_label = true;
+						// 	let case_div = document.getElementById(div_id_label);
+						// 	const labelElement = case_div.querySelector('label');
+						// 	labelElement.style.color = "orange";
+						// 	const checkingifexists = document.getElementById('myNewDiv');
+						// 	if (!checkingifexists){
+						// 		const newDiv = document.createElement("div");
+						// 		newDiv.textContent = "Missing one of more forms.";
+	    				// 	newDiv.setAttribute("id", "myNewDiv");
+	    				// 	newDiv.style.color = "orange";
+	    				// 	const parentElement = document.getElementById("div_id_participle_number_submit"); // Get the parent element
+	        			// parentElement.appendChild(newDiv);
+						// 	}
 						}
 						else {
 							using_orange_label = false;
@@ -213,6 +229,12 @@
 					let case_wrong = case_correct_arr[1];
 					let number_wrong = number_correct_arr[1];
 
+					let tense_wrong2 = tense_correct_arr[2];
+					let voice_wrong2 = voice_correct_arr[2];
+					let gender_wrong2 = gender_correct_arr[2];
+					let case_wrong2 = case_correct_arr[2];
+					let number_wrong2 = number_correct_arr[2];
+
 					let number_cross_info = [["singular","id_participle_number_submit_0"],["plural","id_participle_number_submit_1"]];
 					let voice_cross_info = [["act","id_participle_voice_submit_0"],["mid","id_participle_voice_submit_1"],["pass","id_participle_voice_submit_2"]];
 					let gender_cross_info = [["masc","id_participle_gender_submit_0"],["fem","id_participle_gender_submit_1"],["neut","id_participle_gender_submit_2"]];
@@ -226,11 +248,11 @@
 					}
 					else {
 
-						let tense_orange = changeorangelabel(tense_wrong, tense_correct, 'div_id_participle_tense_submit');
-						let voice_orange = changeorangelabel(voice_wrong, voice_correct, 'div_id_participle_voice_submit');
-						let number_orange = changeorangelabel(number_wrong, number_correct, 'div_id_participle_number_submit');
-						let gender_orange = changeorangelabel(gender_wrong, gender_correct, 'div_id_participle_gender_submit');
-						let case_orange = changeorangelabel(case_wrong, case_correct, 'div_id_participle_case_submit');
+						let tense_orange = changeorangelabel(tense_wrong, tense_correct, 'div_id_participle_tense_submit', tense_wrong2);
+						let voice_orange = changeorangelabel(voice_wrong, voice_correct, 'div_id_participle_voice_submit',voice_wrong2);
+						let number_orange = changeorangelabel(number_wrong, number_correct, 'div_id_participle_number_submit',number_wrong2);
+						let gender_orange = changeorangelabel(gender_wrong, gender_correct, 'div_id_participle_gender_submit',gender_wrong2);
+						let case_orange = changeorangelabel(case_wrong, case_correct, 'div_id_participle_case_submit',case_wrong2);
 
 						if (!tense_orange && !voice_orange && !number_orange && !case_orange && !gender_orange) {
 							const elementToRemove = document.getElementById('myNewDiv');

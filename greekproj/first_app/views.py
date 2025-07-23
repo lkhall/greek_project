@@ -91,7 +91,11 @@ verb_person = (
 verb_choices = (
 	("παιδεύω", "παιδεύω"),
 	("λείπω", "λείπω"),
-	("δίδωμι", "δίδωμι")
+	("δίδωμι", "δίδωμι"),
+	("τίθημι","τίθημι"),
+	("ἵστημι","ἵστημι"),
+	("εἰμί","εἰμί"),
+	("εἶμι","εἶμι")
 )
 units_available = []
 nouns_available = []
@@ -349,9 +353,9 @@ def nouns(request):
 		print("hello")
 		#global units_available
 		if units_available == []:
-			units_available = all_units
+			units_available = ["unit_1"]
 		if nouns_available == []:
-			nouns_available = all_nouns
+			nouns_available = ["τέχνη"]
 		if on_units == True:
 			nouns_available = []
 			verb_form, gender, case, number = get_random_noun(units_available)
@@ -416,14 +420,16 @@ def verbs(request):
 					print("combosdontwork: ", total_combosdontwork)
 					# if no combo works
 					if not total_acomboworks:
-						errormessage = "None of the following forms exist: " + ",".join(str(x) for x in combosdontwork) + ". Please resubmit."
+						errormessage = "None of the forms submitted exist. Please resubmit."
+						formsdontwork = ",".join(str(x) for x in combosdontwork)
 						return render(request, "first_app/verbs.html", {
-						"form": VerbForm(), "verb_form_submit": VerbFormSubmit(), "errormessage" : errormessage})
+						"form": VerbForm(), "verb_form_submit": VerbFormSubmit(), "errormessage" : errormessage, "formsdontwork" : formsdontwork})
 					# if some combos work but some donts
 					global verbs_avail
 					verbs_avail = total_comboswork
 					if combosdontwork != []:
-						errormessage = "The following forms don't exist: " + ",".join(str(x) for x in total_combosdontwork)
+						errormessage = "Some of the selected forms do not exist."
+						formsdontwork = ",".join(str(x) for x in total_combosdontwork)
 						verb_form, tense, voice, mood, person, number = generate_random_verb(verbs_avail)
 						return render(request, "first_app/verbs.html", {
 							"form": VerbForm(),
@@ -444,7 +450,8 @@ def verbs(request):
 							"tenses_used":tenses_used,
 							"moods_used":moods_used,
 							"voices_used":voices_used,
-							"verbs_used":selected_verb
+							"verbs_used":selected_verb,
+							"formsdontwork":formsdontwork,
 							})
 					# if all combos work
 					else:
@@ -468,7 +475,8 @@ def verbs(request):
 							"tenses_used":tenses_used,
 							"moods_used":moods_used,
 							"voices_used":voices_used,
-							"verbs_used":selected_verb
+							"verbs_used":selected_verb,
+							"errormessage": "False"
 							})
 
 
@@ -859,10 +867,10 @@ def adjectives(request):
 		print("hello")
 		#global units_available
 		if units_available_adjectives == []:
-			units_available_adjectives = all_adjective_units
+			units_available_adjectives = ["unit_4"]
 		if adjectives_available == []:
 			print("there are no adjectives")
-			adjectives_available = all_adjective_choices
+			adjectives_available = ["ἀγαθός, ἀγαθή, ἀγαθόν"]
 		if on_units_adj == True:
 			adjectives_available = []
 			adj_form, gender, case, number = get_random_adj(units_available_adjectives)

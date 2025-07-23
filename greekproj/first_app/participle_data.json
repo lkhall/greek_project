@@ -41,6 +41,14 @@
 				{"aorist pass": {
 				"tense": "aorist",
 				"voice": "pass"
+				}},
+				{"perfect mid": {
+				"tense": "perfect",
+				"voice": "mid"
+				}},
+				{"perfect pass": {
+				"tense": "perfect",
+				"voice": "pass"
 				}}
 			],
 			"forms": [
@@ -2149,6 +2157,426 @@
 				"voice": ["pass"],
 				"case": ["acc"],
 				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευμένος": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"πεπαιδευμένου": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευμένῳ": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευμένον": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευμένε": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"πεπαιδευμένοι": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"πεπαιδευμένων": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευμένοις": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"πεπαιδευμένους": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"πεπαιδευμένη": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευμένης": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευμένῃ": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευμένην": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευμέναι": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευμέναις": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευμένας": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"πεπαιδευμένα": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
 				"gender": ["neut"]
 				}]}
 			]
