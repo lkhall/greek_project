@@ -97,10 +97,10 @@ verb_choices = (
 	("εἰμί","εἰμί"),
 	("εἶμι","εἶμι")
 )
-units_available = []
-nouns_available = []
+#units_available = []
+#nouns_available = []
 
-on_units = True
+#on_units = True
 
 on_units_adj = True
 units_available_adjectives = []
@@ -141,7 +141,7 @@ participle_tense_choices = (
 	("perfect", "Perfect"),
 )
 
-noun_on_unit = True
+#noun_on_unit = True
 adjective_on_unit = True
 
 class NounForm(forms.Form):
@@ -294,25 +294,34 @@ def nouns(request):
 	# 			})
 	# get random noun form from API
 	print("hello")
+	if units_available not in requests.session:
+		request.session["units_available"] = []
+	if nouns_available not in requests.session:
+		request.session["nouns_available"] = []
+	if on_units not in requests.session:
+		request.session["on_units"] = True
+	if noun_on_unit not in requests.session:
+		request.session["noun_on_unit"] = True
+
 	if request.method == "POST":
 		if 'submit_form' in request.POST:
 			if request.POST['submit_form'] == 'submitting_units':
-				global nouns_available
-				nouns_available = []
-				global noun_on_unit
-				noun_on_unit = True
-				global on_units
-				on_units = True
+				# global nouns_available
+				# nouns_available = []
+				# global noun_on_unit
+				# noun_on_unit = True
+				# global on_units
+				# on_units = True
 				form = unit_form(request.POST)
 				print(form)
 				if form.is_valid():
 					selected = form.cleaned_data['selected_items']
 					print("selected:", selected)
-					global units_available
-					if units_available == []:
-						units_available = all_units
-					units_available = selected
-				verb_form, gender, case, number = get_random_noun(units_available)
+					# global units_available
+					if request.session["units_available"] == []:
+						request.session["units_available"] = all_units
+					requests.session["units_available"] = selected
+				verb_form, gender, case, number = get_random_noun(request.session["units_available"])
 				return render(request, "first_app/nouns.html", {
 					"form": NounForm(),
 					"verb_form" : verb_form,
@@ -321,23 +330,23 @@ def nouns(request):
 					"number": number,
 					"unit_form": unit_form(),
 					"noun_form": select_noun_form(),
-					"noun_on_unit": noun_on_unit,
-					"units_available": units_available,
-					"nouns_available":nouns_available
+					"noun_on_unit": request.session["noun_on_unit"],
+					"units_available": request.session["units_available"],
+					"nouns_available":request.session["nouns_available"]
 					})
 			elif request.POST['submit_form'] == 'submitting_nouns':
-				units_available = []
-				on_units = False
-				noun_on_unit = False
+				request.session["units_available"] = []
+				request.session["on_units"] = False
+				request.session["noun_on_unit"] = False
 				form = select_noun_form(request.POST)
 				print(form)
 				if form.is_valid():
 					selected = form.cleaned_data['selected_nouns']
 					print("selected:", selected)
-					if nouns_available == []:
-						nouns_available = all_nouns
-					nouns_available = selected
-				verb_form, gender, case, number = get_random_noun2(nouns_available)
+					if request.session["nouns_available"] == []:
+						request.session["nouns_available"] = all_nouns
+					request.session["nouns_available"] = selected
+				verb_form, gender, case, number = get_random_noun2(request.session["nouns_available"])
 				return render(request, "first_app/nouns.html", {
 					"form": NounForm(),
 					"verb_form" : verb_form,
@@ -346,27 +355,27 @@ def nouns(request):
 					"number": number,
 					"unit_form": unit_form(),
 					"noun_form": select_noun_form(),
-					"noun_on_unit": noun_on_unit,
-					"units_available": units_available,
-					"nouns_available":nouns_available
+					"noun_on_unit": request.session["noun_on_unit"],
+					"units_available": request.session["units_available"],
+					"nouns_available":request.session["nouns_available"]
 					})
 	# embed noun form
 	# embed its information
 	else:
-		print("noun on unit: ", noun_on_unit)
+		print("noun on unit: ", request.session["noun_on_unit"])
 		print("hello")
-		if units_available == []:
-			units_available = ["unit_1"]
-		if nouns_available == []:
-			nouns_available = ["τέχνη"]
-		if on_units == True:
-			nouns_available = []
+		if request.session["units_available"] == []:
+			request.session["units_available"] = ["unit_1"]
+		if request.session["nouns_available"] == []:
+			request.session["nouns_available"] = ["τέχνη"]
+		if request.session["on_units"] == True:
+			request.session["nouns_available"] = []
 			print("nouns avail")
-			verb_form, gender, case, number = get_random_noun(units_available)
+			verb_form, gender, case, number = get_random_noun(request.session["units_available"])
 		else:
 			print("on units")
-			units_available = []
-			verb_form, gender, case, number = get_random_noun2(nouns_available)
+			request.session["units_available"] = []
+			verb_form, gender, case, number = get_random_noun2(request.session["nouns_available"])
 		print(gender)
 		print(case)
 		print(number)
@@ -378,9 +387,9 @@ def nouns(request):
 			"number": number,
 			"unit_form": unit_form(),
 			"noun_form": select_noun_form(),
-			"noun_on_unit": noun_on_unit,
-			"units_available": units_available,
-			"nouns_available":nouns_available
+			"noun_on_unit": request.session["noun_on_unit"],
+			"units_available": request.session["units_available"],
+			"nouns_available":request.session["nouns_available"]
 			})
 
 #def get_random_verb_form():
