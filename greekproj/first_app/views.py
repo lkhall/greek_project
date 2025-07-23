@@ -231,7 +231,7 @@ def get_random_noun(units_available):
 
 def get_random_noun2(nouns_available):
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
-	with open('/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
+	with open('first_app/greek_data_by_unit.json') as f:
 		print(nouns_available)
 		# select random unit
 		# select random noun
@@ -596,7 +596,7 @@ def generate_random_verb(verbs_avail):
 	random_int = random.randint(0, len(verbs_avail)-1)
 	selected_form = verbs_avail[random_int]
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/verb_data.json') as f:
-	with open('/greek_project/greekproj/first_app/verb_data.json') as f:
+	with open('first_app/verb_data.json') as f:
 		response = json.load(f)
 		# get forms of verb
 		verb_forms = response["verbs"][selected_form[0]]["forms"]
@@ -702,7 +702,7 @@ def generate_random_verb(verbs_avail):
 # returns whether there is a combo that works and an array of combos that dontwork
 def check_form_combos(selected_verb, tense_forms, voice_forms, mood_forms):
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/verb_data.json') as f:
-	with open('/greek_project/greekproj/first_app/verb_data.json') as f:
+	with open('first_app/verb_data.json') as f:
 		response = json.load(f)
 		verb_viable_combos = response["verbs"][selected_verb]["viable_combos"]
 		acomboworks = False
@@ -734,7 +734,7 @@ def check_form_combos(selected_verb, tense_forms, voice_forms, mood_forms):
 
 def get_random_adj(units_available_adjectives):
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/adjective_data.json') as f:
-	with open('/greek_project/greekproj/first_app/adjective_data.json') as f:
+	with open('first_app/adjective_data.json') as f:
 		print(units_available_adjectives)
 		response = json.load(f)
 		if (units_available_adjectives == []):
@@ -762,7 +762,7 @@ def get_random_adj(units_available_adjectives):
 
 def get_random_adj2(adjectives_available):
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/adjective_data.json') as f:
-	with open('/greek_project/greekproj/first_app/adjective_data.json') as f:
+	with open('first_app/adjective_data.json') as f:
 		print(adjectives_available)
 		# select random unit
 		# select random noun
@@ -904,7 +904,7 @@ def adjectives(request):
 
 def check_form_combos_participle(selected_participle, tense_forms, voice_forms):
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/participle_data.json') as f:
-	with open('/greek_project/greekproj/first_app/participle_data.json') as f:
+	with open('first_app/participle_data.json') as f:
 		response = json.load(f)
 		participle_viable_combos = response["participles"][selected_participle]["viable_combos"]
 		acomboworks = False
@@ -987,7 +987,7 @@ def generate_random_participle(participles_avail):
 	random_int = random.randint(0, len(participles_avail)-1)
 	selected_form = participles_avail[random_int]
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/participle_data.json') as f:
-	with open('/greek_project/greekproj/first_app/participle_data.json') as f:
+	with open('first_app/participle_data.json') as f:
 		response = json.load(f)
 		# get forms of verb
 		participle_forms = response["participles"][selected_form[0]]["forms"]
