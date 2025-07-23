@@ -294,13 +294,13 @@ def nouns(request):
 	# 			})
 	# get random noun form from API
 	print("hello")
-	if units_available not in requests.session:
+	if units_available not in request.session:
 		request.session["units_available"] = []
-	if nouns_available not in requests.session:
+	if nouns_available not in request.session:
 		request.session["nouns_available"] = []
-	if on_units not in requests.session:
+	if on_units not in request.session:
 		request.session["on_units"] = True
-	if noun_on_unit not in requests.session:
+	if noun_on_unit not in request.session:
 		request.session["noun_on_unit"] = True
 
 	if request.method == "POST":
