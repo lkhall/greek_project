@@ -360,8 +360,10 @@ def nouns(request):
 			nouns_available = ["τέχνη"]
 		if on_units == True:
 			nouns_available = []
+			print("nouns avail")
 			verb_form, gender, case, number = get_random_noun(units_available)
 		else:
+			print("on units")
 			units_available = []
 			verb_form, gender, case, number = get_random_noun2(nouns_available)
 		print(gender)
