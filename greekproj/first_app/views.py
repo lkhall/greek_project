@@ -320,7 +320,7 @@ def nouns(request):
 					# global units_available
 					if request.session["units_available"] == []:
 						request.session["units_available"] = all_units
-					requests.session["units_available"] = selected
+					request.session["units_available"] = selected
 				verb_form, gender, case, number = get_random_noun(request.session["units_available"])
 				return render(request, "first_app/nouns.html", {
 					"form": NounForm(),
