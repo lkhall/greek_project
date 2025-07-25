@@ -102,9 +102,10 @@ verb_choices = (
 
 #on_units = True
 
-on_units_adj = True
-units_available_adjectives = []
-adjectives_available = []
+#on_units_adj = True
+#units_available_adjectives = []
+#adjectives_available = []
+#adjective_on_unit = True
 
 adjective_unit_choices = (
 	("unit_4", "Unit 4"),
@@ -142,7 +143,6 @@ participle_tense_choices = (
 )
 
 #noun_on_unit = True
-adjective_on_unit = True
 
 class NounForm(forms.Form):
 	noun_gender = forms.MultipleChoiceField(choices=noun_gender_choices, label="Gender", widget=forms.CheckboxSelectMultiple)
@@ -818,26 +818,31 @@ def get_random_adj2(adjectives_available):
 		return verb_form, verb_data["gender"], verb_data["case"], verb_data["number"]
 
 def adjectives(request):
+	if "on_units_adj" not in request.session:
+		request.session["on_units_adj"] = True
+	if "units_available_adjectives" not in request.session:
+		request.session["units_available_adjectives"] = []
+	if "adjectives_available" not in request.session:
+		request.session["adjectives_available"] = []
+	if "adjective_on_unit" not in request.session:
+		request.session["adjective_on_unit"] = True
+
 	if request.method == "POST":
 		if 'submit_form' in request.POST:
 			if request.POST['submit_form'] == 'submitting_units':
 				print("SUBMITTING UNITS")
-				global on_units_adj
-				on_units_adj = True
+				request.session["on_units_adj"] = True
 
-				global adjectives_available
-				adjectives_available = []
+				request.session["adjectives_available"] = []
 				form = adjective_unit_form(request.POST)
 				print(form)
 				if form.is_valid():
 					selected = form.cleaned_data['selected_adj_units']
 					print("selected:", selected)
-					global units_available_adjectives
-					if units_available_adjectives == []:
-						units_available_adjectives = all_adjective_units
-					units_available_adjectives = selected
-					print("units_avail_adj: ", units_available_adjectives)
-				adj_form, gender, case, number = get_random_adj(units_available_adjectives)
+					if request.session["units_available_adjectives"] == []:
+						request.session["units_available_adjectives"] = all_adjective_units
+					request.session["units_available_adjectives"] = selected
+				adj_form, gender, case, number = get_random_adj(request.session["units_available_adjectives"])
 				return render(request, "first_app/adjectives.html", {
 					"form": NounForm(),
 					"adj_form" : adj_form,
@@ -846,26 +851,25 @@ def adjectives(request):
 					"number": number,
 					"unit_form": adjective_unit_form(),
 					"noun_form": select_adj_form(),
-					"adjective_on_unit": on_units_adj,
-					"units_available": units_available_adjectives,
-					"adjectives_available": adjectives_available
+					"adjective_on_unit": request.session["on_units_adj"],
+					"units_available": request.session["units_available_adjectives"],
+					"adjectives_available": request.session["adjectives_available"]
 					})
 			elif request.POST['submit_form'] == 'submitting_adjs':
 				print("SUBMITTING ADJECTIVes")
-				units_available_adjectives = []
-				on_units_adj = False
+				request.session["units_available_adjectives"] = []
+				request.session["on_units_adj"] = False
 				form = select_adj_form(request.POST)
 				print(form)
 				if form.is_valid():
 					selected = form.cleaned_data['selected_adjs']
 					print("selected:", selected)
 					
-					if adjectives_available == []:
+					if request.session["adjectives_available"] == []:
 						print("no adjectives available in submission")
-						adjectives_available = all_adjective_choices
-					adjectives_available = selected
-					print("adjectives_avai;: ", adjectives_available)
-				adj_form, gender, case, number = get_random_adj2(adjectives_available)
+						request.session["adjectives_available"] = all_adjective_choices
+					request.session["adjectives_available"] = selected
+				adj_form, gender, case, number = get_random_adj2(request.session["adjectives_available"])
 				return render(request, "first_app/adjectives.html", {
 					"form": NounForm(),
 					"adj_form" : adj_form,
@@ -874,27 +878,27 @@ def adjectives(request):
 					"number": number,
 					"unit_form": adjective_unit_form(),
 					"noun_form": select_adj_form(),
-					"adjective_on_unit": on_units_adj,
-					"units_available": units_available_adjectives,
-					"adjectives_available": adjectives_available
+					"adjective_on_unit": request.session["on_units_adj"],
+					"units_available": request.session["units_available_adjectives"],
+					"adjectives_available": request.session["adjectives_available"]
 					})
 	else:
-		print("adj avail : ", adjectives_available)
-		print("units avail for adj : ", units_available_adjectives)
+		#print("adj avail : ", adjectives_available)
+		#print("units avail for adj : ", units_available_adjectives)
 
 		print("hello")
 		#global units_available
-		if units_available_adjectives == []:
-			units_available_adjectives = ["unit_4"]
-		if adjectives_available == []:
+		if request.session["units_available_adjectives"] == []:
+			request.session["units_available_adjectives"] = ["unit_4"]
+		if request.session["adjectives_available"] == []:
 			print("there are no adjectives")
-			adjectives_available = ["ἀγαθός, ἀγαθή, ἀγαθόν"]
-		if on_units_adj == True:
-			adjectives_available = []
-			adj_form, gender, case, number = get_random_adj(units_available_adjectives)
+			request.session["adjectives_available"] = ["ἀγαθός, ἀγαθή, ἀγαθόν"]
+		if request.session["on_units_adj"] == True:
+			request.session["adjectives_available"] = []
+			adj_form, gender, case, number = get_random_adj(request.session["units_available_adjectives"])
 		else:
-			units_available_adjectives = []
-			adj_form, gender, case, number = get_random_adj2(adjectives_available)
+			request.session["units_available_adjectives"] = []
+			adj_form, gender, case, number = get_random_adj2(request.session["adjectives_available"])
 		print(gender)
 		print(case)
 		print(number)
@@ -906,9 +910,9 @@ def adjectives(request):
 			"number": number,
 			"unit_form": adjective_unit_form(),
 			"noun_form": select_adj_form(),
-			"adjective_on_unit": on_units_adj,
-			"units_available": units_available_adjectives,
-			"adjectives_available": adjectives_available
+			"adjective_on_unit": request.session["on_units_adj"],
+			"units_available": request.session["units_available_adjectives"],
+			"adjectives_available": request.session["adjectives_available"]
 			})
 
 def check_form_combos_participle(selected_participle, tense_forms, voice_forms):
