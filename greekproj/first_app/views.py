@@ -128,12 +128,12 @@ adjective_choices = (
 )
 all_adjective_choices = ["ἀγαθός, ἀγαθή, ἀγαθόν", "ἄδικος, ἄδικον", "πᾶς, πᾶσα, πᾶν", "εὐδαίμων, εὔδαιμον", "εὐγενής, εὐγενές", "πολύς, πολλή, πολύ", "μέγας, μεγάλη, μέγα", "ἡδύς, ἡδεῖα, ἡδύ"]
 
-verbs_avail = []
+#verbs_avail = []
 
 participle_choices = (
 	("παιδεύω", "παιδεύω"),
 )
-participles_avail = []
+#participles_avail = []
 
 participle_tense_choices = (
 	("present", "Present"),
@@ -397,6 +397,8 @@ def nouns(request):
 
 	# if the method is post, check the form
 def verbs(request):
+	if "verbs_avail" not in request.session:
+		request.session["verbs_avail"] = []
 	if request.method == "POST":
 		if 'submit_form' in request.POST:
 			# if the user submits the form selecting what things they want to be quizzed on
@@ -439,12 +441,11 @@ def verbs(request):
 						return render(request, "first_app/verbs.html", {
 						"form": VerbForm(), "verb_form_submit": VerbFormSubmit(), "errormessage" : errormessage, "formsdontwork" : formsdontwork})
 					# if some combos work but some donts
-					global verbs_avail
-					verbs_avail = total_comboswork
+					request.session["verbs_avail"] = total_comboswork
 					if combosdontwork != []:
 						errormessage = "Some of the selected forms do not exist."
 						formsdontwork = ",".join(str(x) for x in total_combosdontwork)
-						verb_form, tense, voice, mood, person, number = generate_random_verb(verbs_avail)
+						verb_form, tense, voice, mood, person, number = generate_random_verb(request.session["verbs_avail"])
 						return render(request, "first_app/verbs.html", {
 							"form": VerbForm(),
 							"verb_form" : verb_form,
@@ -469,7 +470,7 @@ def verbs(request):
 							})
 					# if all combos work
 					else:
-						verb_form, tense, voice, mood, person, number = generate_random_verb(verbs_avail)
+						verb_form, tense, voice, mood, person, number = generate_random_verb(request.session["verbs_avail"])
 
 						return render(request, "first_app/verbs.html", {
 							"form": VerbForm(),
@@ -502,11 +503,11 @@ def verbs(request):
 						"form": VerbForm(), "verb_form_submit": VerbFormSubmit()
 						})
 	else:
-		if verbs_avail == []:
-			verbs_avail = [["παιδεύω", "present","act","indic"]]
-		verb_form, tense, voice, mood, person, number = generate_random_verb(verbs_avail)
-		tense_not_used,voice_not_used,mood_not_used,tense_used,voice_used,mood_used,tenses_used,voices_used,moods_used = combosnotused(verbs_avail)
-		selected_verb = selected_verbs(verbs_avail)
+		if request.session["verbs_avail"] == []:
+			request.session["verbs_avail"] = [["παιδεύω", "present","act","indic"]]
+		verb_form, tense, voice, mood, person, number = generate_random_verb(request.session["verbs_avail"])
+		tense_not_used,voice_not_used,mood_not_used,tense_used,voice_used,mood_used,tenses_used,voices_used,moods_used = combosnotused(request.session["verbs_avail"])
+		selected_verb = selected_verbs(request.session["verbs_avail"])
 		return render(request, "first_app/verbs.html", {
 			"form": VerbForm(),
 			"verb_form" : verb_form,
@@ -1083,6 +1084,8 @@ def generate_random_participle(participles_avail):
 		return first_key, returned_tense, returned_voice, returned_case, returned_gender, returned_number
 
 def participles(request):
+	if "participles_avail" not in request.session:
+		request.session["participles_avail"] = []
 	if request.method == "POST":
 		if 'submit_form' in request.POST:
 			# if the user submits the form selecting what things they want to be quizzed on
@@ -1122,11 +1125,10 @@ def participles(request):
 						return render(request, "first_app/participles.html", {
 						"form": ParticipleForm(), "participle_form_submit": ParticipleFormSubmit(), "errormessage" : errormessage})
 					# if some combos work but some donts
-					global participles_avail
-					participles_avail = total_comboswork
+					request.session["participles_avail"] = total_comboswork
 					if combosdontwork != []:
 						errormessage = "The following forms don't exist: " + ",".join(str(x) for x in total_combosdontwork)
-						participle_form, tense, voice, case, gender, number = generate_random_participle(participles_avail)
+						participle_form, tense, voice, case, gender, number = generate_random_participle(request.session["participles_avail"])
 						return render(request, "first_app/participles.html", {
 							"form": ParticipleForm(),
 							"participle_form" : participle_form,
@@ -1147,7 +1149,7 @@ def participles(request):
 							})
 					# if all combos work
 					else:
-						participle_form, tense, voice, case, gender, number = generate_random_participle(participles_avail)
+						participle_form, tense, voice, case, gender, number = generate_random_participle(request.session["participles_avail"])
 
 						return render(request, "first_app/participles.html", {
 							"form": ParticipleForm(),
@@ -1167,11 +1169,11 @@ def participles(request):
 							"participles_used":selected_participle
 							})
 	else:
-		if participles_avail == []:
-			participles_avail = [["παιδεύω", "present","act"]]
-		participle_form, tense, voice, case, gender, number = generate_random_participle(participles_avail)
-		tense_not_used,voice_not_used,tense_used,voice_used,tenses_used,voices_used = combosnotused_participle(participles_avail)
-		selected_participle = selected_participles(participles_avail)
+		if request.session["participles_avail"] == []:
+			request.session["participles_avail"] = [["παιδεύω", "present","act"]]
+		participle_form, tense, voice, case, gender, number = generate_random_participle(request.session["participles_avail"])
+		tense_not_used,voice_not_used,tense_used,voice_used,tenses_used,voices_used = combosnotused_participle(request.session["participles_avail"])
+		selected_participle = selected_participles(request.session["participles_avail"])
 		return render(request, "first_app/participles.html", {
 			"form": ParticipleForm(),
 			"participle_form" : participle_form,
