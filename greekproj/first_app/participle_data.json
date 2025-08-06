@@ -2580,6 +2580,226 @@
 				"gender": ["neut"]
 				}]}
 			]
+		},
+		"λείπω": {
+			"viable_combos": [
+				{"present act": {
+					"tense": "present",
+					"voice": "act"
+				}}
+			],
+			"forms": [
+				{"λείπων": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λείποντος": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λείποντι": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λείποντα": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λείποντες": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειπόντων": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λείπουσι(ν)": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λείποντας": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λείπουσα": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειπούσης": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειπούσῃ": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λείπουσαν": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λείπουσαι": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειπουσῶν": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειπούσαις": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειπούσας": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λεῖπον": [{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]}
+			]
 		}
 	}
 }

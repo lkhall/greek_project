@@ -132,6 +132,7 @@ all_adjective_choices = ["ἀγαθός, ἀγαθή, ἀγαθόν", "ἄδικ
 
 participle_choices = (
 	("παιδεύω", "παιδεύω"),
+	("λείπω", "λείπω"),
 )
 #participles_avail = []
 
