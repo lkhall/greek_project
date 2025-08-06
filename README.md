@@ -8,12 +8,13 @@ Clone the repository
 git clone https://github.com/lkhall/greek_project.git
 ```
 
-activate the virtual environment
+Activate the virtual environment
 ```
+cd greek_project
 source .venv/bin/activate
 ```
 
-install the dependencies
+Install the dependencies
 ```
 pip install -r greekproj/requirements.txt
 ```
