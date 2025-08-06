@@ -2,11 +2,11 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django import forms
 from django.forms import CheckboxSelectMultiple
-#import requests
 import json
 import random
 from json import dumps
-# Create your views here.
+
+# Global variables for nouns
 
 noun_choices = (
 	("τέχνη", "τέχνη"),
@@ -57,8 +57,10 @@ noun_unit_choices = (
 )
 
 all_units = ["unit_1", "unit_4", "unit_6", "unit_10", "unit_20"]
+
 all_nouns = ["τέχνη", "λόγος", "ἔργον", "θάλλατα","πολίτης","φύλαξ","αἴξ","ἐλπίς","χάρις","σῶμα","μήτηρ","ἀνήρ","γένος","Σωκράτης","πόλις","βασιλεύς","νοῦς","ἄστυ"]
 
+# Global variables for verbs
 verb_tense_choices = (
 	("present", "Present"),
 	("future", "Future"),
@@ -67,7 +69,9 @@ verb_tense_choices = (
 	("perfect", "Perfect"),
 	("pluperfect", "Pluperfect"),
 )
+
 all_verb_tenses = ["present","future","imperfect","aorist","perfect","pluperfect"]
+
 verb_mood_choices = (
 	("indic", "Indicative"),
 	("subj", "Subjunctive"),
@@ -75,13 +79,17 @@ verb_mood_choices = (
 	("imper", "Imperative"),
 	("infin", "Infinitive"),
 )
+
 all_verb_moods = ["indic","subj","opt","imper","infin"]
+
 verb_voice_choices = (
 	("act", "Active"),
 	("mid", "Middle"),
 	("pass", "Passive"),
 )
+
 all_verb_voices = ["act","mid","pass"]
+
 verb_person = (
 	("first", "First"),
 	("second", "Second"),
@@ -97,15 +105,8 @@ verb_choices = (
 	("εἰμί","εἰμί"),
 	("εἶμι","εἶμι")
 )
-#units_available = []
-#nouns_available = []
 
-#on_units = True
-
-#on_units_adj = True
-#units_available_adjectives = []
-#adjectives_available = []
-#adjective_on_unit = True
+# Global variables for adjectives
 
 adjective_unit_choices = (
 	("unit_4", "Unit 4"),
@@ -116,6 +117,7 @@ adjective_unit_choices = (
 )
 
 all_adjective_units = ["unit_4", "unit_8", "unit_10", "unit_16", "unit_17"]
+
 adjective_choices = (
 	("ἀγαθός, ἀγαθή, ἀγαθόν", "ἀγαθός, ἀγαθή, ἀγαθόν"),
 	("ἄδικος, ἄδικον", "ἄδικος, ἄδικον"),
@@ -126,15 +128,15 @@ adjective_choices = (
 	("μέγας, μεγάλη, μέγα", "μέγας, μεγάλη, μέγα"),
 	("ἡδύς, ἡδεῖα, ἡδύ", "ἡδύς, ἡδεῖα, ἡδύ"),
 )
+
 all_adjective_choices = ["ἀγαθός, ἀγαθή, ἀγαθόν", "ἄδικος, ἄδικον", "πᾶς, πᾶσα, πᾶν", "εὐδαίμων, εὔδαιμον", "εὐγενής, εὐγενές", "πολύς, πολλή, πολύ", "μέγας, μεγάλη, μέγα", "ἡδύς, ἡδεῖα, ἡδύ"]
 
-#verbs_avail = []
+# Global variables for participles
 
 participle_choices = (
 	("παιδεύω", "παιδεύω"),
 	("λείπω", "λείπω"),
 )
-#participles_avail = []
 
 participle_tense_choices = (
 	("present", "Present"),
@@ -143,7 +145,7 @@ participle_tense_choices = (
 	("perfect", "Perfect"),
 )
 
-#noun_on_unit = True
+# Form declarations
 
 class NounForm(forms.Form):
 	noun_gender = forms.MultipleChoiceField(choices=noun_gender_choices, label="Gender", widget=forms.CheckboxSelectMultiple)
@@ -186,7 +188,6 @@ class ParticipleFormSubmit(forms.Form):
 	participle_case_submit = forms.MultipleChoiceField(choices=noun_case_choices, label="Case", widget=forms.CheckboxSelectMultiple)
 	participle_number_submit = forms.MultipleChoiceField(choices=noun_number_choices, label="Number", widget=forms.CheckboxSelectMultiple)
 
-# work on this 
 class VerbFormSubmit(forms.Form):
 	verb_tense_submit = forms.MultipleChoiceField(choices=verb_tense_choices, label="Tense", widget=forms.CheckboxSelectMultiple)
 	verb_voice_submit = forms.MultipleChoiceField(choices=verb_voice_choices, label="Voice", widget=forms.CheckboxSelectMultiple)
@@ -200,12 +201,10 @@ class adjective_unit_form(forms.Form):
 		widget=forms.SelectMultiple,
 		label="Select Units:")
 
+# Given the units available in an array, return a random noun form and its gender, case, and number 
 def get_random_noun(units_available):
-
-	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
-	print("HELLLOOOOOO")
-	with open('first_app/greek_data_by_unit.json') as f:
-		print(units_available)
+	# Open noun data, randomly select a unit within those available, then randomly select a noun
+	with open('first_app/noun_data.json') as f:
 		response = json.load(f)
 		if (units_available == []):
 			units_available = all_units
@@ -225,14 +224,13 @@ def get_random_noun(units_available):
 		# retrieve its data 
 		random_int = random.randint(0, len(forms)-1)
 		selected_form = forms[random_int]
-		verb_form = next(iter(selected_form))
-		verb_data = selected_form[verb_form]
-		print(verb_data)
-		return verb_form, first_value["gender"], verb_data["case"], verb_data["number"]
+		noun_form = next(iter(selected_form))
+		noun_data = selected_form[noun_form]
+		return noun_form, first_value["gender"], noun_data["case"], noun_data["number"]
 
+# Given the nouns available in an array, return a random noun form and its gender, case, and number 
 def get_random_noun2(nouns_available):
-	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/greek_data_by_unit.json') as f:
-	with open('first_app/greek_data_by_unit.json') as f:
+	with open('first_app/noun_data.json') as f:
 		print(nouns_available)
 		# select random unit
 		# select random noun
@@ -241,7 +239,6 @@ def get_random_noun2(nouns_available):
 		if (nouns_available == []):
 			nouns_available = all_nouns
 		selected_unit = random.choice(all_units)
-		print("selected unit: ", selected_unit)
 		data = response[selected_unit]['nouns']
 		num_nouns = len(data)
 		# selecting random noun within a unit
@@ -254,8 +251,6 @@ def get_random_noun2(nouns_available):
 		forms = first_value["forms"]
 		while first_key not in nouns_available:
 			selected_unit = random.choice(all_units)
-			print("selected noun: ", first_key)
-			print("nouns avail: ", nouns_available)
 			data = response[selected_unit]['nouns']
 			num_nouns = len(data)
 			# selecting random noun within a unit
@@ -264,37 +259,15 @@ def get_random_noun2(nouns_available):
 			first_key = next(iter(data))
 			first_value = data[first_key]
 			forms = first_value["forms"]
-
-		# use random number to get random noun
-		# first_key = next(iter(data))
-		# first_value = data[first_key]
-		# forms = first_value["forms"]
-		# get random thing in noun by generating random int between 0 and 9
-		# retrieve its data 
 		random_int = random.randint(0, len(forms)-1)
 		selected_form = forms[random_int]
-		verb_form = next(iter(selected_form))
-		verb_data = selected_form[verb_form]
-		print(verb_data)
-		return verb_form, first_value["gender"], verb_data["case"], verb_data["number"]
+		noun_form = next(iter(selected_form))
+		noun_data = selected_form[noun_form]
+		return noun_form, first_value["gender"], noun_data["case"], noun_data["number"]
 
-
+# Defines "noun" url path
 def nouns(request):
-	# if the user submitted a form
-
-	# if request.method == "POST":
-	# 	form = NounForm(request.POST)
-	# 	if form.is_valid():
-	# 		noun_gender = form.cleaned_data["noun_gender"]
-	# 		noun_case = form.cleaned_data["noun_case"]
-	# 		noun_number = form.cleaned_data["noun_number"]
-
-	# 	else:
-	# 		return render(request, "first_app/nouns.html", {
-	# 			"form": form
-	# 			})
-	# get random noun form from API
-	print("hello")
+	# if the global variables are not set in the session, give them default values
 	if "units_available" not in request.session:
 		request.session["units_available"] = []
 	if "nouns_available" not in request.session:
@@ -306,19 +279,11 @@ def nouns(request):
 
 	if request.method == "POST":
 		if 'submit_form' in request.POST:
+			# extract form data if the user submitted units
 			if request.POST['submit_form'] == 'submitting_units':
-				# global nouns_available
-				# nouns_available = []
-				# global noun_on_unit
-				# noun_on_unit = True
-				# global on_units
-				# on_units = True
 				form = unit_form(request.POST)
-				print(form)
 				if form.is_valid():
 					selected = form.cleaned_data['selected_items']
-					print("selected:", selected)
-					# global units_available
 					if request.session["units_available"] == []:
 						request.session["units_available"] = all_units
 					request.session["units_available"] = selected
@@ -335,15 +300,14 @@ def nouns(request):
 					"units_available": request.session["units_available"],
 					"nouns_available":request.session["nouns_available"]
 					})
+			# extract form data if user submitted nouns
 			elif request.POST['submit_form'] == 'submitting_nouns':
 				request.session["units_available"] = []
 				request.session["on_units"] = False
 				request.session["noun_on_unit"] = False
 				form = select_noun_form(request.POST)
-				print(form)
 				if form.is_valid():
 					selected = form.cleaned_data['selected_nouns']
-					print("selected:", selected)
 					if request.session["nouns_available"] == []:
 						request.session["nouns_available"] = all_nouns
 					request.session["nouns_available"] = selected
@@ -360,26 +324,18 @@ def nouns(request):
 					"units_available": request.session["units_available"],
 					"nouns_available":request.session["nouns_available"]
 					})
-	# embed noun form
-	# embed its information
+	# in get request:
 	else:
-		print("noun on unit: ", request.session["noun_on_unit"])
-		print("hello")
 		if request.session["units_available"] == []:
 			request.session["units_available"] = ["unit_1"]
 		if request.session["nouns_available"] == []:
 			request.session["nouns_available"] = ["τέχνη"]
 		if request.session["on_units"] == True:
 			request.session["nouns_available"] = []
-			print("nouns avail")
 			verb_form, gender, case, number = get_random_noun(request.session["units_available"])
 		else:
-			print("on units")
 			request.session["units_available"] = []
 			verb_form, gender, case, number = get_random_noun2(request.session["nouns_available"])
-		print(gender)
-		print(case)
-		print(number)
 		return render(request, "first_app/nouns.html", {
 			"form": NounForm(),
 			"verb_form" : verb_form,
@@ -393,10 +349,7 @@ def nouns(request):
 			"nouns_available":request.session["nouns_available"]
 			})
 
-#def get_random_verb_form():
-
-
-	# if the method is post, check the form
+# define "verbs" url path
 def verbs(request):
 	if "verbs_avail" not in request.session:
 		request.session["verbs_avail"] = []
@@ -405,19 +358,13 @@ def verbs(request):
 			# if the user submits the form selecting what things they want to be quizzed on
 			# extract choices, see if they are available in data
 			if request.POST['submit_form'] == 'submitting_type_selection':
-				print("POSTTTT TO VERBS");
 				form = VerbForm(request.POST)
-				print(form)
 				if form.is_valid():
 					selected_verb = form.cleaned_data['verb_choice']
 					selected_tense = form.cleaned_data['verb_tense']
 					selected_voice = form.cleaned_data['verb_voice']
 					selected_mood = form.cleaned_data['verb_mood']
-					print("selected:", selected_verb)
-					print("selected tense :", selected_tense)
-					# global variable for acombo works
-					# big combosdontwork array
-					# big comboswork array
+
 					total_acomboworks = False
 					total_combosdontwork = []
 					total_comboswork = []
@@ -429,12 +376,7 @@ def verbs(request):
 						total_comboswork = total_comboswork + comboswork
 
 					tense_not_used,voice_not_used,mood_not_used,tense_used,voice_used,mood_used,tenses_used,voices_used,moods_used = combosnotused(total_comboswork)
-					print("tense used: ",tense_used)
-					print("mood used: ",mood_used)
-					print("voice used: ",voice_used)
-					print("tenses_not_used: ", tense_not_used)
-					print("acomboworks: ", total_acomboworks)
-					print("combosdontwork: ", total_combosdontwork)
+
 					# if no combo works
 					if not total_acomboworks:
 						errormessage = "None of the forms submitted exist. Please resubmit."
@@ -495,11 +437,6 @@ def verbs(request):
 							"errormessage": "False"
 							})
 
-
-					#verb_data = dumps(f)
-					# if a combo works, generate a form
-					# if combosdontwork is not empty, give a message
-					#if a combo doesnt work give a message
 					return render(request, "first_app/verbs.html", {
 						"form": VerbForm(), "verb_form_submit": VerbFormSubmit()
 						})
@@ -606,7 +543,6 @@ def generate_random_verb(verbs_avail):
 	# select random combo from verbs avail
 	random_int = random.randint(0, len(verbs_avail)-1)
 	selected_form = verbs_avail[random_int]
-	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/verb_data.json') as f:
 	with open('first_app/verb_data.json') as f:
 		response = json.load(f)
 		# get forms of verb
@@ -614,9 +550,9 @@ def generate_random_verb(verbs_avail):
 		# get random form
 		random_vform = random.randint(0, len(verb_forms)-1)
 		selected_combo = verb_forms[random_vform]
-		print("selected_combo: ",selected_combo)
 		first_key = next(iter(selected_combo))
 		first_value = selected_combo[first_key]
+
 		# iterate through each conjugation of the form
 		returned_tense = []
 		returned_voice = []
@@ -624,12 +560,10 @@ def generate_random_verb(verbs_avail):
 		returned_person = []
 		returned_number = []
 		found_form = False
-		print("first val: ",first_value)
-		print("len of first_value: ",len(first_value))
+
 		for i in range(len(first_value)):
 			if ((selected_form[1] in first_value[i]["tense"]) and (selected_form[2] in first_value[i]["voice"]) and (selected_form[3] in first_value[i]["mood"])):
 				found_form = True
-				print("FOUND FORM")
 				if len(first_value) == 1:
 					return first_key, first_value[i]["tense"], first_value[i]["voice"], first_value[i]["mood"], first_value[i]["person"], first_value[i]["number"]
 				# add to returned tense, then  iterate through other forms and see if they are in verbs_avail
@@ -642,12 +576,10 @@ def generate_random_verb(verbs_avail):
 					returned_number.append(first_value[i]["number"][0])
 				# iterate through the rest of first value and check if the forms are in verbs avail
 				for j in range(len(first_value)):
-					print("checking other things")
 					# for each form not the one just checked, see if it is in verbs_avail
 					if j != i:
 						for thingg in verbs_avail:
 							if (thingg[1] in first_value[j]["tense"] and thingg[2] in first_value[j]["voice"] and thingg[3] in first_value[j]["mood"]):
-								print("adding another form")
 								returned_tense.append(first_value[j]["tense"][0])
 								returned_voice.append(first_value[j]["voice"][0])
 								returned_mood.append(first_value[j]["mood"][0])
@@ -662,12 +594,9 @@ def generate_random_verb(verbs_avail):
 			selected_combo = verb_forms[random_vform]
 			first_key = next(iter(selected_combo))
 			first_value = selected_combo[first_key]
-			print("first val: ",first_value)
-			print("len of first_value: ",len(first_value))
 			for i in range(len(first_value)):
 				if ((selected_form[1] in first_value[i]["tense"]) and (selected_form[2] in first_value[i]["voice"]) and (selected_form[3] in first_value[i]["mood"])):
 					found_form = True
-					print("FOUND FORM")
 					if len(first_value) == 1:
 						return first_key, first_value[i]["tense"], first_value[i]["voice"], first_value[i]["mood"], first_value[i]["person"], first_value[i]["number"]
 					# add to returned tense, then  iterate through other forms and see if they are in verbs_avail
@@ -680,12 +609,10 @@ def generate_random_verb(verbs_avail):
 						returned_number.append(first_value[i]["number"][0])
 					# iterate through the rest of first value and check if the forms are in verbs avail
 					for j in range(len(first_value)):
-						print("checking other things")
 						# for each form not the one just checked, see if it is in verbs_avail
 						if j != i:
 							for thingg in verbs_avail:
 								if (thingg[1] in first_value[j]["tense"] and thingg[2] in first_value[j]["voice"] and thingg[3] in first_value[j]["mood"]):
-									print("adding another form")
 									returned_tense.append(first_value[j]["tense"][0])
 									returned_voice.append(first_value[j]["voice"][0])
 									returned_mood.append(first_value[j]["mood"][0])
@@ -694,20 +621,6 @@ def generate_random_verb(verbs_avail):
 									if (len(first_value[i]["number"]) != 0):
 										returned_number.append(first_value[j]["number"][0])
 					break
-		# randomly selected a verb
-		# iterate through its forms to see if selected form is there
-		# if yes, add to forms if there is more than one form
-		# if no, re-randomly select a verb
-		# for conjug in first_value:
-
-		# while ((selected_form[1] not in first_value["tense"]) or (selected_form[2] not in first_value["voice"]) or (selected_form[3] not in first_value["mood"])):
-		# 	random_vform = random.randint(0, len(verb_forms)-1)
-		# 	selected_combo = verb_forms[random_vform]
-		# 	first_key = next(iter(selected_combo))
-		# 	first_value = selected_combo[first_key]
-		# 	print("going")
-		print("returned person: ",returned_person)
-		print("returned number: ",returned_number)
 		return first_key, returned_tense, returned_voice, returned_mood, returned_person, returned_number
 
 # returns whether there is a combo that works and an array of combos that dontwork
@@ -719,21 +632,15 @@ def check_form_combos(selected_verb, tense_forms, voice_forms, mood_forms):
 		acomboworks = False
 		combosdontwork = []
 		comboswork = []
-		print("selected verb: ", selected_verb)
-		print("selected tense: ", tense_forms)
-		print("selected voice: ", voice_forms)
-		print("selected mood: ", mood_forms)
-		print("viable combos: ", verb_viable_combos)
+
 		for tense_form in tense_forms:
 			for voice_form in voice_forms:
 				for mood_form in mood_forms:
 					# iterate through all the viable combos
 					found = False
 					for acombo in verb_viable_combos:
-						print("tense: ", tense_form, " voice: ", voice_form, "mood: ", mood_form)
 						first_key = next(iter(acombo))
 						first_value = acombo[first_key]
-						print("acombo: ", first_value)
 						if ((tense_form == first_value["tense"]) and (voice_form == first_value["voice"]) and (mood_form == first_value["mood"])):
 							found = True
 					if found == False:
@@ -744,14 +651,11 @@ def check_form_combos(selected_verb, tense_forms, voice_forms, mood_forms):
 		return acomboworks,combosdontwork, comboswork
 
 def get_random_adj(units_available_adjectives):
-	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/adjective_data.json') as f:
 	with open('first_app/adjective_data.json') as f:
-		print(units_available_adjectives)
 		response = json.load(f)
 		if (units_available_adjectives == []):
 			units_available_adjectives = all_adjective_units
 		selected_unit = random.choice(units_available_adjectives)
-		print("selected unit: ", selected_unit)
 		data = response[selected_unit]['adjectives']
 		num_nouns = len(data)
 
@@ -768,11 +672,10 @@ def get_random_adj(units_available_adjectives):
 		selected_form = forms[random_int]
 		verb_form = next(iter(selected_form))
 		verb_data = selected_form[verb_form]
-		print(verb_data)
+	
 		return verb_form, verb_data["gender"], verb_data["case"], verb_data["number"]
 
 def get_random_adj2(adjectives_available):
-	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/adjective_data.json') as f:
 	with open('first_app/adjective_data.json') as f:
 		print(adjectives_available)
 		# select random unit
@@ -782,7 +685,6 @@ def get_random_adj2(adjectives_available):
 		if (adjectives_available == []):
 			adjectives_available = all_adjectives
 		selected_unit = random.choice(all_adjective_units)
-		print("selected unit: ", selected_unit)
 		data = response[selected_unit]['adjectives']
 		num_nouns = len(data)
 		# selecting random noun within a unit
@@ -795,8 +697,7 @@ def get_random_adj2(adjectives_available):
 		forms = first_value["forms"]
 		while first_key not in adjectives_available:
 			selected_unit = random.choice(all_adjective_units)
-			print("selected noun: ", first_key)
-			print("ajs avail: ", adjectives_available)
+
 			data = response[selected_unit]['adjectives']
 			num_nouns = len(data)
 			# selecting random noun within a unit
@@ -806,17 +707,11 @@ def get_random_adj2(adjectives_available):
 			first_value = data[first_key]
 			forms = first_value["forms"]
 
-		# use random number to get random noun
-		# first_key = next(iter(data))
-		# first_value = data[first_key]
-		# forms = first_value["forms"]
-		# get random thing in noun by generating random int between 0 and 9
-		# retrieve its data 
 		random_int = random.randint(0, len(forms)-1)
 		selected_form = forms[random_int]
 		verb_form = next(iter(selected_form))
 		verb_data = selected_form[verb_form]
-		print(verb_data)
+
 		return verb_form, verb_data["gender"], verb_data["case"], verb_data["number"]
 
 def adjectives(request):
@@ -832,15 +727,14 @@ def adjectives(request):
 	if request.method == "POST":
 		if 'submit_form' in request.POST:
 			if request.POST['submit_form'] == 'submitting_units':
-				print("SUBMITTING UNITS")
 				request.session["on_units_adj"] = True
 
 				request.session["adjectives_available"] = []
 				form = adjective_unit_form(request.POST)
-				print(form)
+
 				if form.is_valid():
 					selected = form.cleaned_data['selected_adj_units']
-					print("selected:", selected)
+
 					if request.session["units_available_adjectives"] == []:
 						request.session["units_available_adjectives"] = all_adjective_units
 					request.session["units_available_adjectives"] = selected
@@ -858,17 +752,13 @@ def adjectives(request):
 					"adjectives_available": request.session["adjectives_available"]
 					})
 			elif request.POST['submit_form'] == 'submitting_adjs':
-				print("SUBMITTING ADJECTIVes")
 				request.session["units_available_adjectives"] = []
 				request.session["on_units_adj"] = False
 				form = select_adj_form(request.POST)
-				print(form)
 				if form.is_valid():
 					selected = form.cleaned_data['selected_adjs']
-					print("selected:", selected)
 					
 					if request.session["adjectives_available"] == []:
-						print("no adjectives available in submission")
 						request.session["adjectives_available"] = all_adjective_choices
 					request.session["adjectives_available"] = selected
 				adj_form, gender, case, number = get_random_adj2(request.session["adjectives_available"])
@@ -885,15 +775,9 @@ def adjectives(request):
 					"adjectives_available": request.session["adjectives_available"]
 					})
 	else:
-		#print("adj avail : ", adjectives_available)
-		#print("units avail for adj : ", units_available_adjectives)
-
-		print("hello")
-		#global units_available
 		if request.session["units_available_adjectives"] == []:
 			request.session["units_available_adjectives"] = ["unit_4"]
 		if request.session["adjectives_available"] == []:
-			print("there are no adjectives")
 			request.session["adjectives_available"] = ["ἀγαθός, ἀγαθή, ἀγαθόν"]
 		if request.session["on_units_adj"] == True:
 			request.session["adjectives_available"] = []
@@ -901,9 +785,6 @@ def adjectives(request):
 		else:
 			request.session["units_available_adjectives"] = []
 			adj_form, gender, case, number = get_random_adj2(request.session["adjectives_available"])
-		print(gender)
-		print(case)
-		print(number)
 		return render(request, "first_app/adjectives.html", {
 			"form": NounForm(),
 			"adj_form" : adj_form,
@@ -918,26 +799,20 @@ def adjectives(request):
 			})
 
 def check_form_combos_participle(selected_participle, tense_forms, voice_forms):
-	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/participle_data.json') as f:
 	with open('first_app/participle_data.json') as f:
 		response = json.load(f)
 		participle_viable_combos = response["participles"][selected_participle]["viable_combos"]
 		acomboworks = False
 		combosdontwork = []
 		comboswork = []
-		print("selected participle: ", selected_participle)
-		print("selected tense: ", tense_forms)
-		print("selected voice: ", voice_forms)
-		print("viable combos: ", participle_viable_combos)
+
 		for tense_form in tense_forms:
 			for voice_form in voice_forms:
 				# iterate through all the viable combos
 				found = False
 				for acombo in participle_viable_combos:
-					print("tense: ", tense_form, " voice: ", voice_form)
 					first_key = next(iter(acombo))
 					first_value = acombo[first_key]
-					print("acombo: ", first_value)
 					if ((tense_form == first_value["tense"]) and (voice_form == first_value["voice"])):
 						found = True
 				if found == False:
@@ -951,14 +826,10 @@ def combosnotused_participle(comboswork):
 	# for each combo remove that from the arrays
 	tenses_not_used = all_verb_tenses.copy()
 	voices_not_used = all_verb_voices.copy()
-	print(voices_not_used)
 
 	tenses_used = []
 	voices_used = []
 	for acombo in comboswork:
-		print("hello")
-		print(acombo)
-		print(voices_not_used)
 		if acombo[1] in tenses_not_used:
 			tenses_not_used.remove(acombo[1])
 		if acombo[2] in voices_not_used:
@@ -1001,7 +872,7 @@ def generate_random_participle(participles_avail):
 	# select random combo from verbs avail
 	random_int = random.randint(0, len(participles_avail)-1)
 	selected_form = participles_avail[random_int]
-	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/participle_data.json') as f:
+
 	with open('first_app/participle_data.json') as f:
 		response = json.load(f)
 		# get forms of verb
@@ -1009,7 +880,7 @@ def generate_random_participle(participles_avail):
 		# get random form
 		random_vform = random.randint(0, len(participle_forms)-1)
 		selected_combo = participle_forms[random_vform]
-		print("selected_combo: ",selected_combo)
+
 		first_key = next(iter(selected_combo))
 		first_value = selected_combo[first_key]
 		# iterate through each conjugation of the form
@@ -1019,12 +890,11 @@ def generate_random_participle(participles_avail):
 		returned_gender = []
 		returned_number = []
 		found_form = False
-		print("first val: ",first_value)
-		print("len of first_value: ",len(first_value))
+
 		for i in range(len(first_value)):
 			if ((selected_form[1] in first_value[i]["tense"]) and (selected_form[2] in first_value[i]["voice"])):
 				found_form = True
-				print("FOUND FORM")
+	
 				if len(first_value) == 1:
 					return first_key, first_value[i]["tense"], first_value[i]["voice"], first_value[i]["case"], first_value[i]["gender"], first_value[i]["number"]
 				# add to returned tense, then  iterate through other forms and see if they are in verbs_avail
@@ -1035,12 +905,10 @@ def generate_random_participle(participles_avail):
 				returned_gender.append(first_value[i]["gender"][0])
 				# iterate through the rest of first value and check if the forms are in verbs avail
 				for j in range(len(first_value)):
-					print("checking other things")
 					# for each form not the one just checked, see if it is in verbs_avail
 					if j != i:
 						for thingg in participles_avail:
 							if (thingg[1] in first_value[j]["tense"] and thingg[2] in first_value[j]["voice"]):
-								print("adding another form")
 								returned_tense.append(first_value[j]["tense"][0])
 								returned_voice.append(first_value[j]["voice"][0])
 								returned_case.append(first_value[j]["case"][0])
@@ -1053,12 +921,11 @@ def generate_random_participle(participles_avail):
 			selected_combo = participle_forms[random_vform]
 			first_key = next(iter(selected_combo))
 			first_value = selected_combo[first_key]
-			print("first val: ",first_value)
-			print("len of first_value: ",len(first_value))
+
 			for i in range(len(first_value)):
 				if ((selected_form[1] in first_value[i]["tense"]) and (selected_form[2] in first_value[i]["voice"])):
 					found_form = True
-					print("FOUND FORM")
+
 					if len(first_value) == 1:
 						return first_key, first_value[i]["tense"], first_value[i]["voice"], first_value[i]["case"], first_value[i]["gender"], first_value[i]["number"]
 					# add to returned tense, then  iterate through other forms and see if they are in verbs_avail
@@ -1069,19 +936,16 @@ def generate_random_participle(participles_avail):
 					returned_gender.append(first_value[i]["gender"][0])
 					# iterate through the rest of first value and check if the forms are in verbs avail
 					for j in range(len(first_value)):
-						print("checking other things")
 						# for each form not the one just checked, see if it is in verbs_avail
 						if j != i:
 							for thingg in participles_avail:
 								if (thingg[1] in first_value[j]["tense"] and thingg[2] in first_value[j]["voice"]):
-									print("adding another form")
 									returned_tense.append(first_value[j]["tense"][0])
 									returned_voice.append(first_value[j]["voice"][0])
 									returned_case.append(first_value[j]["case"][0])
 									returned_number.append(first_value[j]["number"][0])
 									returned_gender.append(first_value[j]["gender"][0])
 					break
-		print("first_key: ",first_key)
 		return first_key, returned_tense, returned_voice, returned_case, returned_gender, returned_number
 
 def participles(request):
@@ -1092,15 +956,12 @@ def participles(request):
 			# if the user submits the form selecting what things they want to be quizzed on
 			# extract choices, see if they are available in data
 			if request.POST['submit_form'] == 'submitting_type_selection':
-				print("POSTTTT TO participles");
 				form = ParticipleForm(request.POST)
-				print(form)
 				if form.is_valid():
 					selected_participle = form.cleaned_data['participle_choice']
 					selected_tense = form.cleaned_data['participle_tense']
 					selected_voice = form.cleaned_data['participle_voice']
-					print("selected:", selected_participle)
-					print("selected tense :", selected_tense)
+
 					# global variable for acombo works
 					# big combosdontwork array
 					# big comboswork array
@@ -1115,11 +976,6 @@ def participles(request):
 						total_comboswork = total_comboswork + comboswork
 
 					tense_not_used,voice_not_used,tense_used,voice_used, tenses_used,voices_used = combosnotused_participle(total_comboswork)
-					print("tense used: ",tense_used)
-					print("voice used: ",voice_used)
-					print("tenses_not_used: ", tense_not_used)
-					print("acomboworks: ", total_acomboworks)
-					print("combosdontwork: ", total_combosdontwork)
 					# if no combo works
 					if not total_acomboworks:
 						errormessage = "None of the following forms exist: " + ",".join(str(x) for x in combosdontwork) + ". Please resubmit."
