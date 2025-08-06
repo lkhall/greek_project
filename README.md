@@ -13,12 +13,28 @@ activate the virtual environment
 source .venv/bin/activate
 ```
 
-install the requirements
+install the dependencies
 ```
-pip install -r requirements.txt
+pip install -r greekproj/requirements.txt
 ```
 
-Run the server
+Set debug=True in greekproj/settings.py on line 29
 ```
-python3 manage.py runserver
+debug=True
+```
+
+In greekproj/first_app/views.py, replace each reference to a json file with its path on your machine
+For example, replace
+```
+with open('first_app/noun_data.json') as f:
+```
+on line 207 with 
+```
+with open('/Users/lauren/gp_testing/greek_project/greekproj/first_app/noun_data.json') as f:
+```
+
+Activate the venv again, run the server, and go to the link provided
+```
+source .venv/bin/activate
+python3 greekproj/manage.py runserver
 ```
