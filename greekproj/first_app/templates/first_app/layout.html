@@ -10,11 +10,6 @@
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	</head>
 	<style>
-		@media (max-width: 800px) {
-			.vr {
-				display:hidden;
-			}
-		}
 		.form-check-label {
 			color: black;
 		}
@@ -57,7 +52,7 @@
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
 		var pathname = window.location.pathname;
-		pages = ['nouns', 'verbs', 'participles','adjectives'];
+		pages = ['nouns', 'verbs', 'participles','adjectives','about'];
 
 		$('.nav-link').each(function(i) {
 			console.log(this);
