@@ -2584,8 +2584,52 @@
 		"λείπω": {
 			"viable_combos": [
 				{"present act": {
-					"tense": "present",
-					"voice": "act"
+				"tense": "present",
+				"voice": "act"
+				}},
+				{"future act": {
+				"tense": "future",
+				"voice": "act"
+				}},
+				{"aorist act": {
+				"tense": "aorist",
+				"voice": "act"
+				}},
+				{"perfect act": {
+				"tense": "perfect",
+				"voice": "act"
+				}},
+				{"present mid": {
+				"tense": "present",
+				"voice": "mid"
+				}},
+				{"present pass": {
+				"tense": "present",
+				"voice": "pass"
+				}},
+				{"future mid": {
+				"tense": "future",
+				"voice": "mid"
+				}},
+				{"future pass": {
+				"tense": "future",
+				"voice": "pass"
+				}},
+				{"aorist mid": {
+				"tense": "aorist",
+				"voice": "mid"
+				}},
+				{"aorist pass": {
+				"tense": "aorist",
+				"voice": "pass"
+				}},
+				{"perfect mid": {
+				"tense": "perfect",
+				"voice": "mid"
+				}},
+				{"perfect pass": {
+				"tense": "perfect",
+				"voice": "pass"
 				}}
 			],
 			"forms": [
@@ -2797,6 +2841,2316 @@
 				"voice": ["act"],
 				"case": ["acc"],
 				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λείψων": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λείψοντος": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λείψοντι": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λείψοντα": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λείψοντες": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειψόντων": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λείψουσι(ν)": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λείψοντας": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λείψουσα": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειψούσης": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειψούσῃ": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λείψουσαν": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λείψουσαι": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειψουσῶν": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειψούσαις": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειψούσας": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λεῖψον": [{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λιπών": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λιπόντος": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λιπόντι": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λιπόντα": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λιπόντες": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λιπόντων": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λιποῦσι(ν)": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λιπόντας": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λιποῦσα": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιπούσης": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιπούσῃ": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιποῦσαν": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιποῦσαι": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λιπουσῶν": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λιπούσαις": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λιπούσας": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λιπόν": [{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λελοιπώς": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λελοιπότος": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λελοιπότι": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λελοιπότα": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λελοιπότες": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λελοιπότων": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λελοιπόσι(ν)": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λελοιπότας": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λελοιπυῖα": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπυίας": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπυίᾳ": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπυῖαν": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπυῖαι": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπυιῶν": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπυίαις": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπυίας": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λελοιπός": [{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["act"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειπόμενος": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λειπομένου": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειπομένῳ": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειπόμενον": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειπόμενε": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λειπόμενοι": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειπομένων": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειπομένοις": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειπομένους": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειπομένη": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειπομένης": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειπομένῃ": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειπομένην": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειπόμεναι": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειπομέναις": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειπομένας": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειπόμενα": [{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["present"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειψόμενος": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λειψομένου": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειψομένῳ": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειψόμενον": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειψόμενε": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λειψόμενοι": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειψομένων": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειψομένοις": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειψομένους": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειψομένη": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειψομένης": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειψομένῃ": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειψομένην": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειψόμεναι": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειψομέναις": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειψομένας": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειψόμενα": [{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθησόμενος": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λειφθησομένου": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθησομένῳ": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθησόμενον": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθησόμενε": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λειφθησόμενοι": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειφθησομένων": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθησομένοις": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθησομένους": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειφθησομένη": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθησομένης": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθησομένῃ": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθησομένην": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθησόμεναι": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθησομέναις": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθησομένας": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθησόμενα": [{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["future"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λιπόμενος": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λιπομένου": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λιπομένῳ": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λιπόμενον": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λιπόμενε": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λιπόμενοι": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λιπομένων": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λιπομένοις": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λιπομένους": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λιπομένη": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιπομένης": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιπομένῃ": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιπομένην": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λιπόμεναι": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λιπομέναις": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λιπομένας": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λιπόμενα": [{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθείς": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λειφθέντος": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθέντι": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθέντα": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθέντες": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειφθέντων": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθεῖσι(ν)": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λειφθέντας": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λειφυεῖσα": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθεῖσης": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθείσῃ": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθεῖσαν": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθεῖσαι": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθεισῶν": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθείσαις": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθείσας": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λειφθέν": [{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["aorist"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λελειμμένος": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λελειμμένου": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λελειμμένῳ": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λελειμμένον": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["neut"]
+				}]},
+				{"λελειμμένε": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["masc"]
+				}]},
+				{"λελειμμένοι": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λελειμμένων": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λελειμμένοις": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				}]},
+				{"λελειμμένους": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["masc"]
+				}]},
+				{"λελειμμένη": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελειμμένης": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["gen"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελειμμένῃ": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελειμμένην": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["singular"],
+				"gender": ["fem"]
+				}]},
+				{"λελειμμέναι": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λελειμμέναις": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["dat"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λελειμμένας": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["fem"]
+				}]},
+				{"λελειμμένα": [{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["nom"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["voc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["pass"],
+				"case": ["acc"],
+				"number": ["plural"],
+				"gender": ["neut"]
+				},
+				{
+				"tense": ["perfect"],
+				"voice": ["mid"],
+				"case": ["acc"],
+				"number": ["plural"],
 				"gender": ["neut"]
 				}]}
 			]
