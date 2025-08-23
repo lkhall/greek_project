@@ -2,7 +2,7 @@
 ## About
 This project was created by Lauren Hall '27, advised by Professor Olsen, in response to a lack of online study tools corresponding to Williams College's Introductory Greek classes (CLGR 101/102). Memorizing conjugations and declensions constitutues much of the early Ancient Greek learning stages, so this application focuses mainly on repetitive identification of these grammatical forms. Its content is tailored to the vocabulary and units of CLGR 101/102's primary textbook: *Greek: An Intensive Course* by Hardy Hansen and Gerald M. Quinn.
 
-Please contact Lauren Hall (lkh3@williams.edu), Sarah Olsen (seo1@williams.edu), or the current professor of CLGR 101/102 if you see any errors.
+Please contact Lauren Hall (lkh3@williams.edu), Sarah Olsen (seo2@williams.edu), or the current professor of CLGR 101/102 if you see any errors.
 
 ## Running the software locally
 Clone the repository
