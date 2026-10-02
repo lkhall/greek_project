@@ -1,4 +1,4 @@
-# Hansen and Quinn Study Software
+# Hansen and Quinn Ancient Greek Study Software
 ## About
 This project was created by Lauren Hall '27, advised by Professor Olsen, in response to a lack of online study tools corresponding to Williams College's Introductory Greek classes (CLGR 101/102). Memorizing conjugations and declensions constitutues much of the early Ancient Greek learning stages, so this application focuses mainly on repetitive identification of these grammatical forms. Its content is tailored to the vocabulary and units of CLGR 101/102's primary textbook: *Greek: An Intensive Course* by Hardy Hansen and Gerald M. Quinn.
 
