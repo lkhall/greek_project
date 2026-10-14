@@ -1,43 +1,56 @@
 # Hansen and Quinn Study Software
-## About
-This project was created by Lauren Hall '27, advised by Professor Olsen, in response to a lack of online study tools corresponding to Williams College's Introductory Greek classes (CLGR 101/102). Memorizing conjugations and declensions constitutues much of the early Ancient Greek learning stages, so this application focuses mainly on repetitive identification of these grammatical forms. Its content is tailored to the vocabulary and units of CLGR 101/102's primary textbook: *Greek: An Intensive Course* by Hardy Hansen and Gerald M. Quinn.
 
-Please contact Lauren Hall (lkh3@williams.edu), Sarah Olsen (seo2@williams.edu), or the current professor of CLGR 101/102 if you see any errors.
+## About
+This project is a web-based study tool for students of Introductory Greek (CLGR 101/102) at Williams College. The application is designed to help students memorize verb conjugations, noun declensions, and other grammatical forms, tailored to the vocabulary and units of the primary textbook, *Greek: An Intensive Course* by Hardy Hansen and Gerald M. Quinn.
+
+This project was created by Lauren Hall '27 and advised by Professor Sarah Olsen.
+
+## Features
+
+*   **Interactive Quizzes:** Test your knowledge of Greek vocabulary and grammar with interactive quizzes.
+*   **Targeted Practice:** Focus on specific grammatical categories, such as verbs, nouns, adjectives, and participles.
+*   **Textbook-Aligned Content:** The vocabulary and grammatical forms are organized to correspond with the units in *Greek: An Intensive Course*.
+*   **Score Tracking:** Keep track of your progress and identify areas for improvement.
+
+## Technologies Used
+
+*   **Backend:** Python, Django
+*   **Frontend:** HTML, CSS, JavaScript
+*   **Database:** SQLite
 
 ## Running the software locally
-Clone the repository
-```
-git clone https://github.com/lkhall/greek_project.git
-```
 
-Activate the virtual environment
-```
-cd greek_project
-source .venv/bin/activate
-```
+1.  **Clone the repository:**
+    ```
+    git clone https://github.com/lkhall/greek_project.git
+    cd greek_project
+    ```
 
-Install the dependencies
-```
-pip install -r greekproj/requirements.txt
-```
+2.  **Set up the virtual environment:**
+    ```
+    mkdir venv
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-Set debug=True in greekproj/settings.py on line 29
-```
-debug=True
-```
+3.  **Install the dependencies:**
+    ```
+    pip install -r requirements.txt
+    ```
 
-In greekproj/first_app/views.py, replace each reference to a json file with its path on your machine
-For example, replace
-```
-with open('first_app/noun_data.json') as f:
-```
-on line 207 with 
-```
-with open('/Users/lauren/gp_testing/greek_project/greekproj/first_app/noun_data.json') as f:
-```
+4.  **Run the Django development server:**
+    ```
+    python greekproj/manage.py runserver
+    ```
 
-Activate the venv again, run the server, and go to the link provided
-```
-source .venv/bin/activate
-python3 greekproj/manage.py runserver
-```
+    The application will be available at `http://127.0.0.1:8000/`.
+
+## Screenshots
+
+*(Here you can add some screenshots of your application. For example, a screenshot of the main page, a quiz page, and a results page. This will make your README much more engaging.)*
+
+## Future Improvements
+
+*   Implement user accounts to allow students to track their progress over time.
+*   Add more advanced grammatical categories and vocabulary from later chapters of the textbook.
+*   Develop a more sophisticated algorithm for generating quiz questions based on a student's past performance.
