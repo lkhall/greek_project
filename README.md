@@ -28,7 +28,6 @@ This project was created by Lauren Hall '27 and advised by Professor Sarah Olsen
 
 2.  **Set up the virtual environment:**
     ```
-    mkdir venv
     python3 -m venv venv
     source venv/bin/activate
     ```
