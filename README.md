@@ -50,15 +50,19 @@ Main page (nouns):
 <img width="1512" height="729" alt="Screenshot 2026-10-15 at 9 41 37 AM" src="https://github.com/user-attachments/assets/eae54612-2f51-4131-be27-0c63ce931d8d" />
 
 Error checking for nouns:
+
 <img width="496" height="286" alt="Screenshot 2026-10-15 at 9 41 53 AM" src="https://github.com/user-attachments/assets/adcf9447-6c01-4f5f-9d01-b304baf98d70" />
 
 Verbs:
+
 <img width="562" height="610" alt="Screenshot 2026-10-15 at 9 42 04 AM" src="https://github.com/user-attachments/assets/9fd325b6-5507-46b6-8ea9-04bce0507afa" />
 
 Participles:
+
 <img width="502" height="585" alt="Screenshot 2026-10-15 at 9 42 11 AM" src="https://github.com/user-attachments/assets/637c8198-6aaa-46ad-93f6-969238988fd9" />
 
 Adjectives:
+
 <img width="1349" height="530" alt="Screenshot 2026-10-15 at 9 42 16 AM" src="https://github.com/user-attachments/assets/c4927e8d-4efe-45ab-8a4a-1c16576c7852" />
 
 ## Future Improvements
