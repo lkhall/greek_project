@@ -37,7 +37,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' 
 # Application definition
 
 INSTALLED_APPS = [
-    'first_app',
+    'core',
     'crispy_forms',
     'crispy_bootstrap4',
     'django.contrib.admin',

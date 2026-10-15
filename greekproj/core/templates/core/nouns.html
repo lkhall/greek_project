@@ -1,4 +1,4 @@
-{% extends "first_app/layout.html" %}
+{% extends "core/layout.html" %}
 
 {% block body %}
 {%load crispy_forms_tags %}
@@ -268,7 +268,7 @@
     <input type="radio" name="options" id="option2" autocomplete="off" onclick="checkSelection2()"> Noun
   </label>
 </div>
-		<form id="my_django_form_nouns" style="display:none" action="{% url 'first_app:nouns' %}" method="post">
+		<form id="my_django_form_nouns" style="display:none" action="{% url 'core:nouns' %}" method="post">
 			{% csrf_token %}
 			{{ noun_form|crispy }}
 			<button type="submit" name="submit_form" value="submitting_nouns">Submit</button>
@@ -276,7 +276,7 @@
 			<input type="submit" name="submit_form", value="submitting_nouns">-->
 		</form>
 
-		<form id="my_django_form_2" action="{% url 'first_app:nouns' %}" method="post">
+		<form id="my_django_form_2" action="{% url 'core:nouns' %}" method="post">
 			{% csrf_token %}
 			{{ unit_form|crispy }}
 			<button type="submit" name="submit_form" value="submitting_units">Submit</button>

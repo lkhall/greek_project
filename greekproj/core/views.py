@@ -204,7 +204,7 @@ class adjective_unit_form(forms.Form):
 # Given the units available in an array, return a random noun form and its gender, case, and number 
 def get_random_noun(units_available):
 	# Open noun data, randomly select a unit within those available, then randomly select a noun
-	with open('first_app/noun_data.json') as f:
+	with open('core/noun_data.json') as f:
 		response = json.load(f)
 		if (units_available == []):
 			units_available = all_units
@@ -230,7 +230,7 @@ def get_random_noun(units_available):
 
 # Given the nouns available in an array, return a random noun form and its gender, case, and number 
 def get_random_noun2(nouns_available):
-	with open('first_app/noun_data.json') as f:
+	with open('core/noun_data.json') as f:
 		print(nouns_available)
 		# select random unit
 		# select random noun
@@ -288,7 +288,7 @@ def nouns(request):
 						request.session["units_available"] = all_units
 					request.session["units_available"] = selected
 				verb_form, gender, case, number = get_random_noun(request.session["units_available"])
-				return render(request, "first_app/nouns.html", {
+				return render(request, "core/nouns.html", {
 					"form": NounForm(),
 					"verb_form" : verb_form,
 					"gender": gender,
@@ -312,7 +312,7 @@ def nouns(request):
 						request.session["nouns_available"] = all_nouns
 					request.session["nouns_available"] = selected
 				verb_form, gender, case, number = get_random_noun2(request.session["nouns_available"])
-				return render(request, "first_app/nouns.html", {
+				return render(request, "core/nouns.html", {
 					"form": NounForm(),
 					"verb_form" : verb_form,
 					"gender": gender,
@@ -336,7 +336,7 @@ def nouns(request):
 		else:
 			request.session["units_available"] = []
 			verb_form, gender, case, number = get_random_noun2(request.session["nouns_available"])
-		return render(request, "first_app/nouns.html", {
+		return render(request, "core/nouns.html", {
 			"form": NounForm(),
 			"verb_form" : verb_form,
 			"gender": gender,
@@ -381,7 +381,7 @@ def verbs(request):
 					if not total_acomboworks:
 						errormessage = "None of the forms submitted exist. Please resubmit."
 						formsdontwork = ",".join(str(x) for x in combosdontwork)
-						return render(request, "first_app/verbs.html", {
+						return render(request, "core/verbs.html", {
 						"form": VerbForm(), "verb_form_submit": VerbFormSubmit(), "errormessage" : errormessage, "formsdontwork" : formsdontwork})
 					# if some combos work but some donts
 					request.session["verbs_avail"] = total_comboswork
@@ -389,7 +389,7 @@ def verbs(request):
 						errormessage = "Some of the selected forms do not exist."
 						formsdontwork = ",".join(str(x) for x in total_combosdontwork)
 						verb_form, tense, voice, mood, person, number = generate_random_verb(request.session["verbs_avail"])
-						return render(request, "first_app/verbs.html", {
+						return render(request, "core/verbs.html", {
 							"form": VerbForm(),
 							"verb_form" : verb_form,
 							"tense": tense,
@@ -415,7 +415,7 @@ def verbs(request):
 					else:
 						verb_form, tense, voice, mood, person, number = generate_random_verb(request.session["verbs_avail"])
 
-						return render(request, "first_app/verbs.html", {
+						return render(request, "core/verbs.html", {
 							"form": VerbForm(),
 							"verb_form" : verb_form,
 							"tense": tense,
@@ -437,7 +437,7 @@ def verbs(request):
 							"errormessage": "False"
 							})
 
-					return render(request, "first_app/verbs.html", {
+					return render(request, "core/verbs.html", {
 						"form": VerbForm(), "verb_form_submit": VerbFormSubmit()
 						})
 	else:
@@ -446,7 +446,7 @@ def verbs(request):
 		verb_form, tense, voice, mood, person, number = generate_random_verb(request.session["verbs_avail"])
 		tense_not_used,voice_not_used,mood_not_used,tense_used,voice_used,mood_used,tenses_used,voices_used,moods_used = combosnotused(request.session["verbs_avail"])
 		selected_verb = selected_verbs(request.session["verbs_avail"])
-		return render(request, "first_app/verbs.html", {
+		return render(request, "core/verbs.html", {
 			"form": VerbForm(),
 			"verb_form" : verb_form,
 			"tense": tense,
@@ -543,7 +543,7 @@ def generate_random_verb(verbs_avail):
 	# select random combo from verbs avail
 	random_int = random.randint(0, len(verbs_avail)-1)
 	selected_form = verbs_avail[random_int]
-	with open('first_app/verb_data.json') as f:
+	with open('core/verb_data.json') as f:
 		response = json.load(f)
 		# get forms of verb
 		verb_forms = response["verbs"][selected_form[0]]["forms"]
@@ -626,7 +626,7 @@ def generate_random_verb(verbs_avail):
 # returns whether there is a combo that works and an array of combos that dontwork
 def check_form_combos(selected_verb, tense_forms, voice_forms, mood_forms):
 	#with open('/Users/lauren/greek_proj/greek_project/greekproj/first_app/verb_data.json') as f:
-	with open('first_app/verb_data.json') as f:
+	with open('core/verb_data.json') as f:
 		response = json.load(f)
 		verb_viable_combos = response["verbs"][selected_verb]["viable_combos"]
 		acomboworks = False
@@ -651,7 +651,7 @@ def check_form_combos(selected_verb, tense_forms, voice_forms, mood_forms):
 		return acomboworks,combosdontwork, comboswork
 
 def get_random_adj(units_available_adjectives):
-	with open('first_app/adjective_data.json') as f:
+	with open('core/adjective_data.json') as f:
 		response = json.load(f)
 		if (units_available_adjectives == []):
 			units_available_adjectives = all_adjective_units
@@ -676,7 +676,7 @@ def get_random_adj(units_available_adjectives):
 		return verb_form, verb_data["gender"], verb_data["case"], verb_data["number"]
 
 def get_random_adj2(adjectives_available):
-	with open('first_app/adjective_data.json') as f:
+	with open('core/adjective_data.json') as f:
 		print(adjectives_available)
 		# select random unit
 		# select random noun
@@ -739,7 +739,7 @@ def adjectives(request):
 						request.session["units_available_adjectives"] = all_adjective_units
 					request.session["units_available_adjectives"] = selected
 				adj_form, gender, case, number = get_random_adj(request.session["units_available_adjectives"])
-				return render(request, "first_app/adjectives.html", {
+				return render(request, "core/adjectives.html", {
 					"form": NounForm(),
 					"adj_form" : adj_form,
 					"gender": gender,
@@ -762,7 +762,7 @@ def adjectives(request):
 						request.session["adjectives_available"] = all_adjective_choices
 					request.session["adjectives_available"] = selected
 				adj_form, gender, case, number = get_random_adj2(request.session["adjectives_available"])
-				return render(request, "first_app/adjectives.html", {
+				return render(request, "core/adjectives.html", {
 					"form": NounForm(),
 					"adj_form" : adj_form,
 					"gender": gender,
@@ -785,7 +785,7 @@ def adjectives(request):
 		else:
 			request.session["units_available_adjectives"] = []
 			adj_form, gender, case, number = get_random_adj2(request.session["adjectives_available"])
-		return render(request, "first_app/adjectives.html", {
+		return render(request, "core/adjectives.html", {
 			"form": NounForm(),
 			"adj_form" : adj_form,
 			"gender": gender,
@@ -799,7 +799,7 @@ def adjectives(request):
 			})
 
 def check_form_combos_participle(selected_participle, tense_forms, voice_forms):
-	with open('first_app/participle_data.json') as f:
+	with open('core/participle_data.json') as f:
 		response = json.load(f)
 		participle_viable_combos = response["participles"][selected_participle]["viable_combos"]
 		acomboworks = False
@@ -873,7 +873,7 @@ def generate_random_participle(participles_avail):
 	random_int = random.randint(0, len(participles_avail)-1)
 	selected_form = participles_avail[random_int]
 
-	with open('first_app/participle_data.json') as f:
+	with open('core/participle_data.json') as f:
 		response = json.load(f)
 		# get forms of verb
 		participle_forms = response["participles"][selected_form[0]]["forms"]
@@ -979,14 +979,14 @@ def participles(request):
 					# if no combo works
 					if not total_acomboworks:
 						errormessage = "None of the following forms exist: " + ",".join(str(x) for x in combosdontwork) + ". Please resubmit."
-						return render(request, "first_app/participles.html", {
+						return render(request, "core/participles.html", {
 						"form": ParticipleForm(), "participle_form_submit": ParticipleFormSubmit(), "errormessage" : errormessage})
 					# if some combos work but some donts
 					request.session["participles_avail"] = total_comboswork
 					if combosdontwork != []:
 						errormessage = "The following forms don't exist: " + ",".join(str(x) for x in total_combosdontwork)
 						participle_form, tense, voice, case, gender, number = generate_random_participle(request.session["participles_avail"])
-						return render(request, "first_app/participles.html", {
+						return render(request, "core/participles.html", {
 							"form": ParticipleForm(),
 							"participle_form" : participle_form,
 							"tense": tense,
@@ -1008,7 +1008,7 @@ def participles(request):
 					else:
 						participle_form, tense, voice, case, gender, number = generate_random_participle(request.session["participles_avail"])
 
-						return render(request, "first_app/participles.html", {
+						return render(request, "core/participles.html", {
 							"form": ParticipleForm(),
 							"participle_form" : participle_form,
 							"tense": tense,
@@ -1031,7 +1031,7 @@ def participles(request):
 		participle_form, tense, voice, case, gender, number = generate_random_participle(request.session["participles_avail"])
 		tense_not_used,voice_not_used,tense_used,voice_used,tenses_used,voices_used = combosnotused_participle(request.session["participles_avail"])
 		selected_participle = selected_participles(request.session["participles_avail"])
-		return render(request, "first_app/participles.html", {
+		return render(request, "core/participles.html", {
 			"form": ParticipleForm(),
 			"participle_form" : participle_form,
 			"tense": tense,
@@ -1056,7 +1056,7 @@ def selected_participles(participles_avail):
 	return allverbs
 
 def index(request):
-	return render(request, "first_app/index.html")
+	return render(request, "core/index.html")
 
 def about(request):
-	return render(request, "first_app/about.html")
+	return render(request, "core/about.html")
